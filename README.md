@@ -55,7 +55,6 @@ Both scripts are offline, use one CPU thread, and need only `numpy`/`scipy`.
 ## Repository layout
 
 ```
-paper/         LaTeX sources (paper.tex, tables, figure, bib) + compiled paper.pdf
 code/          engine/          E1/E2 training+inference engine (TCL, DyGFormer,
                │                CAWN, GraphMixer, DyRep; exposure tracing; te-off)
                │                reproduce_extension.py   E1/E2 numerical replay
@@ -73,19 +72,6 @@ evidence/      Audited JSON artifacts backing every reported number:
                E1_full_inventory.json, E2_SCOPE.json, E2_TWO_SEED_REPORT.json,
                ARCHIVE_REVIEW.json, archive_accepted_pairs.json, archive_normalized_source_records.json
 ```
-
-## Rebuilding the PDF
-
-```bash
-cd paper
-pdflatex paper.tex
-bibtex paper
-pdflatex paper.tex
-pdflatex paper.tex
-```
-
-Requires the `acmart` class (included) and `ACM-Reference-Format.bst`
-(included). Builds to 5 pages (4 main + ethics/references).
 
 ## Retraining the E1/E2 models (GPU)
 
@@ -126,8 +112,6 @@ under `predictions/` and are sufficient for the numerical replay above.
   and pseudonymous identifiers.
 - **Wikipedia** (JODIE) is used by the logistic controls; its events and
   features are inside `logistic/reference/`.
-
-See `paper/references.bib` for full citations.
 
 ## License
 
