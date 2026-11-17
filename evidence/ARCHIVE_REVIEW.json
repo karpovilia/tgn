@@ -1,0 +1,261 @@
+{
+  "status": "pass_archive_reconstruction",
+  "archive": [
+    {
+      "model": "TCL",
+      "dataset": "wikipedia",
+      "n": 9,
+      "native": 0.9505222222222222,
+      "shuffle": 0.8950555555555556,
+      "gap": 0.05546666666666665
+    },
+    {
+      "model": "TCL",
+      "dataset": "reddit",
+      "n": 9,
+      "native": 0.962911111111111,
+      "shuffle": 0.9640777777777778,
+      "gap": -0.001166666666666674
+    },
+    {
+      "model": "TCL",
+      "dataset": "mooc",
+      "n": 9,
+      "native": 0.8107777777777778,
+      "shuffle": 0.7031777777777778,
+      "gap": 0.10760000000000003
+    },
+    {
+      "model": "TCL",
+      "dataset": "lastfm",
+      "n": 9,
+      "native": 0.7551777777777777,
+      "shuffle": 0.5128333333333334,
+      "gap": 0.24234444444444445
+    },
+    {
+      "model": "DyGFormer",
+      "dataset": "wikipedia",
+      "n": 10,
+      "native": 0.98982,
+      "shuffle": 0.98845,
+      "gap": 0.0013700000000000045
+    },
+    {
+      "model": "DyGFormer",
+      "dataset": "reddit",
+      "n": 10,
+      "native": 0.99167,
+      "shuffle": 0.99159,
+      "gap": 7.999999999999118e-05
+    },
+    {
+      "model": "DyGFormer",
+      "dataset": "mooc",
+      "n": 10,
+      "native": 0.77119,
+      "shuffle": 0.70414,
+      "gap": 0.06705000000000001
+    },
+    {
+      "model": "DyGFormer",
+      "dataset": "lastfm",
+      "n": 10,
+      "native": 0.92447,
+      "shuffle": 0.92256,
+      "gap": 0.0019099999999999562
+    },
+    {
+      "model": "CAWN",
+      "dataset": "wikipedia",
+      "n": 10,
+      "native": 0.98645,
+      "shuffle": 0.98464,
+      "gap": 0.0018099999999999783
+    },
+    {
+      "model": "CAWN",
+      "dataset": "reddit",
+      "n": 10,
+      "native": 0.9908,
+      "shuffle": 0.99084,
+      "gap": -3.999999999999559e-05
+    },
+    {
+      "model": "CAWN",
+      "dataset": "mooc",
+      "n": 10,
+      "native": 0.7762100000000001,
+      "shuffle": 0.75519,
+      "gap": 0.021020000000000004
+    },
+    {
+      "model": "CAWN",
+      "dataset": "lastfm",
+      "n": 10,
+      "native": 0.86592,
+      "shuffle": 0.86449,
+      "gap": 0.0014299999999999758
+    },
+    {
+      "model": "DyRep",
+      "dataset": "wikipedia",
+      "n": 9,
+      "native": 0.9250888888888888,
+      "shuffle": 0.9273777777777777,
+      "gap": -0.002288888888888871
+    },
+    {
+      "model": "DyRep",
+      "dataset": "reddit",
+      "n": 10,
+      "native": 0.97638,
+      "shuffle": 0.97549,
+      "gap": 0.0008899999999999908
+    },
+    {
+      "model": "DyRep",
+      "dataset": "mooc",
+      "n": 10,
+      "native": 0.67619,
+      "shuffle": 0.65887,
+      "gap": 0.017320000000000002
+    },
+    {
+      "model": "DyRep",
+      "dataset": "lastfm",
+      "n": 10,
+      "native": 0.63611,
+      "shuffle": 0.63628,
+      "gap": -0.00017000000000000348
+    },
+    {
+      "model": "GraphMixer",
+      "dataset": "wikipedia",
+      "n": 10,
+      "native": 0.96075,
+      "shuffle": 0.94201,
+      "gap": 0.018740000000000014
+    },
+    {
+      "model": "GraphMixer",
+      "dataset": "reddit",
+      "n": 10,
+      "native": 0.96498,
+      "shuffle": 0.9638,
+      "gap": 0.0011800000000000254
+    },
+    {
+      "model": "GraphMixer",
+      "dataset": "mooc",
+      "n": 10,
+      "native": 0.80993,
+      "shuffle": 0.79531,
+      "gap": 0.01462
+    },
+    {
+      "model": "GraphMixer",
+      "dataset": "lastfm",
+      "n": 10,
+      "native": 0.7345,
+      "shuffle": 0.7548900000000001,
+      "gap": -0.02039000000000001
+    }
+  ],
+  "trade_seed_values": {
+    "native": {
+      "5": 0.22049732844989384,
+      "8": 0.34196489538353675,
+      "2": 0.2814087911162879,
+      "9": 0.3059129114946623,
+      "42": 0.29049220206246434,
+      "7": 0.33451180547917525,
+      "4": 0.28921790218969917,
+      "1": 0.346200392013744,
+      "6": 0.24401568630941084,
+      "3": 0.2984993293561469
+    },
+    "train": {
+      "7": 0.31464288347352715,
+      "42": 0.27541336707965053,
+      "3": 0.2950270477021072,
+      "1": 0.34252781756630746,
+      "2": 0.27158983009936283,
+      "6": 0.24252879490727544,
+      "9": 0.29811579317782355,
+      "5": 0.23758520393946725,
+      "8": 0.3499430591206448,
+      "4": 0.3011006157691727
+    },
+    "all": {
+      "6": 0.04305873507464161,
+      "9": 0.016993234369733948,
+      "5": 0.05293054766996946,
+      "2": 0.1611755374383143,
+      "4": 0.01335990766754813,
+      "8": 0.05596223423977645,
+      "7": 0.039927965428408214,
+      "1": 0.15116376182001987,
+      "3": 0.008189465905341033,
+      "42": 0.11363551460257383
+    }
+  },
+  "positive_control": {
+    "tgat/native": {
+      "best_test_gini": {
+        "n": 3,
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "final_test_gini": {
+        "n": 3,
+        "mean": 1.0,
+        "sd": 0.0
+      }
+    },
+    "tgat/shuffle": {
+      "best_test_gini": {
+        "n": 3,
+        "mean": 0.03804176598989736,
+        "sd": 0.03449413122989005
+      },
+      "final_test_gini": {
+        "n": 3,
+        "mean": 0.018331081506025842,
+        "sd": 0.053205847441056095
+      }
+    },
+    "tgn/native": {
+      "best_test_gini": {
+        "n": 3,
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "final_test_gini": {
+        "n": 3,
+        "mean": 0.8301144606588154,
+        "sd": 0.2942503856101729
+      }
+    },
+    "tgn/shuffle": {
+      "best_test_gini": {
+        "n": 3,
+        "mean": 0.7055702009558078,
+        "sd": 0.2065213708757132
+      },
+      "final_test_gini": {
+        "n": 3,
+        "mean": 0.3086120564987936,
+        "sd": 0.47309088447770015
+      }
+    }
+  },
+  "decisions": {
+    "archive": "Include compact descriptive LastFM example; keep short-budget protocol separate. TCL parsed metrics contain duplicated first seed: use reconstructed 195-pair archive, not naive 10-entry average.",
+    "positive_control": "Do not use as calibration of crossed link-prediction diagnostic. Published draft numbers reproduce best TEST across epochs, only 3 verified paired seeds; generator labels group membership, with within-group topology; source re-sorts after timestamp shuffle, so residual TGN score does not establish preserved original GRU order.",
+    "shuffle_all": "Keep in audit only: node-property task, altered evaluation timestamps/label alignment, no crossed fixed-weight isolation. Current code disallows all-split shuffle for link prediction, so generic claim of changed negative sampler on tgbn-trade is incorrect.",
+    "egrul": "Different private node-classification domain; null does not establish uninformative timestamps/reporting cadence mechanism. Not needed in short paper. H55 documents three seeds per resolution, native0.8092/shuffle0.8011; native-minus-shuffle is +0.0081, not -0.008. Separate P2_ref runs give0.818653/0.817373, so these sources must not be pooled. H55 language of decisive refutation is not supported by a null comparison.",
+    "te_off": "Two Wikipedia TGN runs use another protocol; superseded for main claim by matched six-seed TCL E1.",
+    "cornell": "Combined=0.820575 vs0.821 agrees; LR=0.869965 vs0.817, GP=0.039705 vs0.193 and LP=0.753606 vs0.707 do not verify all heuristic implementations. Keep as sanity record, no new correctness claim."
+  }
+}

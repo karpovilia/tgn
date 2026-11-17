@@ -1,0 +1,1367 @@
+[
+  {
+    "model": "TCL",
+    "dataset": "wikipedia",
+    "seed": 0,
+    "native": 0.949,
+    "shuffle": 0.9004
+  },
+  {
+    "model": "TCL",
+    "dataset": "wikipedia",
+    "seed": 1,
+    "native": 0.949,
+    "shuffle": 0.91
+  },
+  {
+    "model": "TCL",
+    "dataset": "wikipedia",
+    "seed": 2,
+    "native": 0.9498,
+    "shuffle": 0.8861
+  },
+  {
+    "model": "TCL",
+    "dataset": "wikipedia",
+    "seed": 3,
+    "native": 0.9511,
+    "shuffle": 0.8795
+  },
+  {
+    "model": "TCL",
+    "dataset": "wikipedia",
+    "seed": 4,
+    "native": 0.9523,
+    "shuffle": 0.9157
+  },
+  {
+    "model": "TCL",
+    "dataset": "wikipedia",
+    "seed": 5,
+    "native": 0.9538,
+    "shuffle": 0.8923
+  },
+  {
+    "model": "TCL",
+    "dataset": "wikipedia",
+    "seed": 6,
+    "native": 0.955,
+    "shuffle": 0.8868
+  },
+  {
+    "model": "TCL",
+    "dataset": "wikipedia",
+    "seed": 7,
+    "native": 0.9482,
+    "shuffle": 0.8857
+  },
+  {
+    "model": "TCL",
+    "dataset": "wikipedia",
+    "seed": 8,
+    "native": 0.9465,
+    "shuffle": 0.899
+  },
+  {
+    "model": "TCL",
+    "dataset": "reddit",
+    "seed": 0,
+    "native": 0.9619,
+    "shuffle": 0.9636
+  },
+  {
+    "model": "TCL",
+    "dataset": "reddit",
+    "seed": 1,
+    "native": 0.9641,
+    "shuffle": 0.9651
+  },
+  {
+    "model": "TCL",
+    "dataset": "reddit",
+    "seed": 2,
+    "native": 0.9636,
+    "shuffle": 0.9645
+  },
+  {
+    "model": "TCL",
+    "dataset": "reddit",
+    "seed": 3,
+    "native": 0.9612,
+    "shuffle": 0.962
+  },
+  {
+    "model": "TCL",
+    "dataset": "reddit",
+    "seed": 4,
+    "native": 0.9639,
+    "shuffle": 0.9657
+  },
+  {
+    "model": "TCL",
+    "dataset": "reddit",
+    "seed": 5,
+    "native": 0.9641,
+    "shuffle": 0.9648
+  },
+  {
+    "model": "TCL",
+    "dataset": "reddit",
+    "seed": 6,
+    "native": 0.9627,
+    "shuffle": 0.9645
+  },
+  {
+    "model": "TCL",
+    "dataset": "reddit",
+    "seed": 7,
+    "native": 0.9627,
+    "shuffle": 0.963
+  },
+  {
+    "model": "TCL",
+    "dataset": "reddit",
+    "seed": 8,
+    "native": 0.962,
+    "shuffle": 0.9635
+  },
+  {
+    "model": "TCL",
+    "dataset": "mooc",
+    "seed": 0,
+    "native": 0.8091,
+    "shuffle": 0.7005
+  },
+  {
+    "model": "TCL",
+    "dataset": "mooc",
+    "seed": 1,
+    "native": 0.8094,
+    "shuffle": 0.7025
+  },
+  {
+    "model": "TCL",
+    "dataset": "mooc",
+    "seed": 2,
+    "native": 0.8116,
+    "shuffle": 0.7041
+  },
+  {
+    "model": "TCL",
+    "dataset": "mooc",
+    "seed": 3,
+    "native": 0.8115,
+    "shuffle": 0.7001
+  },
+  {
+    "model": "TCL",
+    "dataset": "mooc",
+    "seed": 4,
+    "native": 0.8111,
+    "shuffle": 0.7059
+  },
+  {
+    "model": "TCL",
+    "dataset": "mooc",
+    "seed": 5,
+    "native": 0.8117,
+    "shuffle": 0.7036
+  },
+  {
+    "model": "TCL",
+    "dataset": "mooc",
+    "seed": 6,
+    "native": 0.81,
+    "shuffle": 0.704
+  },
+  {
+    "model": "TCL",
+    "dataset": "mooc",
+    "seed": 7,
+    "native": 0.8103,
+    "shuffle": 0.7043
+  },
+  {
+    "model": "TCL",
+    "dataset": "mooc",
+    "seed": 8,
+    "native": 0.8123,
+    "shuffle": 0.7036
+  },
+  {
+    "model": "TCL",
+    "dataset": "lastfm",
+    "seed": 0,
+    "native": 0.7481,
+    "shuffle": 0.4948
+  },
+  {
+    "model": "TCL",
+    "dataset": "lastfm",
+    "seed": 1,
+    "native": 0.7282,
+    "shuffle": 0.507
+  },
+  {
+    "model": "TCL",
+    "dataset": "lastfm",
+    "seed": 2,
+    "native": 0.7499,
+    "shuffle": 0.5072
+  },
+  {
+    "model": "TCL",
+    "dataset": "lastfm",
+    "seed": 3,
+    "native": 0.7672,
+    "shuffle": 0.5078
+  },
+  {
+    "model": "TCL",
+    "dataset": "lastfm",
+    "seed": 4,
+    "native": 0.7541,
+    "shuffle": 0.5316
+  },
+  {
+    "model": "TCL",
+    "dataset": "lastfm",
+    "seed": 5,
+    "native": 0.7734,
+    "shuffle": 0.5261
+  },
+  {
+    "model": "TCL",
+    "dataset": "lastfm",
+    "seed": 6,
+    "native": 0.7721,
+    "shuffle": 0.5062
+  },
+  {
+    "model": "TCL",
+    "dataset": "lastfm",
+    "seed": 7,
+    "native": 0.7702,
+    "shuffle": 0.5384
+  },
+  {
+    "model": "TCL",
+    "dataset": "lastfm",
+    "seed": 8,
+    "native": 0.7334,
+    "shuffle": 0.4964
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "wikipedia",
+    "seed": 0,
+    "native": 0.9896,
+    "shuffle": 0.9876
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "wikipedia",
+    "seed": 1,
+    "native": 0.9895,
+    "shuffle": 0.9881
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "wikipedia",
+    "seed": 2,
+    "native": 0.9897,
+    "shuffle": 0.9885
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "wikipedia",
+    "seed": 3,
+    "native": 0.9898,
+    "shuffle": 0.9881
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "wikipedia",
+    "seed": 4,
+    "native": 0.9897,
+    "shuffle": 0.9879
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "wikipedia",
+    "seed": 5,
+    "native": 0.9898,
+    "shuffle": 0.99
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "wikipedia",
+    "seed": 6,
+    "native": 0.9901,
+    "shuffle": 0.9902
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "wikipedia",
+    "seed": 7,
+    "native": 0.9904,
+    "shuffle": 0.9875
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "wikipedia",
+    "seed": 8,
+    "native": 0.9897,
+    "shuffle": 0.9885
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "wikipedia",
+    "seed": 9,
+    "native": 0.9899,
+    "shuffle": 0.9881
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "reddit",
+    "seed": 0,
+    "native": 0.992,
+    "shuffle": 0.9918
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "reddit",
+    "seed": 1,
+    "native": 0.9906,
+    "shuffle": 0.9914
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "reddit",
+    "seed": 2,
+    "native": 0.9919,
+    "shuffle": 0.9918
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "reddit",
+    "seed": 3,
+    "native": 0.9919,
+    "shuffle": 0.9918
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "reddit",
+    "seed": 4,
+    "native": 0.9914,
+    "shuffle": 0.991
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "reddit",
+    "seed": 5,
+    "native": 0.9917,
+    "shuffle": 0.9916
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "reddit",
+    "seed": 6,
+    "native": 0.9917,
+    "shuffle": 0.9917
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "reddit",
+    "seed": 7,
+    "native": 0.992,
+    "shuffle": 0.9915
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "reddit",
+    "seed": 8,
+    "native": 0.9919,
+    "shuffle": 0.9917
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "reddit",
+    "seed": 9,
+    "native": 0.9916,
+    "shuffle": 0.9916
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "seed": 0,
+    "native": 0.8362,
+    "shuffle": 0.7804
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "seed": 1,
+    "native": 0.8451,
+    "shuffle": 0.6686
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "seed": 2,
+    "native": 0.8052,
+    "shuffle": 0.6561
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "seed": 3,
+    "native": 0.7927,
+    "shuffle": 0.6462
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "seed": 4,
+    "native": 0.7675,
+    "shuffle": 0.7714
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "seed": 5,
+    "native": 0.8159,
+    "shuffle": 0.815
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "seed": 6,
+    "native": 0.6597,
+    "shuffle": 0.6525
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "seed": 7,
+    "native": 0.784,
+    "shuffle": 0.6412
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "seed": 8,
+    "native": 0.629,
+    "shuffle": 0.6355
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "seed": 9,
+    "native": 0.7766,
+    "shuffle": 0.7745
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "lastfm",
+    "seed": 0,
+    "native": 0.9227,
+    "shuffle": 0.918
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "lastfm",
+    "seed": 1,
+    "native": 0.9214,
+    "shuffle": 0.9179
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "lastfm",
+    "seed": 2,
+    "native": 0.9248,
+    "shuffle": 0.9179
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "lastfm",
+    "seed": 3,
+    "native": 0.9228,
+    "shuffle": 0.9222
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "lastfm",
+    "seed": 4,
+    "native": 0.9246,
+    "shuffle": 0.9241
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "lastfm",
+    "seed": 5,
+    "native": 0.9245,
+    "shuffle": 0.9239
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "lastfm",
+    "seed": 6,
+    "native": 0.9262,
+    "shuffle": 0.9257
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "lastfm",
+    "seed": 7,
+    "native": 0.9264,
+    "shuffle": 0.9257
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "lastfm",
+    "seed": 8,
+    "native": 0.9258,
+    "shuffle": 0.9252
+  },
+  {
+    "model": "DyGFormer",
+    "dataset": "lastfm",
+    "seed": 9,
+    "native": 0.9255,
+    "shuffle": 0.925
+  },
+  {
+    "model": "CAWN",
+    "dataset": "wikipedia",
+    "seed": 0,
+    "native": 0.9848,
+    "shuffle": 0.985
+  },
+  {
+    "model": "CAWN",
+    "dataset": "wikipedia",
+    "seed": 1,
+    "native": 0.987,
+    "shuffle": 0.9849
+  },
+  {
+    "model": "CAWN",
+    "dataset": "wikipedia",
+    "seed": 2,
+    "native": 0.9853,
+    "shuffle": 0.985
+  },
+  {
+    "model": "CAWN",
+    "dataset": "wikipedia",
+    "seed": 3,
+    "native": 0.9872,
+    "shuffle": 0.9826
+  },
+  {
+    "model": "CAWN",
+    "dataset": "wikipedia",
+    "seed": 4,
+    "native": 0.9874,
+    "shuffle": 0.9855
+  },
+  {
+    "model": "CAWN",
+    "dataset": "wikipedia",
+    "seed": 5,
+    "native": 0.9871,
+    "shuffle": 0.9855
+  },
+  {
+    "model": "CAWN",
+    "dataset": "wikipedia",
+    "seed": 6,
+    "native": 0.9871,
+    "shuffle": 0.9825
+  },
+  {
+    "model": "CAWN",
+    "dataset": "wikipedia",
+    "seed": 7,
+    "native": 0.9868,
+    "shuffle": 0.9854
+  },
+  {
+    "model": "CAWN",
+    "dataset": "wikipedia",
+    "seed": 8,
+    "native": 0.9872,
+    "shuffle": 0.985
+  },
+  {
+    "model": "CAWN",
+    "dataset": "wikipedia",
+    "seed": 9,
+    "native": 0.9846,
+    "shuffle": 0.985
+  },
+  {
+    "model": "CAWN",
+    "dataset": "reddit",
+    "seed": 0,
+    "native": 0.9909,
+    "shuffle": 0.9908
+  },
+  {
+    "model": "CAWN",
+    "dataset": "reddit",
+    "seed": 1,
+    "native": 0.9906,
+    "shuffle": 0.9909
+  },
+  {
+    "model": "CAWN",
+    "dataset": "reddit",
+    "seed": 2,
+    "native": 0.9908,
+    "shuffle": 0.9908
+  },
+  {
+    "model": "CAWN",
+    "dataset": "reddit",
+    "seed": 3,
+    "native": 0.9906,
+    "shuffle": 0.9906
+  },
+  {
+    "model": "CAWN",
+    "dataset": "reddit",
+    "seed": 4,
+    "native": 0.9908,
+    "shuffle": 0.9908
+  },
+  {
+    "model": "CAWN",
+    "dataset": "reddit",
+    "seed": 5,
+    "native": 0.9908,
+    "shuffle": 0.9909
+  },
+  {
+    "model": "CAWN",
+    "dataset": "reddit",
+    "seed": 6,
+    "native": 0.9908,
+    "shuffle": 0.991
+  },
+  {
+    "model": "CAWN",
+    "dataset": "reddit",
+    "seed": 7,
+    "native": 0.9908,
+    "shuffle": 0.9907
+  },
+  {
+    "model": "CAWN",
+    "dataset": "reddit",
+    "seed": 8,
+    "native": 0.991,
+    "shuffle": 0.991
+  },
+  {
+    "model": "CAWN",
+    "dataset": "reddit",
+    "seed": 9,
+    "native": 0.9909,
+    "shuffle": 0.9909
+  },
+  {
+    "model": "CAWN",
+    "dataset": "mooc",
+    "seed": 0,
+    "native": 0.7912,
+    "shuffle": 0.7899
+  },
+  {
+    "model": "CAWN",
+    "dataset": "mooc",
+    "seed": 1,
+    "native": 0.7902,
+    "shuffle": 0.7896
+  },
+  {
+    "model": "CAWN",
+    "dataset": "mooc",
+    "seed": 2,
+    "native": 0.7912,
+    "shuffle": 0.7904
+  },
+  {
+    "model": "CAWN",
+    "dataset": "mooc",
+    "seed": 3,
+    "native": 0.791,
+    "shuffle": 0.7901
+  },
+  {
+    "model": "CAWN",
+    "dataset": "mooc",
+    "seed": 4,
+    "native": 0.7881,
+    "shuffle": 0.7869
+  },
+  {
+    "model": "CAWN",
+    "dataset": "mooc",
+    "seed": 5,
+    "native": 0.7906,
+    "shuffle": 0.7891
+  },
+  {
+    "model": "CAWN",
+    "dataset": "mooc",
+    "seed": 6,
+    "native": 0.6475,
+    "shuffle": 0.657
+  },
+  {
+    "model": "CAWN",
+    "dataset": "mooc",
+    "seed": 7,
+    "native": 0.7901,
+    "shuffle": 0.7531
+  },
+  {
+    "model": "CAWN",
+    "dataset": "mooc",
+    "seed": 8,
+    "native": 0.791,
+    "shuffle": 0.7484
+  },
+  {
+    "model": "CAWN",
+    "dataset": "mooc",
+    "seed": 9,
+    "native": 0.7912,
+    "shuffle": 0.6574
+  },
+  {
+    "model": "CAWN",
+    "dataset": "lastfm",
+    "seed": 0,
+    "native": 0.8674,
+    "shuffle": 0.8613
+  },
+  {
+    "model": "CAWN",
+    "dataset": "lastfm",
+    "seed": 1,
+    "native": 0.8678,
+    "shuffle": 0.8673
+  },
+  {
+    "model": "CAWN",
+    "dataset": "lastfm",
+    "seed": 2,
+    "native": 0.865,
+    "shuffle": 0.8644
+  },
+  {
+    "model": "CAWN",
+    "dataset": "lastfm",
+    "seed": 3,
+    "native": 0.8651,
+    "shuffle": 0.8646
+  },
+  {
+    "model": "CAWN",
+    "dataset": "lastfm",
+    "seed": 4,
+    "native": 0.8631,
+    "shuffle": 0.8625
+  },
+  {
+    "model": "CAWN",
+    "dataset": "lastfm",
+    "seed": 5,
+    "native": 0.863,
+    "shuffle": 0.8624
+  },
+  {
+    "model": "CAWN",
+    "dataset": "lastfm",
+    "seed": 6,
+    "native": 0.8652,
+    "shuffle": 0.8639
+  },
+  {
+    "model": "CAWN",
+    "dataset": "lastfm",
+    "seed": 7,
+    "native": 0.8672,
+    "shuffle": 0.8668
+  },
+  {
+    "model": "CAWN",
+    "dataset": "lastfm",
+    "seed": 8,
+    "native": 0.8681,
+    "shuffle": 0.8676
+  },
+  {
+    "model": "CAWN",
+    "dataset": "lastfm",
+    "seed": 9,
+    "native": 0.8673,
+    "shuffle": 0.8641
+  },
+  {
+    "model": "DyRep",
+    "dataset": "wikipedia",
+    "seed": 0,
+    "native": 0.9306,
+    "shuffle": 0.9351
+  },
+  {
+    "model": "DyRep",
+    "dataset": "wikipedia",
+    "seed": 2,
+    "native": 0.925,
+    "shuffle": 0.9265
+  },
+  {
+    "model": "DyRep",
+    "dataset": "wikipedia",
+    "seed": 3,
+    "native": 0.9301,
+    "shuffle": 0.9328
+  },
+  {
+    "model": "DyRep",
+    "dataset": "wikipedia",
+    "seed": 4,
+    "native": 0.9283,
+    "shuffle": 0.9321
+  },
+  {
+    "model": "DyRep",
+    "dataset": "wikipedia",
+    "seed": 5,
+    "native": 0.9299,
+    "shuffle": 0.9299
+  },
+  {
+    "model": "DyRep",
+    "dataset": "wikipedia",
+    "seed": 6,
+    "native": 0.9222,
+    "shuffle": 0.9299
+  },
+  {
+    "model": "DyRep",
+    "dataset": "wikipedia",
+    "seed": 7,
+    "native": 0.9274,
+    "shuffle": 0.9275
+  },
+  {
+    "model": "DyRep",
+    "dataset": "wikipedia",
+    "seed": 8,
+    "native": 0.9025,
+    "shuffle": 0.9027
+  },
+  {
+    "model": "DyRep",
+    "dataset": "wikipedia",
+    "seed": 9,
+    "native": 0.9298,
+    "shuffle": 0.9299
+  },
+  {
+    "model": "DyRep",
+    "dataset": "reddit",
+    "seed": 0,
+    "native": 0.9763,
+    "shuffle": 0.9795
+  },
+  {
+    "model": "DyRep",
+    "dataset": "reddit",
+    "seed": 1,
+    "native": 0.979,
+    "shuffle": 0.9767
+  },
+  {
+    "model": "DyRep",
+    "dataset": "reddit",
+    "seed": 2,
+    "native": 0.968,
+    "shuffle": 0.9778
+  },
+  {
+    "model": "DyRep",
+    "dataset": "reddit",
+    "seed": 3,
+    "native": 0.9794,
+    "shuffle": 0.9794
+  },
+  {
+    "model": "DyRep",
+    "dataset": "reddit",
+    "seed": 4,
+    "native": 0.9784,
+    "shuffle": 0.9746
+  },
+  {
+    "model": "DyRep",
+    "dataset": "reddit",
+    "seed": 5,
+    "native": 0.9787,
+    "shuffle": 0.9785
+  },
+  {
+    "model": "DyRep",
+    "dataset": "reddit",
+    "seed": 6,
+    "native": 0.9755,
+    "shuffle": 0.9758
+  },
+  {
+    "model": "DyRep",
+    "dataset": "reddit",
+    "seed": 7,
+    "native": 0.9784,
+    "shuffle": 0.9605
+  },
+  {
+    "model": "DyRep",
+    "dataset": "reddit",
+    "seed": 8,
+    "native": 0.9765,
+    "shuffle": 0.9735
+  },
+  {
+    "model": "DyRep",
+    "dataset": "reddit",
+    "seed": 9,
+    "native": 0.9736,
+    "shuffle": 0.9786
+  },
+  {
+    "model": "DyRep",
+    "dataset": "mooc",
+    "seed": 0,
+    "native": 0.713,
+    "shuffle": 0.6371
+  },
+  {
+    "model": "DyRep",
+    "dataset": "mooc",
+    "seed": 1,
+    "native": 0.672,
+    "shuffle": 0.6715
+  },
+  {
+    "model": "DyRep",
+    "dataset": "mooc",
+    "seed": 2,
+    "native": 0.7881,
+    "shuffle": 0.7857
+  },
+  {
+    "model": "DyRep",
+    "dataset": "mooc",
+    "seed": 3,
+    "native": 0.6842,
+    "shuffle": 0.6188
+  },
+  {
+    "model": "DyRep",
+    "dataset": "mooc",
+    "seed": 4,
+    "native": 0.5904,
+    "shuffle": 0.5904
+  },
+  {
+    "model": "DyRep",
+    "dataset": "mooc",
+    "seed": 5,
+    "native": 0.623,
+    "shuffle": 0.6614
+  },
+  {
+    "model": "DyRep",
+    "dataset": "mooc",
+    "seed": 6,
+    "native": 0.6255,
+    "shuffle": 0.7125
+  },
+  {
+    "model": "DyRep",
+    "dataset": "mooc",
+    "seed": 7,
+    "native": 0.748,
+    "shuffle": 0.6373
+  },
+  {
+    "model": "DyRep",
+    "dataset": "mooc",
+    "seed": 8,
+    "native": 0.6157,
+    "shuffle": 0.6483
+  },
+  {
+    "model": "DyRep",
+    "dataset": "mooc",
+    "seed": 9,
+    "native": 0.702,
+    "shuffle": 0.6257
+  },
+  {
+    "model": "DyRep",
+    "dataset": "lastfm",
+    "seed": 0,
+    "native": 0.711,
+    "shuffle": 0.711
+  },
+  {
+    "model": "DyRep",
+    "dataset": "lastfm",
+    "seed": 1,
+    "native": 0.5325,
+    "shuffle": 0.6831
+  },
+  {
+    "model": "DyRep",
+    "dataset": "lastfm",
+    "seed": 2,
+    "native": 0.6727,
+    "shuffle": 0.6296
+  },
+  {
+    "model": "DyRep",
+    "dataset": "lastfm",
+    "seed": 3,
+    "native": 0.6596,
+    "shuffle": 0.6441
+  },
+  {
+    "model": "DyRep",
+    "dataset": "lastfm",
+    "seed": 4,
+    "native": 0.6746,
+    "shuffle": 0.6367
+  },
+  {
+    "model": "DyRep",
+    "dataset": "lastfm",
+    "seed": 5,
+    "native": 0.6661,
+    "shuffle": 0.6847
+  },
+  {
+    "model": "DyRep",
+    "dataset": "lastfm",
+    "seed": 6,
+    "native": 0.6804,
+    "shuffle": 0.5564
+  },
+  {
+    "model": "DyRep",
+    "dataset": "lastfm",
+    "seed": 7,
+    "native": 0.6296,
+    "shuffle": 0.6486
+  },
+  {
+    "model": "DyRep",
+    "dataset": "lastfm",
+    "seed": 8,
+    "native": 0.5857,
+    "shuffle": 0.5668
+  },
+  {
+    "model": "DyRep",
+    "dataset": "lastfm",
+    "seed": 9,
+    "native": 0.5489,
+    "shuffle": 0.6018
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "wikipedia",
+    "seed": 0,
+    "native": 0.9588,
+    "shuffle": 0.9505
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "wikipedia",
+    "seed": 1,
+    "native": 0.9598,
+    "shuffle": 0.9519
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "wikipedia",
+    "seed": 2,
+    "native": 0.9611,
+    "shuffle": 0.9154
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "wikipedia",
+    "seed": 3,
+    "native": 0.9634,
+    "shuffle": 0.9619
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "wikipedia",
+    "seed": 4,
+    "native": 0.9608,
+    "shuffle": 0.9608
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "wikipedia",
+    "seed": 5,
+    "native": 0.9585,
+    "shuffle": 0.9518
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "wikipedia",
+    "seed": 6,
+    "native": 0.9618,
+    "shuffle": 0.9528
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "wikipedia",
+    "seed": 7,
+    "native": 0.9612,
+    "shuffle": 0.9113
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "wikipedia",
+    "seed": 8,
+    "native": 0.9612,
+    "shuffle": 0.915
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "wikipedia",
+    "seed": 9,
+    "native": 0.9609,
+    "shuffle": 0.9487
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "reddit",
+    "seed": 0,
+    "native": 0.9651,
+    "shuffle": 0.9632
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "reddit",
+    "seed": 1,
+    "native": 0.9655,
+    "shuffle": 0.9642
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "reddit",
+    "seed": 2,
+    "native": 0.9652,
+    "shuffle": 0.9639
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "reddit",
+    "seed": 3,
+    "native": 0.9646,
+    "shuffle": 0.964
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "reddit",
+    "seed": 4,
+    "native": 0.9655,
+    "shuffle": 0.9639
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "reddit",
+    "seed": 5,
+    "native": 0.9656,
+    "shuffle": 0.9641
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "reddit",
+    "seed": 6,
+    "native": 0.9653,
+    "shuffle": 0.9639
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "reddit",
+    "seed": 7,
+    "native": 0.9652,
+    "shuffle": 0.964
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "reddit",
+    "seed": 8,
+    "native": 0.9646,
+    "shuffle": 0.9637
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "reddit",
+    "seed": 9,
+    "native": 0.9632,
+    "shuffle": 0.9631
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "mooc",
+    "seed": 0,
+    "native": 0.8117,
+    "shuffle": 0.78
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "mooc",
+    "seed": 1,
+    "native": 0.8124,
+    "shuffle": 0.8114
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "mooc",
+    "seed": 2,
+    "native": 0.8115,
+    "shuffle": 0.6979
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "mooc",
+    "seed": 3,
+    "native": 0.8094,
+    "shuffle": 0.8094
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "mooc",
+    "seed": 4,
+    "native": 0.8113,
+    "shuffle": 0.8112
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "mooc",
+    "seed": 5,
+    "native": 0.8101,
+    "shuffle": 0.81
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "mooc",
+    "seed": 6,
+    "native": 0.8081,
+    "shuffle": 0.8082
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "mooc",
+    "seed": 7,
+    "native": 0.8061,
+    "shuffle": 0.8061
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "mooc",
+    "seed": 8,
+    "native": 0.81,
+    "shuffle": 0.8102
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "mooc",
+    "seed": 9,
+    "native": 0.8087,
+    "shuffle": 0.8087
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "lastfm",
+    "seed": 0,
+    "native": 0.7553,
+    "shuffle": 0.7553
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "lastfm",
+    "seed": 1,
+    "native": 0.7535,
+    "shuffle": 0.7535
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "lastfm",
+    "seed": 2,
+    "native": 0.7575,
+    "shuffle": 0.757
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "lastfm",
+    "seed": 3,
+    "native": 0.7557,
+    "shuffle": 0.7557
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "lastfm",
+    "seed": 4,
+    "native": 0.6903,
+    "shuffle": 0.7548
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "lastfm",
+    "seed": 5,
+    "native": 0.7538,
+    "shuffle": 0.7513
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "lastfm",
+    "seed": 6,
+    "native": 0.7569,
+    "shuffle": 0.7562
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "lastfm",
+    "seed": 7,
+    "native": 0.6885,
+    "shuffle": 0.7548
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "lastfm",
+    "seed": 8,
+    "native": 0.6799,
+    "shuffle": 0.7536
+  },
+  {
+    "model": "GraphMixer",
+    "dataset": "lastfm",
+    "seed": 9,
+    "native": 0.7536,
+    "shuffle": 0.7567
+  }
+]

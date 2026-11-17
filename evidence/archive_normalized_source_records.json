@@ -1,0 +1,5385 @@
+[
+  {
+    "model": "TCL",
+    "dataset": "wikipedia",
+    "time_resolution": "native",
+    "metric_name": "ap",
+    "num_runs": 10,
+    "best_test_metric_per_run": [
+      0.949,
+      0.949,
+      0.949,
+      0.9498,
+      0.9511,
+      0.9523,
+      0.9538,
+      0.955,
+      0.9482,
+      0.9465
+    ],
+    "source_record": "P6_dyglib_TCL_wikipedia_native/metrics.json",
+    "archive": "legacy",
+    "original_sha256": "87e22a92cfc806bf2b5cf93a65069d206ed81ace6e307a0a5aef640fd602d5ef"
+  },
+  {
+    "model": "TCL",
+    "dataset": "wikipedia",
+    "time_resolution": "shuffle",
+    "metric_name": "ap",
+    "num_runs": 10,
+    "best_test_metric_per_run": [
+      0.9004,
+      0.9004,
+      0.91,
+      0.8861,
+      0.8795,
+      0.9157,
+      0.8923,
+      0.8868,
+      0.8857,
+      0.899
+    ],
+    "source_record": "P6_dyglib_TCL_wikipedia_shuffle/metrics.json",
+    "archive": "legacy",
+    "original_sha256": "e71bd8185c92611fb9eae1a35b3c3e3cc1564a6f0f5e22d2da7f3df4c7a418a1"
+  },
+  {
+    "model": "TCL",
+    "dataset": "reddit",
+    "time_resolution": "native",
+    "metric_name": "ap",
+    "num_runs": 10,
+    "best_test_metric_per_run": [
+      0.9619,
+      0.9619,
+      0.9641,
+      0.9636,
+      0.9612,
+      0.9639,
+      0.9641,
+      0.9627,
+      0.9627,
+      0.962
+    ],
+    "source_record": "P6_dyglib_TCL_reddit_native/metrics.json",
+    "archive": "legacy",
+    "original_sha256": "0b474c8064b444d4ca87a5ae9ec15445aa85ba022dba97af068a7ef5b2da4980"
+  },
+  {
+    "model": "TCL",
+    "dataset": "reddit",
+    "time_resolution": "shuffle",
+    "metric_name": "ap",
+    "num_runs": 10,
+    "best_test_metric_per_run": [
+      0.9636,
+      0.9636,
+      0.9651,
+      0.9645,
+      0.962,
+      0.9657,
+      0.9648,
+      0.9645,
+      0.963,
+      0.9635
+    ],
+    "source_record": "P6_dyglib_TCL_reddit_shuffle/metrics.json",
+    "archive": "legacy",
+    "original_sha256": "7382286c8104b755b2bd2911504c4c323251508912755f21db780c0527724cab"
+  },
+  {
+    "model": "TCL",
+    "dataset": "mooc",
+    "time_resolution": "native",
+    "metric_name": "ap",
+    "num_runs": 10,
+    "best_test_metric_per_run": [
+      0.8091,
+      0.8091,
+      0.8094,
+      0.8116,
+      0.8115,
+      0.8111,
+      0.8117,
+      0.81,
+      0.8103,
+      0.8123
+    ],
+    "source_record": "P6_dyglib_TCL_mooc_native/metrics.json",
+    "archive": "legacy",
+    "original_sha256": "493db6fbda82683bae494d477b02f11af04bde31346603a53ea8c9be6693d431"
+  },
+  {
+    "model": "TCL",
+    "dataset": "mooc",
+    "time_resolution": "shuffle",
+    "metric_name": "ap",
+    "num_runs": 10,
+    "best_test_metric_per_run": [
+      0.7005,
+      0.7005,
+      0.7025,
+      0.7041,
+      0.7001,
+      0.7059,
+      0.7036,
+      0.704,
+      0.7043,
+      0.7036
+    ],
+    "source_record": "P6_dyglib_TCL_mooc_shuffle/metrics.json",
+    "archive": "legacy",
+    "original_sha256": "442442db5897779fff5e9a489c8069b06f9a1fd53d53ac31309c539bcd901ec6"
+  },
+  {
+    "model": "TCL",
+    "dataset": "lastfm",
+    "time_resolution": "native",
+    "metric_name": "ap",
+    "num_runs": 10,
+    "best_test_metric_per_run": [
+      0.7481,
+      0.7481,
+      0.7282,
+      0.7499,
+      0.7672,
+      0.7541,
+      0.7734,
+      0.7721,
+      0.7702,
+      0.7334
+    ],
+    "source_record": "P6_dyglib_TCL_lastfm_native/metrics.json",
+    "archive": "legacy",
+    "original_sha256": "d11a27f2af350d7c907ba5b9a3c3eda56fd3f7eee81c9c5d98c93b4e5ca962db"
+  },
+  {
+    "model": "TCL",
+    "dataset": "lastfm",
+    "time_resolution": "shuffle",
+    "metric_name": "ap",
+    "num_runs": 10,
+    "best_test_metric_per_run": [
+      0.4948,
+      0.4948,
+      0.507,
+      0.5072,
+      0.5078,
+      0.5316,
+      0.5261,
+      0.5062,
+      0.5384,
+      0.4964
+    ],
+    "source_record": "P6_dyglib_TCL_lastfm_shuffle/metrics.json",
+    "archive": "legacy",
+    "original_sha256": "c255fb0533b56b01059f8a3def0cafcc9cee68eeffc52ccdb6a2c328dbef99ed"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9896,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_native/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "51d0f2d8e939aa6209deb48dc1b2b74773f64a2fa72247b434ddba8f29aa0a17"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9895,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_native/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "8d71b6562517f3790f3dd2ad3db9e344632bc0ab5f50f72b7f69df1df3e7a434"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9897,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_native/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "2831ffd3c6177a59efccb1678f94ca147f5e2bf4963c8e6914acd8b08dac891b"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9898,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_native/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "02cb1da160609ce405a6bb705b0ccbf179f996b37a15d950c96e3a6fd6bd10c1"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9897,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_native/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "67ab0be5f316f63e802dccda1eb3770ec25b09eefc44c98662b673adee2678dd"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9898,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_native/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "c086f9f5615ba49a43536be2231b5d63d1e90f03bc141a4aa904b939ea457a60"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9901,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_native/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "17ebf2805896ccad3bb9b3ee868685773807011542796621c9652b83b0fad9c7"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9904,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_native/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "b5f5100b5bb41cb688bf2ae052c2ecb193d7629df09dc30198a12f5a16803b78"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.9897,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_native/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "050fbe4082d8ee763ae36b2185b7486ee99e41b0919c8c42c5ec99b35d74f812"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9899,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_native/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "d999b2fdbebb139e5776699e70ac67adeb6460b06d36ba59afe50179bcd05946"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9876,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_shuffle/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "f0089b8d2be28c8ceb4141f1d11c55c88a171d2a6d461ea092c2916cf2565006"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9881,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_shuffle/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "cb4217a7fe5384fad8ebe686aafa54db610f1f6e7071b36ed0a9653885fa132e"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9885,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_shuffle/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "c3254045988f232b27cb780240b050f4e12fd2002d869a78960d08f078a23b15"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9881,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_shuffle/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "9c4da7332befaec6a71e8b445109205746f614edae4f8788f0e3e2f273f5f3b6"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9879,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_shuffle/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "b04e517537b90a25413f85d210fd1284a77dd4040dbf732bad2fe4d0d96c0a27"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.99,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_shuffle/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "fde3d5739fadec25c602c57d716f7c9d5198693b67cdc70152d2b1be3f002f29"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9902,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_shuffle/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "8d3ebe22d8eb74585061eb105508eb2cc7042f74968e18312b2cac4d57c4bde9"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9875,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_shuffle/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "87520dc5a8b212d3d9b1a96ac72b5c1497290fdb20f0ba02856862556b74f9d5"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.9885,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_shuffle/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "c900809dca39092ee590e196b6d09a32e754aa0b7693d648715e3f449b45d812"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9881,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_shuffle/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "97e4994a65bdea081c31dcd3b82952656f6e8e6f361ad65e75a1a041a40fb8a8"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.992,
+    "source_record": "P6_dyglib_DyGFormer_reddit_native/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "c660f3612b5ec948dc628c7da30fd5b4d7eb667fddfdd2cd14d02c7889ea879d"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9906,
+    "source_record": "P6_dyglib_DyGFormer_reddit_native/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "93775e167b965da10c7b2aa2dd28abdd49a28d08ad6aba9d0cba7862b8022e1e"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9919,
+    "source_record": "P6_dyglib_DyGFormer_reddit_native/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "18186d842684e65fc2bfaa1eb5db92766a1c7b0d7643d5483b4cb21826953104"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9919,
+    "source_record": "P6_dyglib_DyGFormer_reddit_native/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "a672f7e09166466ec2ba6d4d907db9d3f1dd7b293dc5003457955fef36957547"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9914,
+    "source_record": "P6_dyglib_DyGFormer_reddit_native/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "121ecd24765194d8a0651454f8e2f4f0f5c5f21c0b75f2bca2435f1d6954f0d2"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9917,
+    "source_record": "P6_dyglib_DyGFormer_reddit_native/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "8c5aaaa1ee98b6f6d693f71cb5ab74d0fc2403224a10d58e0649cb5e1e8a501a"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9917,
+    "source_record": "P6_dyglib_DyGFormer_reddit_native/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "bb660f8a836db4207ca1ac60325290e003f73ff28d81e5711d1505dc47ebfb38"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.992,
+    "source_record": "P6_dyglib_DyGFormer_reddit_native/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "e03597ce65163eb226e9e9620ea7d09a8d8e9ca9c903bcaa6c2c22de42c6b5e6"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.9919,
+    "source_record": "P6_dyglib_DyGFormer_reddit_native/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "28bbbf6c45cbae90f427dd7040e1f69b9c88999b316bbda3a7e25ccb917f867a"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9916,
+    "source_record": "P6_dyglib_DyGFormer_reddit_native/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "2dffa0f0b90e0e8c10ef9c5632eb0640e4d0a4306bc118ebdc0adfe22df7afce"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9918,
+    "source_record": "P6_dyglib_DyGFormer_reddit_shuffle/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "baa9d1cf787aef2b1cc2f50d523cebcb9e7128059d0cf6c8add0a6614bf6d2db"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9914,
+    "source_record": "P6_dyglib_DyGFormer_reddit_shuffle/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "072e5e98a898b3d4fe10f224b83fa12c1eafab649c5c8f0204b25af337f0d179"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9918,
+    "source_record": "P6_dyglib_DyGFormer_reddit_shuffle/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "50cdd8402028e7cb4e3c1b95301ab40827c1f70f1a7f22243f5f9304b837078d"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9918,
+    "source_record": "P6_dyglib_DyGFormer_reddit_shuffle/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "a46a79ce397597504bfc28faf9fc995f5ac4d03a79b3b176244cbe7f9c92af69"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.991,
+    "source_record": "P6_dyglib_DyGFormer_reddit_shuffle/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "130344c6eba456af968d50ab7336ecfe5c5aa0cafd36266d47cb3ed1dba58583"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9916,
+    "source_record": "P6_dyglib_DyGFormer_reddit_shuffle/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "fc43b657333c08b954ac49be0ca906caacd3909a1d383e1e628457d3a9788981"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9917,
+    "source_record": "P6_dyglib_DyGFormer_reddit_shuffle/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "1b6bd900b40ac51ba4eae0ff091026e1703c70cac0e866776c726eee916e1ec4"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9915,
+    "source_record": "P6_dyglib_DyGFormer_reddit_shuffle/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "f46982f48bd2920c77148b3afa07b2c9388286a4319ed0ad5bc4dcc16541d1e7"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.9917,
+    "source_record": "P6_dyglib_DyGFormer_reddit_shuffle/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "c681604bd9fa057e4c4c56a43adfcdca1675cf92ad0d565fe98f87bb96dc14d2"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9916,
+    "source_record": "P6_dyglib_DyGFormer_reddit_shuffle/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "2dffa0f0b90e0e8c10ef9c5632eb0640e4d0a4306bc118ebdc0adfe22df7afce"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.8362,
+    "source_record": "P6_dyglib_DyGFormer_mooc_native/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "147999b98ffe249e1ebcf9519c138ce229238ba72d6a5c33c050a6aada2b4a45"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.8451,
+    "source_record": "P6_dyglib_DyGFormer_mooc_native/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "01c5691491de188927344f9016103d0d86201253da7add07ef4e24a0bc82dbc4"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.8052,
+    "source_record": "P6_dyglib_DyGFormer_mooc_native/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "6cb52e1139eb84173e57b69fe963f9d94f719b2e100d481550951d3d4dfa80f0"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.7927,
+    "source_record": "P6_dyglib_DyGFormer_mooc_native/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "0750d3e5facfc099e327417867538a7897be3e34230186774f3d1f1fe2c8f8f9"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.7675,
+    "source_record": "P6_dyglib_DyGFormer_mooc_native/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "325b6b5c052b6458d087549da3dc9489acbfdbd206b695bc9df061ca361fe2d8"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.8159,
+    "source_record": "P6_dyglib_DyGFormer_mooc_native/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "6d31d1fb1712ae514def46493bf015f9c63d9af2ee7af0d133c7eb24c6b65026"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.6597,
+    "source_record": "P6_dyglib_DyGFormer_mooc_native/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "34b8a6c2b8920ba065213f25981916980896f453e6c6abcaad3ad612802eac17"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.784,
+    "source_record": "P6_dyglib_DyGFormer_mooc_native/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "c8d2a090d1dfc5cac181d83b25e248f263e0659e413220c91e92319dacb8314e"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.629,
+    "source_record": "P6_dyglib_DyGFormer_mooc_native/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "95f9a885e5a0c0413150327022f5ba63acbf74c4129c2d4e65aef382d5052cf5"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.7766,
+    "source_record": "P6_dyglib_DyGFormer_mooc_native/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "98d7f7b12536ac0bca8a428f7ee659bbf34699e84e887a03a041307a26033ee8"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.7804,
+    "source_record": "P6_dyglib_DyGFormer_mooc_shuffle/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "13d8823063b18f1f83a809a868572b05ca076c7557eeda3c1dfeada304e37ece"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.6686,
+    "source_record": "P6_dyglib_DyGFormer_mooc_shuffle/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "c931fcb1e5fa6f6e8fdb2a057c347947e09022dd0c78a87d22963cfa513aad99"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.6561,
+    "source_record": "P6_dyglib_DyGFormer_mooc_shuffle/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "297ce19d45a288d0e42c86ad4c2d9eefe6cc261bf66f382590e5722d731941ad"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.6462,
+    "source_record": "P6_dyglib_DyGFormer_mooc_shuffle/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "41ff569c32a56aad77d6f7ddb31d147a3b5fdf24bf85d54cffa873165ec381d2"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.7714,
+    "source_record": "P6_dyglib_DyGFormer_mooc_shuffle/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "6c0b1035808f56e8e4468e4d687f15ce0545e3aef22d05b6ebc571cf5a00a8fc"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.815,
+    "source_record": "P6_dyglib_DyGFormer_mooc_shuffle/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "32472d88fb9a6544c499d0e3f91aa0d0078ed4ac714c006a7947af65a47f97a4"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.6525,
+    "source_record": "P6_dyglib_DyGFormer_mooc_shuffle/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "aaae43ab7ba4dc8e2a1de01ab9c8db87f38ebc66e73e029311fc906092ea131a"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.6412,
+    "source_record": "P6_dyglib_DyGFormer_mooc_shuffle/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "6f49d26ec902a44d2a03876977d5fa5bd751206cca83a7740b8003f4cf3ad2d4"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.6355,
+    "source_record": "P6_dyglib_DyGFormer_mooc_shuffle/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "b3d1efc9738fc5f87c856012aabebed8dff949112bd0ecbaeb67811c45358f64"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.7745,
+    "source_record": "P6_dyglib_DyGFormer_mooc_shuffle/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "5badc4ab5145e2c1497d366d567802857e39c8a978de972915602b5927594f40"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9227,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_native/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "2403f6a451221a8d246108357bf550166e2c1756e36075b1f27a88e295371d25"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9214,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_native/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "91ac19efca994af83dc8d1613f35e6f0f4eb2969bf5689cbee011dce85a8ced3"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9248,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_native/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "083329827137b75fce554be9fa79f473d245a261d6aa45e406770c781f5d13a4"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9228,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_native/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "c33a9d6fd0382ec92c56e5639bca59e8fe015a47c027c3674dd8bcba6e8f7c32"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9246,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_native/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "01fc149638153f2953b9dd4c6a0879f9e80f47739cf651bd4b8bd9e194f609d7"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9245,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_native/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "533eb954e827f95b2d507e7fbb19ecc5b5c7ed52d6c4ffc73fa92a8356e874e5"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9262,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_native/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "10b4ed2a0488db2c7eb623f5428fbb9d7ad84139ef8037c93a6a673c3e82f279"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9264,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_native/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "f803426ef16c40aa1913f014d2e6d0b0cbd00ae0c4fe70636c878397144e3b79"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.9258,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_native/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "881617082a5f30413b2b870b12360de29b5211152ca2b84039727fc255e0ff43"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9255,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_native/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "38b87e640edef0d61631fa5e7e37b4abc9e319ea7c5481358babbf5f6b642c10"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.918,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_shuffle/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "26d519e5d45dcf3d39b023d507eb143cbf662a908a58ffbae4a97f3ad70c816c"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9179,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_shuffle/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "364f8c6463041828eeedcffbea92958da610c8e94c00bfefa17614c5511a92f4"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9179,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_shuffle/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "5cc1fb5c8f149cdc5010b93d3ac24d1991245402ec856e6f459fc5574a5c1199"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9222,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_shuffle/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "7509abf85d154e293ece81ecc27752b652f2e648cc864d41e7e3286b46c64e41"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9241,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_shuffle/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "1c9117922cf0e5abc7115e58feb52d7f7afb2c9a750664b4c1472eadab5f9627"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9239,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_shuffle/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "c62ed65f047254c4f2213c244fd60380c2b5527f848cc03a88571c5d729d9f91"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9257,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_shuffle/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "51ff8a234aa5f3fed34e1627fd406767f5c2a81d7276b76d18c41b34a07f24a4"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9257,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_shuffle/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "a3a349607b0473ff0f2531ccca9c07c645c0f1dcd4da04fc8fc8c75648a68376"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.9252,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_shuffle/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "f00d6fe2393770c467c245fc1a785c9458e5eb40216d77de76e95a11ba48f3a2"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.925,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_shuffle/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "a317531fe6d83089d20c1bc8a329678df31c59bf20acad355ac26230a5285ecf"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9848,
+    "source_record": "P6_dyglib_CAWN_wikipedia_native/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "de76e57069b5c06352b1bd07b9a168228efdf1c5a3a91f70d5a399c9d33a45d7"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.987,
+    "source_record": "P6_dyglib_CAWN_wikipedia_native/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "d243c8f709a264a705466047df6dfcc936c9e5d416c8c09c92d311547c7b389f"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9853,
+    "source_record": "P6_dyglib_CAWN_wikipedia_native/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "212cbbf25bee1f179effeef06851e5687f5546da32c86fbded5c5868b15df842"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9872,
+    "source_record": "P6_dyglib_CAWN_wikipedia_native/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "628a8fc09596e59017c98548180939005362d44b559fa212b6e4edb8e6020c5c"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9874,
+    "source_record": "P6_dyglib_CAWN_wikipedia_native/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "88794468ff815c0d06b06f9ef104ba0859942ac93c8e310c9fe56f10cd2e0fd2"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9871,
+    "source_record": "P6_dyglib_CAWN_wikipedia_native/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "79d8ed339097ebd029b5ec1a227f673d0d2feef4d90671e4bb3d0f46a28141bd"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9871,
+    "source_record": "P6_dyglib_CAWN_wikipedia_native/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "956d2456d24df42088c62c21f95b589227cfde07c498abbc2f457993927d1551"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9868,
+    "source_record": "P6_dyglib_CAWN_wikipedia_native/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "6134f69fbac872b9545362a3eb0583651802f0ad215c39ffe5c15c4ec5887962"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.9872,
+    "source_record": "P6_dyglib_CAWN_wikipedia_native/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "0352724558bd496110eb35fdbc03aafafb5a481d6f70dfd203317bce091bd8ef"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9846,
+    "source_record": "P6_dyglib_CAWN_wikipedia_native/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "526b97b9cb76e4e6125ecee275789ab7d13ce7fa628f0a2c669ddd0d4c9d381e"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.985,
+    "source_record": "P6_dyglib_CAWN_wikipedia_shuffle/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "c2e89e72eda5a6fcab4bbeffcc9ebbda46f9a99212c2f273107b814daac7d1f1"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9849,
+    "source_record": "P6_dyglib_CAWN_wikipedia_shuffle/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "cd43ac822b95d72f505e26214041b2657f1493ee537d909654ced24e7f890eca"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.985,
+    "source_record": "P6_dyglib_CAWN_wikipedia_shuffle/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "5e52027ade05c83044e1b97644219e81b663edf00fdfc466e024d0281738d28b"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9826,
+    "source_record": "P6_dyglib_CAWN_wikipedia_shuffle/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "c4b0d4c8815ef184228ed09c1998ec1d5a638272bafc9fe748ac9237e3123681"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9855,
+    "source_record": "P6_dyglib_CAWN_wikipedia_shuffle/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "5488b148e624fc26982573918da91a987455909bca949b0ff03d39710f8b5158"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9855,
+    "source_record": "P6_dyglib_CAWN_wikipedia_shuffle/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "d85f77a3fbd64798842c3ce2b99850174de1afd37bcaf72d5193f5777f8af928"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9825,
+    "source_record": "P6_dyglib_CAWN_wikipedia_shuffle/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "2834349181852d423908df811fef8776f5d8c11f74454bb9ebf9d3efc714e113"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9854,
+    "source_record": "P6_dyglib_CAWN_wikipedia_shuffle/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "fc8337e5cb70a41c2dc5919e80422fbcf56da7bc252d290f06eb7e2b191db7e2"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.985,
+    "source_record": "P6_dyglib_CAWN_wikipedia_shuffle/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "e0386bc0f7390bb13346c43612b3e314ccce0675223f7cbb26cff2fc82d2f03d"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.985,
+    "source_record": "P6_dyglib_CAWN_wikipedia_shuffle/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "9dbbc031ef063ac1055b9bc4d25ec49b173d04eb8e6cef83e42b93272c0db560"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9909,
+    "source_record": "P6_dyglib_CAWN_reddit_native/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "aa815588a2ca119ad5ec29fd74c7f693751508babe32a8fae2c89c17a8de23bb"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9906,
+    "source_record": "P6_dyglib_CAWN_reddit_native/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "1c89622129bfb6c80586370b2d32ec3afdaa843fc1bee6438901b5c05ab34966"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9908,
+    "source_record": "P6_dyglib_CAWN_reddit_native/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "d708cc536b71be5cda75d73d447ada9f34f229f764dd3bcbdfadb2bdbfc82eae"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9906,
+    "source_record": "P6_dyglib_CAWN_reddit_native/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "59ecbe0f50396fdb1cfc43089ad536eea5d2dff52e58bb922c691c274fdd1f87"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9908,
+    "source_record": "P6_dyglib_CAWN_reddit_native/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "93be2183a4c89143f112734f50736d9e947fde1f19c7b00beea806f5b9a2db32"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9908,
+    "source_record": "P6_dyglib_CAWN_reddit_native/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "472ba22f04ad9904b528b1a0e08a75a7ab5b955c34e3ff2a2f9367ca9cd24b49"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9908,
+    "source_record": "P6_dyglib_CAWN_reddit_native/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "6dc6790a22c19ea612088b11e1bb10f98fdf332706e69cfb99ad77c7ef7c3fa3"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9908,
+    "source_record": "P6_dyglib_CAWN_reddit_native/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "a69d9deacf4d33993f2901f20042a1d1efee9c3cd7c12f16bf9283e38d388f57"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.991,
+    "source_record": "P6_dyglib_CAWN_reddit_native/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "dc39dac21ab3a1c0f50c43364a92508a2183406d48e2bfe198e89b4c00fda62b"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9909,
+    "source_record": "P6_dyglib_CAWN_reddit_native/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "68bbb31859f6681cceb48e1bc4a0bb5650bf79d8f8eea22126c3364bb2c09718"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9908,
+    "source_record": "P6_dyglib_CAWN_reddit_shuffle/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "ba51286b9be4802b1cef988531765b3addb804b66226889cbc4e3843bb88bfec"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9909,
+    "source_record": "P6_dyglib_CAWN_reddit_shuffle/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "f4fc91f0525c0a226258d1020d8d8760b1670ec2d42426a82a1c7691c2133e5f"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9908,
+    "source_record": "P6_dyglib_CAWN_reddit_shuffle/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "d708cc536b71be5cda75d73d447ada9f34f229f764dd3bcbdfadb2bdbfc82eae"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9906,
+    "source_record": "P6_dyglib_CAWN_reddit_shuffle/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "34472a440d6f5aab555ff0154e36cf88871d60b6af3dfc3ad9f4814db5205072"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9908,
+    "source_record": "P6_dyglib_CAWN_reddit_shuffle/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "b5d65d45be022c51b4694b6a1ad736239b9d78cec5f49e3e6541a12c0afaf7f5"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9909,
+    "source_record": "P6_dyglib_CAWN_reddit_shuffle/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "744afcebe8cb22239c77231e40ee33cf08d7db290d1b2978fb3e0a675adf6b72"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.991,
+    "source_record": "P6_dyglib_CAWN_reddit_shuffle/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "f077226e2181c28206a5433fc66646508a3f0f9b9c7e046787e74613d976d277"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9907,
+    "source_record": "P6_dyglib_CAWN_reddit_shuffle/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "6b4bb1f500ab7373dc80c3939fb529f02e4d3ada7b765b28027d945232a8ce85"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.991,
+    "source_record": "P6_dyglib_CAWN_reddit_shuffle/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "707f93908f4c8c3032db425e96139ee78916d67db14a337ea819164e2989d2b1"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9909,
+    "source_record": "P6_dyglib_CAWN_reddit_shuffle/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "68bbb31859f6681cceb48e1bc4a0bb5650bf79d8f8eea22126c3364bb2c09718"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.7912,
+    "source_record": "P6_dyglib_CAWN_mooc_native/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "dcc159d03eaaa6707a3077ce06a5ca1b12d2d265ff3d95c0b2fd9589a6811198"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.7902,
+    "source_record": "P6_dyglib_CAWN_mooc_native/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "7485d27413045582023fd6f185028e8850f952c1542b9231ff7b5efb3a57c755"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.7912,
+    "source_record": "P6_dyglib_CAWN_mooc_native/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "a65bbf275aef89692b42a26e902bbfa01acdd67a380006d9a0312951ebfa9647"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.791,
+    "source_record": "P6_dyglib_CAWN_mooc_native/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "91159c35fc1f58736611d5e05c3a2885e65dddf1f65d8273a8ad367240b474cf"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.7881,
+    "source_record": "P6_dyglib_CAWN_mooc_native/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "1560d631a4c99215857de6aa75f0268b8ca318db1b2e7c266de934af5c3a073f"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.7906,
+    "source_record": "P6_dyglib_CAWN_mooc_native/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "99f692332a913033748203d550318982c879b1d9aca8e9fef7e973bcabfb86b3"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.6475,
+    "source_record": "P6_dyglib_CAWN_mooc_native/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "91cbb54d438da6db41eaec498fc9ed5e489acb43eb8ba1a24914e4020fa51327"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.7901,
+    "source_record": "P6_dyglib_CAWN_mooc_native/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "d021eb29db8ddde7cd1278bf2eb43c36eca52b4bde86603d3bb669bfc916d8b0"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.791,
+    "source_record": "P6_dyglib_CAWN_mooc_native/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "55dc119a0d9c5f16c511fcc4bddbfd194d1c5cb934728e084316e63588460c7c"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.7912,
+    "source_record": "P6_dyglib_CAWN_mooc_native/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "85d89545ffbecf5faa6aebb4b4d878fbf8d2ad1673de71b7d2d299a0d17eea16"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.7899,
+    "source_record": "P6_dyglib_CAWN_mooc_shuffle/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "2cf85908c0ddeec3357c234551427e1541a22bb9bfddfea9901de6e991741326"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.7896,
+    "source_record": "P6_dyglib_CAWN_mooc_shuffle/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "5a87a448f7af6b51bab1a353e95ec53d852bbc10b50938bca72e25c6cfe32569"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.7904,
+    "source_record": "P6_dyglib_CAWN_mooc_shuffle/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "79c7dd63abf04c8c584525fcdbda9f9b2b33fa020ed45b7830069997ecd96f33"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.7901,
+    "source_record": "P6_dyglib_CAWN_mooc_shuffle/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "779307584345c60837405b17837c7dc004fc7cd491a75982e93c20f225c8488a"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.7869,
+    "source_record": "P6_dyglib_CAWN_mooc_shuffle/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "38369b9948b3183d3ab966627fe32fcc2d454b7ab4da58440a1d5157d5d59ee0"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.7891,
+    "source_record": "P6_dyglib_CAWN_mooc_shuffle/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "bc8aa3c30f1cf69d83fadff4b3f6cc0e00fe1ee2e9dbd7cd44b974fa88df1463"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.657,
+    "source_record": "P6_dyglib_CAWN_mooc_shuffle/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "ed7fe012e4b8e50c0749049620485f6b74639c04beeba8bf8a3948afd682f7bf"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.7531,
+    "source_record": "P6_dyglib_CAWN_mooc_shuffle/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "f137bc046f5c1811511916b9a15330b3a409ecab66862826a3b4e0ac91b52877"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.7484,
+    "source_record": "P6_dyglib_CAWN_mooc_shuffle/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "5870a0a5e56ffa767bd03d98dc7a05f30859709ab2f60e924b3a41a9f779557a"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.6574,
+    "source_record": "P6_dyglib_CAWN_mooc_shuffle/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "f143afeb6edbd1d40d63a89146faf50617d2bc66fc19445a65cbcc45430e25a1"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.8674,
+    "source_record": "P6_dyglib_CAWN_lastfm_native/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "f65af6108774d4fd72dcfa712e288f8f3db9ff92a1649674b229a3a9b1dbd1da"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.8678,
+    "source_record": "P6_dyglib_CAWN_lastfm_native/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "69bd1ce7b4128964a884364d19416d844d65bffb18bfd11c63d867d2f880f88b"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.865,
+    "source_record": "P6_dyglib_CAWN_lastfm_native/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "77762ba2b759890820faab821b6535ae7c55518ac0495935449923d07a780a17"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.8651,
+    "source_record": "P6_dyglib_CAWN_lastfm_native/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "08846e044f19b06ec7be439d9dcf25cf5af28bcb78fa1fd21dc04b313d8266cb"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.8631,
+    "source_record": "P6_dyglib_CAWN_lastfm_native/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "312d8f495edce9a8e08c4f055e3e4f4ef3e1cb8d6982ce1c224fc2a2cbb61c3d"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.8613,
+    "source_record": "P6_dyglib_CAWN_lastfm_shuffle/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "591e78c70fde0561d73034c84086941be4407e537665029e67bac5618892ef66"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.8673,
+    "source_record": "P6_dyglib_CAWN_lastfm_shuffle/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "037bb42fbb7b61b7c739f91dbefb255e645e888e3874d2f5c4dba6b9e85b2745"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.8644,
+    "source_record": "P6_dyglib_CAWN_lastfm_shuffle/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "5316d81660044d9899eeb874705dbb63b3dd348d8564c311e51f7271245afd14"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.8646,
+    "source_record": "P6_dyglib_CAWN_lastfm_shuffle/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "d74654d7e042cfb294cafa58346a03cf4b4e4d0776ad52bf7137389386126121"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.8625,
+    "source_record": "P6_dyglib_CAWN_lastfm_shuffle/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "d2e7e7c984fd399b287e1ffa2886e19fe36a4b6c19a135de07ffc04cbad75aa3"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9306,
+    "source_record": "P6_dyglib_DyRep_wikipedia_native/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "ae7f630dc0500eb097efc7a1b9b32f01871b600c2016db1d0f5c321ea8266fc9"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9315,
+    "source_record": "P6_dyglib_DyRep_wikipedia_native/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "7f0440e711f3b3c91bb78e17c16f9399053195d036668a3bc7b487dc8e8477ac"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.925,
+    "source_record": "P6_dyglib_DyRep_wikipedia_native/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "e75c3dc705b735bdff5624f781e5d8ca63c983d1f9d901ad033374cee11301aa"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9301,
+    "source_record": "P6_dyglib_DyRep_wikipedia_native/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "2b0ab9f409877155e46578bd9de7371616734a97e9716ce8bd51add63994d894"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9283,
+    "source_record": "P6_dyglib_DyRep_wikipedia_native/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "b0b7314fe3d825ce5c49bc960be6ad7d5749e82d45974f6bc4ba1aa003958958"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9299,
+    "source_record": "P6_dyglib_DyRep_wikipedia_native/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "374e0d30e300971c5ac414976e0021454a36b4caa1910b8570183921f00bc12b"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9222,
+    "source_record": "P6_dyglib_DyRep_wikipedia_native/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "6527dec32e227ede7b0a8f67a1ac388544e30047703cc5c6f416945e34e0dea5"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9274,
+    "source_record": "P6_dyglib_DyRep_wikipedia_native/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "a7d30e068c9747c38b4d65dc830467f544cdff1e20c323c1d697c32ab8b852a4"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.9025,
+    "source_record": "P6_dyglib_DyRep_wikipedia_native/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "b622bf21b024e813d0978fea8dd27752a1e7331f0f646361c706db007946a39d"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9298,
+    "source_record": "P6_dyglib_DyRep_wikipedia_native/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "8fa08ce866e56717a29a2588ba680d847232c1a121cad70343b45a49281d7400"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9351,
+    "source_record": "P6_dyglib_DyRep_wikipedia_shuffle/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "e55258200abbae1d77dbe167003adfa28e740ce651a99c8206fd32a4078b4460"
+  },
+  {
+    "seed": 1,
+    "status": "subprocess_failed",
+    "source_record": "P6_dyglib_DyRep_wikipedia_shuffle/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "fc3ae5fa84b4c345d6013cc1d7b01e1699a9ea25cb60c316cd12eed9d2091d2f"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9265,
+    "source_record": "P6_dyglib_DyRep_wikipedia_shuffle/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "0d6a6726181e43ebc74e72fb5463e28f44d71f398ee1bc6dfe6b60e6c48f0930"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9328,
+    "source_record": "P6_dyglib_DyRep_wikipedia_shuffle/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "68634bdc873e472ed9c04be37a674d534bf1ff7dc32c38122862e213c68a6f7c"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9321,
+    "source_record": "P6_dyglib_DyRep_wikipedia_shuffle/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "ad7bddf3e4cb045d42087eebdc8c6eccf994cf1025e2710fe65c4a6b1bb3f4e7"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9299,
+    "source_record": "P6_dyglib_DyRep_wikipedia_shuffle/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "09bcc6c8c50e771d6c9a2a67485b7bc977574091384307087c0a73e80d21a7a1"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9299,
+    "source_record": "P6_dyglib_DyRep_wikipedia_shuffle/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "12da984aa7cd88950b6632ec34ac34d702b329cfb75abf3f0f7a25045326bccd"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9275,
+    "source_record": "P6_dyglib_DyRep_wikipedia_shuffle/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "b4aa7e14793ba97726e0cb77850eb649fe3e22720ca5caa4b4a2c23509825739"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.9027,
+    "source_record": "P6_dyglib_DyRep_wikipedia_shuffle/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "e0526babae7aaeb5a49c937c4aa495c5a233e54622f89d59cdaf29f24008fa20"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9299,
+    "source_record": "P6_dyglib_DyRep_wikipedia_shuffle/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "f908cb129726723b7754bf9f4bf4ddef121e3adb102f134e22edb903594fa115"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9763,
+    "source_record": "P6_dyglib_DyRep_reddit_native/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "157cc9d4ca74f2c614f0e1dd0082c5a11a078bf9a771d6e78411716e04ec579c"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.979,
+    "source_record": "P6_dyglib_DyRep_reddit_native/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "937fa3b4c385122e88a1cb4276474a25652a61fe699062fcbabe0669aba92724"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.968,
+    "source_record": "P6_dyglib_DyRep_reddit_native/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "fd4cd77dc358b6f19940b1d9a7cb45d72be1252ac66881e4a26356fc7065dbe6"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9794,
+    "source_record": "P6_dyglib_DyRep_reddit_native/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "faa7357566a294d3084eca15eb5d95c666ca7ca892555a459607b359321e6f80"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9784,
+    "source_record": "P6_dyglib_DyRep_reddit_native/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "210d1c025ad6e3134ac2c1803f3ecd880cca5e0a9f98c9c10e0b6f33858b5f67"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9787,
+    "source_record": "P6_dyglib_DyRep_reddit_native/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "b3c82c4dfa305cb2c1ca2d53f452ead1b1c19518005689d097fad5353972e6b9"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9755,
+    "source_record": "P6_dyglib_DyRep_reddit_native/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "3238d211c4a4424033f551dff8cea370b57584b54179a7a87da745304ed8b10c"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9784,
+    "source_record": "P6_dyglib_DyRep_reddit_native/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "1a64cb7ed49d6ad2bad4458aaf2eba245162c1ad3701d18c42cb6845a22868de"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.9765,
+    "source_record": "P6_dyglib_DyRep_reddit_native/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "83722a128c848adeed1b4196f6cf295c365c0b2e169e0fd0cc2de1d1881b0e40"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9736,
+    "source_record": "P6_dyglib_DyRep_reddit_native/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "104ec0e564d437e9632bd12ff937806216ae5ed6e7594e09f57739c967f11c20"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9795,
+    "source_record": "P6_dyglib_DyRep_reddit_shuffle/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "209b763bda59e8e83eb1073155ee70f742c9b3005994758e48242e0bdc962b20"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9767,
+    "source_record": "P6_dyglib_DyRep_reddit_shuffle/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "2d6967dbb025a07a6dad9e8357465f5c57d619626d4c2b2665be0dc297c8c275"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9778,
+    "source_record": "P6_dyglib_DyRep_reddit_shuffle/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "bd8dae76e0e1a6fc4e47f258e1ac1c36ab52c87c607b8710be4d07c2b5699929"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9794,
+    "source_record": "P6_dyglib_DyRep_reddit_shuffle/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "d0e7f1c12faaf0a7a71b2a5810e3347e7c42a769a28392eee849f1b72466ebf5"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9746,
+    "source_record": "P6_dyglib_DyRep_reddit_shuffle/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "6d6700f43cb127c4d7465e19bf84b2adba86f0314292feaa3b192e97643c28ca"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9785,
+    "source_record": "P6_dyglib_DyRep_reddit_shuffle/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "9c16cc6441c6312e76058d38c78629b70bfb6be0c797c7aafc98eaf1d6b8d061"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9758,
+    "source_record": "P6_dyglib_DyRep_reddit_shuffle/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "37e6f7371b095ed0e3459adb873cb6ba4e8cb7b0792435235bd2aebf6b86a5b1"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9605,
+    "source_record": "P6_dyglib_DyRep_reddit_shuffle/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "820b1ed319cf3a99077413db784b06b075dafd07243002bc89ed6ad17cc56f6a"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.9735,
+    "source_record": "P6_dyglib_DyRep_reddit_shuffle/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "580948b006b268855545e5276011e2c18d7dc65e5833def57f659b9e7bb744f6"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9786,
+    "source_record": "P6_dyglib_DyRep_reddit_shuffle/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "3073aeb13ded524c72459b6ac8a98b4b80e06c2f631b4078e5e3bfe165339eec"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.713,
+    "source_record": "P6_dyglib_DyRep_mooc_native/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "b8d7e6c9a7a4ffcf08746f3ed937055c587e05f9b763a5ce4cb234f6884ef5f3"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.672,
+    "source_record": "P6_dyglib_DyRep_mooc_native/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "f00e23a67e636dc88674da017e895187c67b3daa4b24699f06ade306a11384f9"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.7881,
+    "source_record": "P6_dyglib_DyRep_mooc_native/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "f006169e9e106b7ede9d5888414ac11d44b35eec8eda52ab9982e7415fd30705"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.6842,
+    "source_record": "P6_dyglib_DyRep_mooc_native/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "18923e349db43f8dbe3260c939adf6e727fc664a06eec22edee0ec1ac841a308"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.5904,
+    "source_record": "P6_dyglib_DyRep_mooc_native/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "3148c1ae066f56f2a8bed8a248bb9c805cd07050228cef52f8eb310a96c5c945"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.623,
+    "source_record": "P6_dyglib_DyRep_mooc_native/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "98e8238f4ec5a048b6acebec036da3d4dd2fd5158bdc26fbf98bb007b8ad65f1"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.6255,
+    "source_record": "P6_dyglib_DyRep_mooc_native/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "558a5f82058c5a02d5d7b6f3f46a9ee25fd0833048425973713f53b55094079f"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.748,
+    "source_record": "P6_dyglib_DyRep_mooc_native/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "b5f44d0256adfff061f5c334eace4ed897ef720b3bf78b0d3eed9270280f95d9"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.6157,
+    "source_record": "P6_dyglib_DyRep_mooc_native/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "79cd193eb70e08f3d70edaf79b78b67a1ecc03bc7fc9dfaaee40282ae3e68a33"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.702,
+    "source_record": "P6_dyglib_DyRep_mooc_native/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "b7c8608caf06fec1696ff963acc61c239945d867517521736ebba4d94fe74421"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.6371,
+    "source_record": "P6_dyglib_DyRep_mooc_shuffle/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "bcf6899ef8dca160cf88e1b7c1402ae694b34dd96060c76453f0a92e00ae90f1"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.6715,
+    "source_record": "P6_dyglib_DyRep_mooc_shuffle/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "c95484a4ed15a5e78e827617f184228eea0745f8c03f92153489cea3e01f8735"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.7857,
+    "source_record": "P6_dyglib_DyRep_mooc_shuffle/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "af22537b7ff955cfc01fbbc9711d5538a63ff74718290ad73ceb74ee4d919f7e"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.6188,
+    "source_record": "P6_dyglib_DyRep_mooc_shuffle/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "6f4ad89ddc4f7725b33d41813286af9116a13f0c956322c3ac0537b59eca1d26"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.5904,
+    "source_record": "P6_dyglib_DyRep_mooc_shuffle/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "4a42599d40bb573be685386d52b5a35bfe3445ea411530c7b8dee7aa86b1180f"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.6614,
+    "source_record": "P6_dyglib_DyRep_mooc_shuffle/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "1874ead4d51e1e85ed97a3021ece2cec0df109a6898087d6b317aefaa8d10487"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.7125,
+    "source_record": "P6_dyglib_DyRep_mooc_shuffle/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "878a0c7daffae1a10d282b33ca8d01579838e44f71dc137f41b31e990913861b"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.6373,
+    "source_record": "P6_dyglib_DyRep_mooc_shuffle/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "c74589278d153336ec47d442ae90cbbbf7e06ee38e45092ea89266cf2433e1b2"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.6483,
+    "source_record": "P6_dyglib_DyRep_mooc_shuffle/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "940f2e82e9aa88c6d78ec4b674427ca73e2bc1aa3d06217ce96fe60f50640fee"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.6257,
+    "source_record": "P6_dyglib_DyRep_mooc_shuffle/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "1cf95e8a1b6a11c862741db812996178d8e2201e8730a7035e3a7b935c13b350"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.711,
+    "source_record": "P6_dyglib_DyRep_lastfm_native/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "6da3e29b8f7c9d48a90442ee4393a28b0308dc9a684f8599600d9348340d462f"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.5325,
+    "source_record": "P6_dyglib_DyRep_lastfm_native/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "5eb616882eb7a53003311b77e4207e4c1e615b48561419b6f26fad67cc78e022"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.6727,
+    "source_record": "P6_dyglib_DyRep_lastfm_native/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "9f6e893d6c6348fbb15d04d544bd01e6e618209a2e9b5fabe606ccef24369fc6"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.6596,
+    "source_record": "P6_dyglib_DyRep_lastfm_native/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "f89bb0bff922d3fee6f226da02a5a1aeba8ac32571b85f92dc29b68e4edca0e3"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.6746,
+    "source_record": "P6_dyglib_DyRep_lastfm_native/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "c7029d3274862aebe685d15b5ab463944f39c3221d7cc569d774781d514eabd9"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.6661,
+    "source_record": "P6_dyglib_DyRep_lastfm_native/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "133560b7df641b490a6d75e2234588288a9a6737eacb0cca636587c4a9a7213e"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.6804,
+    "source_record": "P6_dyglib_DyRep_lastfm_native/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "d5df05e2331ba8b26043f7183527c78d5b4c05f8bd4d0489ede0b333cc8668e1"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.6296,
+    "source_record": "P6_dyglib_DyRep_lastfm_native/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "fceb685315d32db2ad103a282459fcdc21e9818eafba436b09b515e7ebef3a47"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.5857,
+    "source_record": "P6_dyglib_DyRep_lastfm_native/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "77aa6bb750942cda02d7573112fc4f16486201e8e6aba16462360bf1066b5ca5"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.5489,
+    "source_record": "P6_dyglib_DyRep_lastfm_native/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "e41cf74aadc3bade5c0ab09df6030fb8c0d42ee25f36ecd2bd1f1c81a695f687"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.711,
+    "source_record": "P6_dyglib_DyRep_lastfm_shuffle/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "8c252ffebba0d58d9f9c5ffa8f49794cf194462bbccf23d906927003ce3d4db0"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.6831,
+    "source_record": "P6_dyglib_DyRep_lastfm_shuffle/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "28db3c97d45bd523057761fb27f50115cd45e3925678e0b041de81a16135a95c"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.6296,
+    "source_record": "P6_dyglib_DyRep_lastfm_shuffle/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "b0589054a76c4cc9c919650b16f9d9bba2c1a5670e09bee24c0a1d909ac58a02"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.6441,
+    "source_record": "P6_dyglib_DyRep_lastfm_shuffle/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "356624a66b973e6c1e0800321b9dd34523d6f72488fd11fbf39a980b6fd8b81c"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.6367,
+    "source_record": "P6_dyglib_DyRep_lastfm_shuffle/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "fa54c792c3d2540327e9ddfca6ba3e65a897521d5a742893b6dd3818414ec61d"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.6847,
+    "source_record": "P6_dyglib_DyRep_lastfm_shuffle/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "2a5127c1ecaae8f0bc8f9fc88235566cfd15237ba41ec239e55956d2a9efb1c0"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.5564,
+    "source_record": "P6_dyglib_DyRep_lastfm_shuffle/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "4e4277301587e15a8628d10a4abd15c8d40c74eceec2f3827ab46091dc597a20"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.6486,
+    "source_record": "P6_dyglib_DyRep_lastfm_shuffle/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "70a8ba7454e34a3ca56332ce2380f1921046c9a749699339ef9b7d7ed36fe20e"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.5668,
+    "source_record": "P6_dyglib_DyRep_lastfm_shuffle/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "139336a6e895f65bbaf984cac98e4b6aa2980dd670d538bb82f1254b0d52c9c0"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.6018,
+    "source_record": "P6_dyglib_DyRep_lastfm_shuffle/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "5686a208de083558b2ae128846fa195ba65d750087c4f06c317ee456a259b70d"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9588,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_native/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "2fc50181e995903824a431d1a07d269c471e30f955a2ff771c1ef18e2c9f3978"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9598,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_native/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "45263fe32154a9c58e7a1d799c039c4a3ea0d9ba7094cc6641a3be7f05047a64"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9611,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_native/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "564a40cb55920eb8caaf74725f607a9bc847c6af4bd3af39d8597d4d46702131"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9634,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_native/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "af62651c1d1b659ff578daf97feee78054d985529f8921dd838c0459e01490b7"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9608,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_native/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "87ae0b9339bb2b02a2ff52e7b56a67ae3c4b7a6a52d5b1ba882c050d8f942901"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9585,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_native/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "28429797c3e1b7c84baaaa97ef548a31ebbbb2baf5445fb036d1e1d3d03421b2"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9618,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_native/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "d0b1f9f387143712242d55f79626522194c5e2f81a89ac9e67079967944e010e"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9612,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_native/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "e3ed51d78fbcace06859a247f09c1492e4da6854a7a24a8ca8f2384cb264f314"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.9612,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_native/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "0ca732140ee4e183015c483d70c21e20d6b1d9e9f5a1efc4f086bce5f56a8a9b"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9609,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_native/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "337baf4ea58b45bdad793c82a660bbd0b6ead5fcde7f65eaa048f9ba392f9325"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9505,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_shuffle/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "17a93f78723e482325b529e82660e35bfedd9fb4de48526ec904ab22ec359d57"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9519,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_shuffle/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "4fb8ad41010080b052a5a29ae4aedf9b0f53372f7b68d80ee915adaab17df319"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9154,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_shuffle/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "543cfac3e11e818109de0505f1d2e0f7137eb88ed703ac97d3d6e29adb499227"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9619,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_shuffle/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "95d053bc8e0f6ae8a338f162285eb443829a7b9f598a4489802c90ea64a9c79b"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9608,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_shuffle/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "712fd1d5b25d6b0320b714a7ab28bc9ccaba6747fa4e00672a34c3f8d09bd483"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9518,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_shuffle/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "0919365f2052c0bb9d2661d9f6aa040c4c2a7871b4b05a034724815bd49f3d5b"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9528,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_shuffle/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "ccd6284f1ebe9b999c40e708b6d60b2e26216b9694655460d5c8063710e35206"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9113,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_shuffle/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "d30ed9b5ac86f68796484997cd669d8a58851748ca0a3bab20074486e7a70a76"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.915,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_shuffle/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "c8aff1279e47e8a46953c7b81ea151f1d3de33c6502940a7cc0804593ee9fbdc"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9487,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_shuffle/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "0d5d9d44e4c78b8fadc002779a9229e86f99fa5255a1a5581e82280475be204c"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9651,
+    "source_record": "P6_dyglib_GraphMixer_reddit_native/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "26211d65f9479206a777dc6ab4f5dd3f65440197e57a220367a09e4123eddbc2"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9655,
+    "source_record": "P6_dyglib_GraphMixer_reddit_native/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "7bfc5ae147058287e2bb43bcbfe35fc730c00fc97e1cc382298c622f1b6842c9"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9652,
+    "source_record": "P6_dyglib_GraphMixer_reddit_native/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "6fead460a4e576f25da0d879940d49c79b09601e937bac796343d3b628a2b374"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9646,
+    "source_record": "P6_dyglib_GraphMixer_reddit_native/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "3ae691935692d1aa594269e29a82df0050d9945a96db913a26e0798e2c296688"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9655,
+    "source_record": "P6_dyglib_GraphMixer_reddit_native/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "9dedac2febcaa8787dd21e6b2acacd18912c1d9ca54af5d91ae10b494932347a"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9656,
+    "source_record": "P6_dyglib_GraphMixer_reddit_native/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "14fe5c205725858e11a5f14432913d3accb31544b2196efea10f6ceca47967e1"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9653,
+    "source_record": "P6_dyglib_GraphMixer_reddit_native/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "52beb8f3cace111ef12c3312fcd5de61a71d97291ce9df9ef3cfbeae4b168487"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9652,
+    "source_record": "P6_dyglib_GraphMixer_reddit_native/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "bddf35a4221736030a9eddb053b964b04c07b584f3a483bb90257ab38c8d0e44"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.9646,
+    "source_record": "P6_dyglib_GraphMixer_reddit_native/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "eebba7943181d2b96bd119d4ff4e9901305047a1589f607c182569b8790db141"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9632,
+    "source_record": "P6_dyglib_GraphMixer_reddit_native/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "17d189b43c1960bce5142cda074b0af0502dcd8f12dda417dd6a9bc51a498803"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9632,
+    "source_record": "P6_dyglib_GraphMixer_reddit_shuffle/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "8ef8c0b3a3b73e8fa78aa6e3296a2eec0d8206b90dae02150929e022c6b1bc3c"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9642,
+    "source_record": "P6_dyglib_GraphMixer_reddit_shuffle/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "b022e5f74b3802263c88320c67c58ea52c84267477bfe13db54285a4369e6195"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9639,
+    "source_record": "P6_dyglib_GraphMixer_reddit_shuffle/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "f408a2ea4a8f01144e5141e553579ed41853d5543ab7e7714124f503a8794a11"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.964,
+    "source_record": "P6_dyglib_GraphMixer_reddit_shuffle/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "09949614584976f2725448e4526d05ba631b89ff2e4428f91b77b1bc9ef9ab7d"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9639,
+    "source_record": "P6_dyglib_GraphMixer_reddit_shuffle/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "cabdb1c51ab726f589501d367b47c19af4f6c77f705b1c7ecc171034a2d88f8e"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9641,
+    "source_record": "P6_dyglib_GraphMixer_reddit_shuffle/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "31a4015b61d0085f8c6b13b3ee02e74476923b0416073678b22df30f65b17495"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9639,
+    "source_record": "P6_dyglib_GraphMixer_reddit_shuffle/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "42a84826680a41aa9afdb5e96cd4247ef20b21665aaf2a4717a6104413795bbf"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.964,
+    "source_record": "P6_dyglib_GraphMixer_reddit_shuffle/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "f4a0a2fe514661af6319b60eefdf15be82e4322cf82d8a6bb930778b39ff678b"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.9637,
+    "source_record": "P6_dyglib_GraphMixer_reddit_shuffle/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "47ef0cd6acb3076ca64a1e8b7f385ce39ce4c5b333e4c392510411ec22705638"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9631,
+    "source_record": "P6_dyglib_GraphMixer_reddit_shuffle/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "cfb57c97cf0dbbfa6afd52e39e75da4c6de01be0ca0e6398d3434219eca9ef6e"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.8117,
+    "source_record": "P6_dyglib_GraphMixer_mooc_native/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "ac0b35c41e0c6025802f19b8ce8b5da2c0d263bc0be8e6e58f9716d9022c6acf"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.8124,
+    "source_record": "P6_dyglib_GraphMixer_mooc_native/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "d2bf260dec7e7b12506180a9ec28140bd6eb3c8cf3ee54d6b80a3ff02de0e45d"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.8115,
+    "source_record": "P6_dyglib_GraphMixer_mooc_native/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "ef8cb8421a2068e611d11365868d5d22743f41efd3e22a7f42ad5585b3452c16"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.8094,
+    "source_record": "P6_dyglib_GraphMixer_mooc_native/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "e1423d9644b4a5fa800c18ba519c9dfe19b188a016636a3fa8b87fc7b59a4650"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.8113,
+    "source_record": "P6_dyglib_GraphMixer_mooc_native/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "d666548344d62c84ce898dd83f46e81bf479d79515c1779f23fcade02171ebce"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.8101,
+    "source_record": "P6_dyglib_GraphMixer_mooc_native/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "0c1184e62d509bd0932685ed86a389aad3b6a6a6e16e50afd177ead2da3e25db"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.8081,
+    "source_record": "P6_dyglib_GraphMixer_mooc_native/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "1b2988675fbf415d8e4f0ef5642d065756c9e5802c40cef86b7e6580f8c440e9"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.8061,
+    "source_record": "P6_dyglib_GraphMixer_mooc_native/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "0097c01e549a5fa37db9919deca8a7daff196f7f08d281aa4ccce99165680145"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.81,
+    "source_record": "P6_dyglib_GraphMixer_mooc_native/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "970fead788a97adad9a87b3df3d18d6ba5f6ec9e3515fff803c0a714d811ed5d"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.8087,
+    "source_record": "P6_dyglib_GraphMixer_mooc_native/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "94ecae7e8a8e3db96fad9c19b51295bf69f272226ec6b908f1d074f3108acc26"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.78,
+    "source_record": "P6_dyglib_GraphMixer_mooc_shuffle/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "21e6e75ea5192f8fabfc2898645485e33309ef992a4f9baec6e5ac40b1f1de7b"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.8114,
+    "source_record": "P6_dyglib_GraphMixer_mooc_shuffle/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "edb263724a9867aaadd181d93b52f1ede4e95786f17591d917dfb04234592a1f"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.6979,
+    "source_record": "P6_dyglib_GraphMixer_mooc_shuffle/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "00998216180051fef6403cfdc4ce9d1f1d49e88e017edfc74dd47570196f7c66"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.8094,
+    "source_record": "P6_dyglib_GraphMixer_mooc_shuffle/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "73b6da1708c038c31b2f1d5fb4dfa1ec29aef258c303e43b62826dd4e12bc456"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.8112,
+    "source_record": "P6_dyglib_GraphMixer_mooc_shuffle/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "5b24fed13bcbbd820ecd2b20e4c88b6b8b8c0bb7f1bccabf8d323ef4fd27b9fc"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.81,
+    "source_record": "P6_dyglib_GraphMixer_mooc_shuffle/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "fa63077729aee126d0edee1816869f75f74c61cd95e7bdeab18004895d4195ad"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.8082,
+    "source_record": "P6_dyglib_GraphMixer_mooc_shuffle/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "696d3feb6547e6e1b78e94396cb62b5f0d43ecc5db3faad09dd99d1b00028f44"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.8061,
+    "source_record": "P6_dyglib_GraphMixer_mooc_shuffle/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "f00a5a163f4238f0905d611120c1144ec2c125899d16177bb203960049c2a148"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.8102,
+    "source_record": "P6_dyglib_GraphMixer_mooc_shuffle/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "24b5887a5a04925e862e856ec81e14869713f7a39a2bd07c67c437c7a1e88721"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.8087,
+    "source_record": "P6_dyglib_GraphMixer_mooc_shuffle/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "32724f82a31dafedc2569dd1b63fba622eee9eba9c9e51d2bc1c40b6e5c687b5"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.7553,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_native/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "c79268874b73ffe2ff92fb5a4015d044751f9ae553572e0e92b2ba27a52194ef"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.7535,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_native/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "106e4427482d746d77e8bccdd2ea00e35f996f6b3947b6dc19e563a3ca8ef0b7"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.7575,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_native/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "3d8d7c658cc0f1b51f4c59e7cb01d34a2300a91c488758c2e093ecc476717d0a"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.7557,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_native/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "3aeec0a32d91a5ff559e4bcf9b482bcd0869b33b0f4b9622b1bcc8e2a0534558"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.6903,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_native/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "6c7e1093f70d839d16ba501f86531f53b60c38926b5293a196aa1948aa13936d"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.7538,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_native/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "621e13750a9ac88f9befa433b020315e8720ff42ad5ece48651f25dc496500dd"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.7569,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_native/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "855d60da2a86295e8aaa32ab68c9394abf8b633a7b150c2e6fa879a3a72a0dcc"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.6885,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_native/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "29cc3a770e9a78ad364ae90cd655791116b5c7f598b6c193a1ad17920684c852"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.6799,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_native/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "80defd2b22c0c15e34f3709ac8c8feb51d2fbabb0bce35eab02d2a04dcb53ab2"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.7536,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_native/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "573e89dbc2b1317949a20f92a12485c90f516dae7be1352b8bf25a091e5ac9f0"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.7553,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_shuffle/runs/0.json",
+    "archive": "legacy",
+    "original_sha256": "f35823fb75c919fe311c8f2e8f0dbb15c49e249fab243053d27dc505d0d88936"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.7535,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_shuffle/runs/1.json",
+    "archive": "legacy",
+    "original_sha256": "be01c46e90212a7298cc40fc3fc9a4f6ef2feebad229954741ba20f5de39c4bc"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.757,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_shuffle/runs/2.json",
+    "archive": "legacy",
+    "original_sha256": "705f6808f14aa5bab2cf1269599d76eb4abe50c46ce1e9a508e4d7e02a229b3e"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.7557,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_shuffle/runs/3.json",
+    "archive": "legacy",
+    "original_sha256": "103ce8c26c15531d53ab678b97523385bdad07b5c3be1968db91a15156c758b0"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.7548,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_shuffle/runs/4.json",
+    "archive": "legacy",
+    "original_sha256": "b8ac8c813f9b0907cdc1d8905a01e69c5a6ee63346db739c95821113eb31b70b"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.7513,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_shuffle/runs/5.json",
+    "archive": "legacy",
+    "original_sha256": "38998d1563241916117b472307ce7ea418b552f0a697a70edf24c167da12fa19"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.7562,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_shuffle/runs/6.json",
+    "archive": "legacy",
+    "original_sha256": "2def07c8d18987b81b77b8a4eb273e580d3b47152d875a4bc46e0811018f402a"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.7548,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_shuffle/runs/7.json",
+    "archive": "legacy",
+    "original_sha256": "8a7688c50de360d21873fc736d9f798b280a347f4a7a50a618bb832f665ceb65"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.7536,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_shuffle/runs/8.json",
+    "archive": "legacy",
+    "original_sha256": "804e63b1ce0b0fca95f5b76c799be50d86607f33f835338eca484b0ee67fe8b5"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.7567,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_shuffle/runs/9.json",
+    "archive": "legacy",
+    "original_sha256": "86f81be2e262bf349096f718f67f4dcb270545ef26549b231765b0bfe61805aa"
+  },
+  {
+    "model": "TCL",
+    "dataset": "wikipedia",
+    "time_resolution": "native",
+    "metric_name": "ap",
+    "num_runs": 10,
+    "best_test_metric_per_run": [
+      0.949,
+      0.949,
+      0.949,
+      0.9498,
+      0.9511,
+      0.9523,
+      0.9538,
+      0.955,
+      0.9482,
+      0.9465
+    ],
+    "source_record": "P6_dyglib_TCL_wikipedia_native/metrics.json",
+    "archive": "expanded",
+    "original_sha256": "87e22a92cfc806bf2b5cf93a65069d206ed81ace6e307a0a5aef640fd602d5ef"
+  },
+  {
+    "model": "TCL",
+    "dataset": "wikipedia",
+    "time_resolution": "shuffle",
+    "metric_name": "ap",
+    "num_runs": 10,
+    "best_test_metric_per_run": [
+      0.9004,
+      0.9004,
+      0.91,
+      0.8861,
+      0.8795,
+      0.9157,
+      0.8923,
+      0.8868,
+      0.8857,
+      0.899
+    ],
+    "source_record": "P6_dyglib_TCL_wikipedia_shuffle/metrics.json",
+    "archive": "expanded",
+    "original_sha256": "e71bd8185c92611fb9eae1a35b3c3e3cc1564a6f0f5e22d2da7f3df4c7a418a1"
+  },
+  {
+    "model": "TCL",
+    "dataset": "reddit",
+    "time_resolution": "native",
+    "metric_name": "ap",
+    "num_runs": 10,
+    "best_test_metric_per_run": [
+      0.9619,
+      0.9619,
+      0.9641,
+      0.9636,
+      0.9612,
+      0.9639,
+      0.9641,
+      0.9627,
+      0.9627,
+      0.962
+    ],
+    "source_record": "P6_dyglib_TCL_reddit_native/metrics.json",
+    "archive": "expanded",
+    "original_sha256": "0b474c8064b444d4ca87a5ae9ec15445aa85ba022dba97af068a7ef5b2da4980"
+  },
+  {
+    "model": "TCL",
+    "dataset": "reddit",
+    "time_resolution": "shuffle",
+    "metric_name": "ap",
+    "num_runs": 10,
+    "best_test_metric_per_run": [
+      0.9636,
+      0.9636,
+      0.9651,
+      0.9645,
+      0.962,
+      0.9657,
+      0.9648,
+      0.9645,
+      0.963,
+      0.9635
+    ],
+    "source_record": "P6_dyglib_TCL_reddit_shuffle/metrics.json",
+    "archive": "expanded",
+    "original_sha256": "7382286c8104b755b2bd2911504c4c323251508912755f21db780c0527724cab"
+  },
+  {
+    "model": "TCL",
+    "dataset": "mooc",
+    "time_resolution": "native",
+    "metric_name": "ap",
+    "num_runs": 10,
+    "best_test_metric_per_run": [
+      0.8091,
+      0.8091,
+      0.8094,
+      0.8116,
+      0.8115,
+      0.8111,
+      0.8117,
+      0.81,
+      0.8103,
+      0.8123
+    ],
+    "source_record": "P6_dyglib_TCL_mooc_native/metrics.json",
+    "archive": "expanded",
+    "original_sha256": "493db6fbda82683bae494d477b02f11af04bde31346603a53ea8c9be6693d431"
+  },
+  {
+    "model": "TCL",
+    "dataset": "mooc",
+    "time_resolution": "shuffle",
+    "metric_name": "ap",
+    "num_runs": 10,
+    "best_test_metric_per_run": [
+      0.7005,
+      0.7005,
+      0.7025,
+      0.7041,
+      0.7001,
+      0.7059,
+      0.7036,
+      0.704,
+      0.7043,
+      0.7036
+    ],
+    "source_record": "P6_dyglib_TCL_mooc_shuffle/metrics.json",
+    "archive": "expanded",
+    "original_sha256": "442442db5897779fff5e9a489c8069b06f9a1fd53d53ac31309c539bcd901ec6"
+  },
+  {
+    "model": "TCL",
+    "dataset": "lastfm",
+    "time_resolution": "native",
+    "metric_name": "ap",
+    "num_runs": 10,
+    "best_test_metric_per_run": [
+      0.7481,
+      0.7481,
+      0.7282,
+      0.7499,
+      0.7672,
+      0.7541,
+      0.7734,
+      0.7721,
+      0.7702,
+      0.7334
+    ],
+    "source_record": "P6_dyglib_TCL_lastfm_native/metrics.json",
+    "archive": "expanded",
+    "original_sha256": "d11a27f2af350d7c907ba5b9a3c3eda56fd3f7eee81c9c5d98c93b4e5ca962db"
+  },
+  {
+    "model": "TCL",
+    "dataset": "lastfm",
+    "time_resolution": "shuffle",
+    "metric_name": "ap",
+    "num_runs": 10,
+    "best_test_metric_per_run": [
+      0.4948,
+      0.4948,
+      0.507,
+      0.5072,
+      0.5078,
+      0.5316,
+      0.5261,
+      0.5062,
+      0.5384,
+      0.4964
+    ],
+    "source_record": "P6_dyglib_TCL_lastfm_shuffle/metrics.json",
+    "archive": "expanded",
+    "original_sha256": "c255fb0533b56b01059f8a3def0cafcc9cee68eeffc52ccdb6a2c328dbef99ed"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9896,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_native/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "51d0f2d8e939aa6209deb48dc1b2b74773f64a2fa72247b434ddba8f29aa0a17"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9895,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_native/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "8d71b6562517f3790f3dd2ad3db9e344632bc0ab5f50f72b7f69df1df3e7a434"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9897,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_native/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "2831ffd3c6177a59efccb1678f94ca147f5e2bf4963c8e6914acd8b08dac891b"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9898,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_native/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "02cb1da160609ce405a6bb705b0ccbf179f996b37a15d950c96e3a6fd6bd10c1"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9897,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_native/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "67ab0be5f316f63e802dccda1eb3770ec25b09eefc44c98662b673adee2678dd"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9898,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_native/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "c086f9f5615ba49a43536be2231b5d63d1e90f03bc141a4aa904b939ea457a60"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9901,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_native/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "17ebf2805896ccad3bb9b3ee868685773807011542796621c9652b83b0fad9c7"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9904,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_native/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "b5f5100b5bb41cb688bf2ae052c2ecb193d7629df09dc30198a12f5a16803b78"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.9897,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_native/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "050fbe4082d8ee763ae36b2185b7486ee99e41b0919c8c42c5ec99b35d74f812"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9899,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_native/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "d999b2fdbebb139e5776699e70ac67adeb6460b06d36ba59afe50179bcd05946"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9876,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_shuffle/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "f0089b8d2be28c8ceb4141f1d11c55c88a171d2a6d461ea092c2916cf2565006"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9881,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_shuffle/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "cb4217a7fe5384fad8ebe686aafa54db610f1f6e7071b36ed0a9653885fa132e"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9885,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_shuffle/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "c3254045988f232b27cb780240b050f4e12fd2002d869a78960d08f078a23b15"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9881,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_shuffle/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "9c4da7332befaec6a71e8b445109205746f614edae4f8788f0e3e2f273f5f3b6"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9879,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_shuffle/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "b04e517537b90a25413f85d210fd1284a77dd4040dbf732bad2fe4d0d96c0a27"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.99,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_shuffle/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "fde3d5739fadec25c602c57d716f7c9d5198693b67cdc70152d2b1be3f002f29"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9902,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_shuffle/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "8d3ebe22d8eb74585061eb105508eb2cc7042f74968e18312b2cac4d57c4bde9"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9875,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_shuffle/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "87520dc5a8b212d3d9b1a96ac72b5c1497290fdb20f0ba02856862556b74f9d5"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.9885,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_shuffle/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "c900809dca39092ee590e196b6d09a32e754aa0b7693d648715e3f449b45d812"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9881,
+    "source_record": "P6_dyglib_DyGFormer_wikipedia_shuffle/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "97e4994a65bdea081c31dcd3b82952656f6e8e6f361ad65e75a1a041a40fb8a8"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.992,
+    "source_record": "P6_dyglib_DyGFormer_reddit_native/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "c660f3612b5ec948dc628c7da30fd5b4d7eb667fddfdd2cd14d02c7889ea879d"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9906,
+    "source_record": "P6_dyglib_DyGFormer_reddit_native/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "93775e167b965da10c7b2aa2dd28abdd49a28d08ad6aba9d0cba7862b8022e1e"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9919,
+    "source_record": "P6_dyglib_DyGFormer_reddit_native/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "18186d842684e65fc2bfaa1eb5db92766a1c7b0d7643d5483b4cb21826953104"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9919,
+    "source_record": "P6_dyglib_DyGFormer_reddit_native/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "a672f7e09166466ec2ba6d4d907db9d3f1dd7b293dc5003457955fef36957547"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9914,
+    "source_record": "P6_dyglib_DyGFormer_reddit_native/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "121ecd24765194d8a0651454f8e2f4f0f5c5f21c0b75f2bca2435f1d6954f0d2"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9917,
+    "source_record": "P6_dyglib_DyGFormer_reddit_native/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "8c5aaaa1ee98b6f6d693f71cb5ab74d0fc2403224a10d58e0649cb5e1e8a501a"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9917,
+    "source_record": "P6_dyglib_DyGFormer_reddit_native/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "bb660f8a836db4207ca1ac60325290e003f73ff28d81e5711d1505dc47ebfb38"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.992,
+    "source_record": "P6_dyglib_DyGFormer_reddit_native/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "e03597ce65163eb226e9e9620ea7d09a8d8e9ca9c903bcaa6c2c22de42c6b5e6"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.9919,
+    "source_record": "P6_dyglib_DyGFormer_reddit_native/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "28bbbf6c45cbae90f427dd7040e1f69b9c88999b316bbda3a7e25ccb917f867a"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9916,
+    "source_record": "P6_dyglib_DyGFormer_reddit_native/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "2dffa0f0b90e0e8c10ef9c5632eb0640e4d0a4306bc118ebdc0adfe22df7afce"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9918,
+    "source_record": "P6_dyglib_DyGFormer_reddit_shuffle/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "baa9d1cf787aef2b1cc2f50d523cebcb9e7128059d0cf6c8add0a6614bf6d2db"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9914,
+    "source_record": "P6_dyglib_DyGFormer_reddit_shuffle/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "072e5e98a898b3d4fe10f224b83fa12c1eafab649c5c8f0204b25af337f0d179"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9918,
+    "source_record": "P6_dyglib_DyGFormer_reddit_shuffle/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "50cdd8402028e7cb4e3c1b95301ab40827c1f70f1a7f22243f5f9304b837078d"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9918,
+    "source_record": "P6_dyglib_DyGFormer_reddit_shuffle/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "a46a79ce397597504bfc28faf9fc995f5ac4d03a79b3b176244cbe7f9c92af69"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.991,
+    "source_record": "P6_dyglib_DyGFormer_reddit_shuffle/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "130344c6eba456af968d50ab7336ecfe5c5aa0cafd36266d47cb3ed1dba58583"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9916,
+    "source_record": "P6_dyglib_DyGFormer_reddit_shuffle/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "fc43b657333c08b954ac49be0ca906caacd3909a1d383e1e628457d3a9788981"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9917,
+    "source_record": "P6_dyglib_DyGFormer_reddit_shuffle/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "1b6bd900b40ac51ba4eae0ff091026e1703c70cac0e866776c726eee916e1ec4"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9915,
+    "source_record": "P6_dyglib_DyGFormer_reddit_shuffle/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "f46982f48bd2920c77148b3afa07b2c9388286a4319ed0ad5bc4dcc16541d1e7"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.9917,
+    "source_record": "P6_dyglib_DyGFormer_reddit_shuffle/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "c681604bd9fa057e4c4c56a43adfcdca1675cf92ad0d565fe98f87bb96dc14d2"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9916,
+    "source_record": "P6_dyglib_DyGFormer_reddit_shuffle/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "2dffa0f0b90e0e8c10ef9c5632eb0640e4d0a4306bc118ebdc0adfe22df7afce"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.8362,
+    "source_record": "P6_dyglib_DyGFormer_mooc_native/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "147999b98ffe249e1ebcf9519c138ce229238ba72d6a5c33c050a6aada2b4a45"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.8451,
+    "source_record": "P6_dyglib_DyGFormer_mooc_native/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "01c5691491de188927344f9016103d0d86201253da7add07ef4e24a0bc82dbc4"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.8052,
+    "source_record": "P6_dyglib_DyGFormer_mooc_native/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "6cb52e1139eb84173e57b69fe963f9d94f719b2e100d481550951d3d4dfa80f0"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.7927,
+    "source_record": "P6_dyglib_DyGFormer_mooc_native/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "0750d3e5facfc099e327417867538a7897be3e34230186774f3d1f1fe2c8f8f9"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.7675,
+    "source_record": "P6_dyglib_DyGFormer_mooc_native/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "325b6b5c052b6458d087549da3dc9489acbfdbd206b695bc9df061ca361fe2d8"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.8159,
+    "source_record": "P6_dyglib_DyGFormer_mooc_native/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "6d31d1fb1712ae514def46493bf015f9c63d9af2ee7af0d133c7eb24c6b65026"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.6597,
+    "source_record": "P6_dyglib_DyGFormer_mooc_native/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "34b8a6c2b8920ba065213f25981916980896f453e6c6abcaad3ad612802eac17"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.784,
+    "source_record": "P6_dyglib_DyGFormer_mooc_native/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "c8d2a090d1dfc5cac181d83b25e248f263e0659e413220c91e92319dacb8314e"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.629,
+    "source_record": "P6_dyglib_DyGFormer_mooc_native/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "95f9a885e5a0c0413150327022f5ba63acbf74c4129c2d4e65aef382d5052cf5"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.7766,
+    "source_record": "P6_dyglib_DyGFormer_mooc_native/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "98d7f7b12536ac0bca8a428f7ee659bbf34699e84e887a03a041307a26033ee8"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.7804,
+    "source_record": "P6_dyglib_DyGFormer_mooc_shuffle/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "13d8823063b18f1f83a809a868572b05ca076c7557eeda3c1dfeada304e37ece"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.6686,
+    "source_record": "P6_dyglib_DyGFormer_mooc_shuffle/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "c931fcb1e5fa6f6e8fdb2a057c347947e09022dd0c78a87d22963cfa513aad99"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.6561,
+    "source_record": "P6_dyglib_DyGFormer_mooc_shuffle/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "297ce19d45a288d0e42c86ad4c2d9eefe6cc261bf66f382590e5722d731941ad"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.6462,
+    "source_record": "P6_dyglib_DyGFormer_mooc_shuffle/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "41ff569c32a56aad77d6f7ddb31d147a3b5fdf24bf85d54cffa873165ec381d2"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.7714,
+    "source_record": "P6_dyglib_DyGFormer_mooc_shuffle/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "6c0b1035808f56e8e4468e4d687f15ce0545e3aef22d05b6ebc571cf5a00a8fc"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.815,
+    "source_record": "P6_dyglib_DyGFormer_mooc_shuffle/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "32472d88fb9a6544c499d0e3f91aa0d0078ed4ac714c006a7947af65a47f97a4"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.6525,
+    "source_record": "P6_dyglib_DyGFormer_mooc_shuffle/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "aaae43ab7ba4dc8e2a1de01ab9c8db87f38ebc66e73e029311fc906092ea131a"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.6412,
+    "source_record": "P6_dyglib_DyGFormer_mooc_shuffle/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "6f49d26ec902a44d2a03876977d5fa5bd751206cca83a7740b8003f4cf3ad2d4"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.6355,
+    "source_record": "P6_dyglib_DyGFormer_mooc_shuffle/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "b3d1efc9738fc5f87c856012aabebed8dff949112bd0ecbaeb67811c45358f64"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.7745,
+    "source_record": "P6_dyglib_DyGFormer_mooc_shuffle/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "5badc4ab5145e2c1497d366d567802857e39c8a978de972915602b5927594f40"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9227,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_native/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "2403f6a451221a8d246108357bf550166e2c1756e36075b1f27a88e295371d25"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9214,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_native/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "91ac19efca994af83dc8d1613f35e6f0f4eb2969bf5689cbee011dce85a8ced3"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9248,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_native/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "083329827137b75fce554be9fa79f473d245a261d6aa45e406770c781f5d13a4"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9228,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_native/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "c33a9d6fd0382ec92c56e5639bca59e8fe015a47c027c3674dd8bcba6e8f7c32"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9246,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_native/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "01fc149638153f2953b9dd4c6a0879f9e80f47739cf651bd4b8bd9e194f609d7"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9245,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_native/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "533eb954e827f95b2d507e7fbb19ecc5b5c7ed52d6c4ffc73fa92a8356e874e5"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9262,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_native/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "10b4ed2a0488db2c7eb623f5428fbb9d7ad84139ef8037c93a6a673c3e82f279"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9264,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_native/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "f803426ef16c40aa1913f014d2e6d0b0cbd00ae0c4fe70636c878397144e3b79"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.9258,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_native/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "881617082a5f30413b2b870b12360de29b5211152ca2b84039727fc255e0ff43"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9255,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_native/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "38b87e640edef0d61631fa5e7e37b4abc9e319ea7c5481358babbf5f6b642c10"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.918,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_shuffle/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "26d519e5d45dcf3d39b023d507eb143cbf662a908a58ffbae4a97f3ad70c816c"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9179,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_shuffle/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "364f8c6463041828eeedcffbea92958da610c8e94c00bfefa17614c5511a92f4"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9179,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_shuffle/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "5cc1fb5c8f149cdc5010b93d3ac24d1991245402ec856e6f459fc5574a5c1199"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9222,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_shuffle/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "7509abf85d154e293ece81ecc27752b652f2e648cc864d41e7e3286b46c64e41"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9241,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_shuffle/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "1c9117922cf0e5abc7115e58feb52d7f7afb2c9a750664b4c1472eadab5f9627"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9239,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_shuffle/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "c62ed65f047254c4f2213c244fd60380c2b5527f848cc03a88571c5d729d9f91"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9257,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_shuffle/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "51ff8a234aa5f3fed34e1627fd406767f5c2a81d7276b76d18c41b34a07f24a4"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9257,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_shuffle/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "a3a349607b0473ff0f2531ccca9c07c645c0f1dcd4da04fc8fc8c75648a68376"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.9252,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_shuffle/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "f00d6fe2393770c467c245fc1a785c9458e5eb40216d77de76e95a11ba48f3a2"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.925,
+    "source_record": "P6_dyglib_DyGFormer_lastfm_shuffle/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "a317531fe6d83089d20c1bc8a329678df31c59bf20acad355ac26230a5285ecf"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9848,
+    "source_record": "P6_dyglib_CAWN_wikipedia_native/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "de76e57069b5c06352b1bd07b9a168228efdf1c5a3a91f70d5a399c9d33a45d7"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.987,
+    "source_record": "P6_dyglib_CAWN_wikipedia_native/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "d243c8f709a264a705466047df6dfcc936c9e5d416c8c09c92d311547c7b389f"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9853,
+    "source_record": "P6_dyglib_CAWN_wikipedia_native/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "212cbbf25bee1f179effeef06851e5687f5546da32c86fbded5c5868b15df842"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9872,
+    "source_record": "P6_dyglib_CAWN_wikipedia_native/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "628a8fc09596e59017c98548180939005362d44b559fa212b6e4edb8e6020c5c"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9874,
+    "source_record": "P6_dyglib_CAWN_wikipedia_native/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "88794468ff815c0d06b06f9ef104ba0859942ac93c8e310c9fe56f10cd2e0fd2"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9871,
+    "source_record": "P6_dyglib_CAWN_wikipedia_native/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "79d8ed339097ebd029b5ec1a227f673d0d2feef4d90671e4bb3d0f46a28141bd"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9871,
+    "source_record": "P6_dyglib_CAWN_wikipedia_native/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "956d2456d24df42088c62c21f95b589227cfde07c498abbc2f457993927d1551"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9868,
+    "source_record": "P6_dyglib_CAWN_wikipedia_native/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "6134f69fbac872b9545362a3eb0583651802f0ad215c39ffe5c15c4ec5887962"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.9872,
+    "source_record": "P6_dyglib_CAWN_wikipedia_native/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "0352724558bd496110eb35fdbc03aafafb5a481d6f70dfd203317bce091bd8ef"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9846,
+    "source_record": "P6_dyglib_CAWN_wikipedia_native/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "526b97b9cb76e4e6125ecee275789ab7d13ce7fa628f0a2c669ddd0d4c9d381e"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.985,
+    "source_record": "P6_dyglib_CAWN_wikipedia_shuffle/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "c2e89e72eda5a6fcab4bbeffcc9ebbda46f9a99212c2f273107b814daac7d1f1"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9849,
+    "source_record": "P6_dyglib_CAWN_wikipedia_shuffle/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "cd43ac822b95d72f505e26214041b2657f1493ee537d909654ced24e7f890eca"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.985,
+    "source_record": "P6_dyglib_CAWN_wikipedia_shuffle/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "5e52027ade05c83044e1b97644219e81b663edf00fdfc466e024d0281738d28b"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9826,
+    "source_record": "P6_dyglib_CAWN_wikipedia_shuffle/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "c4b0d4c8815ef184228ed09c1998ec1d5a638272bafc9fe748ac9237e3123681"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9855,
+    "source_record": "P6_dyglib_CAWN_wikipedia_shuffle/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "5488b148e624fc26982573918da91a987455909bca949b0ff03d39710f8b5158"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9855,
+    "source_record": "P6_dyglib_CAWN_wikipedia_shuffle/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "d85f77a3fbd64798842c3ce2b99850174de1afd37bcaf72d5193f5777f8af928"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9825,
+    "source_record": "P6_dyglib_CAWN_wikipedia_shuffle/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "2834349181852d423908df811fef8776f5d8c11f74454bb9ebf9d3efc714e113"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9854,
+    "source_record": "P6_dyglib_CAWN_wikipedia_shuffle/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "fc8337e5cb70a41c2dc5919e80422fbcf56da7bc252d290f06eb7e2b191db7e2"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.985,
+    "source_record": "P6_dyglib_CAWN_wikipedia_shuffle/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "e0386bc0f7390bb13346c43612b3e314ccce0675223f7cbb26cff2fc82d2f03d"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.985,
+    "source_record": "P6_dyglib_CAWN_wikipedia_shuffle/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "9dbbc031ef063ac1055b9bc4d25ec49b173d04eb8e6cef83e42b93272c0db560"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9909,
+    "source_record": "P6_dyglib_CAWN_reddit_native/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "aa815588a2ca119ad5ec29fd74c7f693751508babe32a8fae2c89c17a8de23bb"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9906,
+    "source_record": "P6_dyglib_CAWN_reddit_native/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "1c89622129bfb6c80586370b2d32ec3afdaa843fc1bee6438901b5c05ab34966"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9908,
+    "source_record": "P6_dyglib_CAWN_reddit_native/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "d708cc536b71be5cda75d73d447ada9f34f229f764dd3bcbdfadb2bdbfc82eae"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9906,
+    "source_record": "P6_dyglib_CAWN_reddit_native/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "59ecbe0f50396fdb1cfc43089ad536eea5d2dff52e58bb922c691c274fdd1f87"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9908,
+    "source_record": "P6_dyglib_CAWN_reddit_native/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "93be2183a4c89143f112734f50736d9e947fde1f19c7b00beea806f5b9a2db32"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9908,
+    "source_record": "P6_dyglib_CAWN_reddit_native/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "472ba22f04ad9904b528b1a0e08a75a7ab5b955c34e3ff2a2f9367ca9cd24b49"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9908,
+    "source_record": "P6_dyglib_CAWN_reddit_native/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "6dc6790a22c19ea612088b11e1bb10f98fdf332706e69cfb99ad77c7ef7c3fa3"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9908,
+    "source_record": "P6_dyglib_CAWN_reddit_native/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "a69d9deacf4d33993f2901f20042a1d1efee9c3cd7c12f16bf9283e38d388f57"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.991,
+    "source_record": "P6_dyglib_CAWN_reddit_native/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "dc39dac21ab3a1c0f50c43364a92508a2183406d48e2bfe198e89b4c00fda62b"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9909,
+    "source_record": "P6_dyglib_CAWN_reddit_native/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "68bbb31859f6681cceb48e1bc4a0bb5650bf79d8f8eea22126c3364bb2c09718"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9908,
+    "source_record": "P6_dyglib_CAWN_reddit_shuffle/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "ba51286b9be4802b1cef988531765b3addb804b66226889cbc4e3843bb88bfec"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9909,
+    "source_record": "P6_dyglib_CAWN_reddit_shuffle/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "f4fc91f0525c0a226258d1020d8d8760b1670ec2d42426a82a1c7691c2133e5f"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9908,
+    "source_record": "P6_dyglib_CAWN_reddit_shuffle/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "d708cc536b71be5cda75d73d447ada9f34f229f764dd3bcbdfadb2bdbfc82eae"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9906,
+    "source_record": "P6_dyglib_CAWN_reddit_shuffle/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "34472a440d6f5aab555ff0154e36cf88871d60b6af3dfc3ad9f4814db5205072"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9908,
+    "source_record": "P6_dyglib_CAWN_reddit_shuffle/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "b5d65d45be022c51b4694b6a1ad736239b9d78cec5f49e3e6541a12c0afaf7f5"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9909,
+    "source_record": "P6_dyglib_CAWN_reddit_shuffle/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "744afcebe8cb22239c77231e40ee33cf08d7db290d1b2978fb3e0a675adf6b72"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.991,
+    "source_record": "P6_dyglib_CAWN_reddit_shuffle/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "f077226e2181c28206a5433fc66646508a3f0f9b9c7e046787e74613d976d277"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9907,
+    "source_record": "P6_dyglib_CAWN_reddit_shuffle/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "6b4bb1f500ab7373dc80c3939fb529f02e4d3ada7b765b28027d945232a8ce85"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.991,
+    "source_record": "P6_dyglib_CAWN_reddit_shuffle/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "707f93908f4c8c3032db425e96139ee78916d67db14a337ea819164e2989d2b1"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9909,
+    "source_record": "P6_dyglib_CAWN_reddit_shuffle/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "68bbb31859f6681cceb48e1bc4a0bb5650bf79d8f8eea22126c3364bb2c09718"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.7912,
+    "source_record": "P6_dyglib_CAWN_mooc_native/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "dcc159d03eaaa6707a3077ce06a5ca1b12d2d265ff3d95c0b2fd9589a6811198"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.7902,
+    "source_record": "P6_dyglib_CAWN_mooc_native/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "7485d27413045582023fd6f185028e8850f952c1542b9231ff7b5efb3a57c755"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.7912,
+    "source_record": "P6_dyglib_CAWN_mooc_native/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "a65bbf275aef89692b42a26e902bbfa01acdd67a380006d9a0312951ebfa9647"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.791,
+    "source_record": "P6_dyglib_CAWN_mooc_native/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "91159c35fc1f58736611d5e05c3a2885e65dddf1f65d8273a8ad367240b474cf"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.7881,
+    "source_record": "P6_dyglib_CAWN_mooc_native/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "1560d631a4c99215857de6aa75f0268b8ca318db1b2e7c266de934af5c3a073f"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.7906,
+    "source_record": "P6_dyglib_CAWN_mooc_native/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "99f692332a913033748203d550318982c879b1d9aca8e9fef7e973bcabfb86b3"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.6475,
+    "source_record": "P6_dyglib_CAWN_mooc_native/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "91cbb54d438da6db41eaec498fc9ed5e489acb43eb8ba1a24914e4020fa51327"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.7901,
+    "source_record": "P6_dyglib_CAWN_mooc_native/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "d021eb29db8ddde7cd1278bf2eb43c36eca52b4bde86603d3bb669bfc916d8b0"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.791,
+    "source_record": "P6_dyglib_CAWN_mooc_native/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "55dc119a0d9c5f16c511fcc4bddbfd194d1c5cb934728e084316e63588460c7c"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.7912,
+    "source_record": "P6_dyglib_CAWN_mooc_native/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "85d89545ffbecf5faa6aebb4b4d878fbf8d2ad1673de71b7d2d299a0d17eea16"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.7899,
+    "source_record": "P6_dyglib_CAWN_mooc_shuffle/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "2cf85908c0ddeec3357c234551427e1541a22bb9bfddfea9901de6e991741326"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.7896,
+    "source_record": "P6_dyglib_CAWN_mooc_shuffle/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "5a87a448f7af6b51bab1a353e95ec53d852bbc10b50938bca72e25c6cfe32569"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.7904,
+    "source_record": "P6_dyglib_CAWN_mooc_shuffle/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "79c7dd63abf04c8c584525fcdbda9f9b2b33fa020ed45b7830069997ecd96f33"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.7901,
+    "source_record": "P6_dyglib_CAWN_mooc_shuffle/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "779307584345c60837405b17837c7dc004fc7cd491a75982e93c20f225c8488a"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.7869,
+    "source_record": "P6_dyglib_CAWN_mooc_shuffle/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "38369b9948b3183d3ab966627fe32fcc2d454b7ab4da58440a1d5157d5d59ee0"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.7891,
+    "source_record": "P6_dyglib_CAWN_mooc_shuffle/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "bc8aa3c30f1cf69d83fadff4b3f6cc0e00fe1ee2e9dbd7cd44b974fa88df1463"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.657,
+    "source_record": "P6_dyglib_CAWN_mooc_shuffle/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "ed7fe012e4b8e50c0749049620485f6b74639c04beeba8bf8a3948afd682f7bf"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.7531,
+    "source_record": "P6_dyglib_CAWN_mooc_shuffle/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "f137bc046f5c1811511916b9a15330b3a409ecab66862826a3b4e0ac91b52877"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.7484,
+    "source_record": "P6_dyglib_CAWN_mooc_shuffle/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "5870a0a5e56ffa767bd03d98dc7a05f30859709ab2f60e924b3a41a9f779557a"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.6574,
+    "source_record": "P6_dyglib_CAWN_mooc_shuffle/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "f143afeb6edbd1d40d63a89146faf50617d2bc66fc19445a65cbcc45430e25a1"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.8674,
+    "source_record": "P6_dyglib_CAWN_lastfm_native/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "f65af6108774d4fd72dcfa712e288f8f3db9ff92a1649674b229a3a9b1dbd1da"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.8678,
+    "source_record": "P6_dyglib_CAWN_lastfm_native/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "69bd1ce7b4128964a884364d19416d844d65bffb18bfd11c63d867d2f880f88b"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.865,
+    "source_record": "P6_dyglib_CAWN_lastfm_native/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "77762ba2b759890820faab821b6535ae7c55518ac0495935449923d07a780a17"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.8651,
+    "source_record": "P6_dyglib_CAWN_lastfm_native/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "08846e044f19b06ec7be439d9dcf25cf5af28bcb78fa1fd21dc04b313d8266cb"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.8631,
+    "source_record": "P6_dyglib_CAWN_lastfm_native/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "312d8f495edce9a8e08c4f055e3e4f4ef3e1cb8d6982ce1c224fc2a2cbb61c3d"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.863,
+    "source_record": "P6_dyglib_CAWN_lastfm_native/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "9db845ee1a585c0fbc7a5a7d1a7102c2d3d7ff16a811511e743d173fee9e0ff5"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.8652,
+    "source_record": "P6_dyglib_CAWN_lastfm_native/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "5bc4021dbce41f6d0336f09e004c4e4325161817c453285c8710e3143b46f424"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.8672,
+    "source_record": "P6_dyglib_CAWN_lastfm_native/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "209f1665be6e3a4428431e8a1038657015efc1401b444277e2e8030f6332b31d"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.8681,
+    "source_record": "P6_dyglib_CAWN_lastfm_native/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "043bd8166f0ee633bb693bc4056893e9e8c512e8484bc0b043168b2226bbe3f6"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.8673,
+    "source_record": "P6_dyglib_CAWN_lastfm_native/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "9ef425abe2ee3d1b5b15b8397915943c73c46e0a518866d46fa6251814d2b0f6"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.8613,
+    "source_record": "P6_dyglib_CAWN_lastfm_shuffle/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "591e78c70fde0561d73034c84086941be4407e537665029e67bac5618892ef66"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.8673,
+    "source_record": "P6_dyglib_CAWN_lastfm_shuffle/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "037bb42fbb7b61b7c739f91dbefb255e645e888e3874d2f5c4dba6b9e85b2745"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.8644,
+    "source_record": "P6_dyglib_CAWN_lastfm_shuffle/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "5316d81660044d9899eeb874705dbb63b3dd348d8564c311e51f7271245afd14"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.8646,
+    "source_record": "P6_dyglib_CAWN_lastfm_shuffle/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "d74654d7e042cfb294cafa58346a03cf4b4e4d0776ad52bf7137389386126121"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.8625,
+    "source_record": "P6_dyglib_CAWN_lastfm_shuffle/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "d2e7e7c984fd399b287e1ffa2886e19fe36a4b6c19a135de07ffc04cbad75aa3"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.8624,
+    "source_record": "P6_dyglib_CAWN_lastfm_shuffle/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "9b13164e25ac498eccaac0bb0b89f74912d594518a5249c15cd629758e7abda9"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.8639,
+    "source_record": "P6_dyglib_CAWN_lastfm_shuffle/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "c25cdff33ce5f9f53b7003e8d2645a6d26384f2a182f61d03e525bb7d8c95140"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.8668,
+    "source_record": "P6_dyglib_CAWN_lastfm_shuffle/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "9530ec9c8d9ee21bd5d2897cc7497723d3e2ce3cad5abe14b9c8cf721ab5f88e"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.8676,
+    "source_record": "P6_dyglib_CAWN_lastfm_shuffle/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "966e1bc53116c02a45529eb5206cdf5ff7f6836df59186f667aa08dde7d15cf1"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.8641,
+    "source_record": "P6_dyglib_CAWN_lastfm_shuffle/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "cce9058b16e19ede8ef482b83668eb435d3c3128f144e471c0da7f8caf0b4cf2"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9306,
+    "source_record": "P6_dyglib_DyRep_wikipedia_native/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "ae7f630dc0500eb097efc7a1b9b32f01871b600c2016db1d0f5c321ea8266fc9"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9315,
+    "source_record": "P6_dyglib_DyRep_wikipedia_native/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "7f0440e711f3b3c91bb78e17c16f9399053195d036668a3bc7b487dc8e8477ac"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.925,
+    "source_record": "P6_dyglib_DyRep_wikipedia_native/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "e75c3dc705b735bdff5624f781e5d8ca63c983d1f9d901ad033374cee11301aa"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9301,
+    "source_record": "P6_dyglib_DyRep_wikipedia_native/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "2b0ab9f409877155e46578bd9de7371616734a97e9716ce8bd51add63994d894"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9283,
+    "source_record": "P6_dyglib_DyRep_wikipedia_native/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "b0b7314fe3d825ce5c49bc960be6ad7d5749e82d45974f6bc4ba1aa003958958"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9299,
+    "source_record": "P6_dyglib_DyRep_wikipedia_native/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "374e0d30e300971c5ac414976e0021454a36b4caa1910b8570183921f00bc12b"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9222,
+    "source_record": "P6_dyglib_DyRep_wikipedia_native/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "6527dec32e227ede7b0a8f67a1ac388544e30047703cc5c6f416945e34e0dea5"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9274,
+    "source_record": "P6_dyglib_DyRep_wikipedia_native/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "a7d30e068c9747c38b4d65dc830467f544cdff1e20c323c1d697c32ab8b852a4"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.9025,
+    "source_record": "P6_dyglib_DyRep_wikipedia_native/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "b622bf21b024e813d0978fea8dd27752a1e7331f0f646361c706db007946a39d"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9298,
+    "source_record": "P6_dyglib_DyRep_wikipedia_native/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "8fa08ce866e56717a29a2588ba680d847232c1a121cad70343b45a49281d7400"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9351,
+    "source_record": "P6_dyglib_DyRep_wikipedia_shuffle/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "e55258200abbae1d77dbe167003adfa28e740ce651a99c8206fd32a4078b4460"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9265,
+    "source_record": "P6_dyglib_DyRep_wikipedia_shuffle/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "0d6a6726181e43ebc74e72fb5463e28f44d71f398ee1bc6dfe6b60e6c48f0930"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9328,
+    "source_record": "P6_dyglib_DyRep_wikipedia_shuffle/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "68634bdc873e472ed9c04be37a674d534bf1ff7dc32c38122862e213c68a6f7c"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9321,
+    "source_record": "P6_dyglib_DyRep_wikipedia_shuffle/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "ad7bddf3e4cb045d42087eebdc8c6eccf994cf1025e2710fe65c4a6b1bb3f4e7"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9299,
+    "source_record": "P6_dyglib_DyRep_wikipedia_shuffle/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "09bcc6c8c50e771d6c9a2a67485b7bc977574091384307087c0a73e80d21a7a1"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9299,
+    "source_record": "P6_dyglib_DyRep_wikipedia_shuffle/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "12da984aa7cd88950b6632ec34ac34d702b329cfb75abf3f0f7a25045326bccd"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9275,
+    "source_record": "P6_dyglib_DyRep_wikipedia_shuffle/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "b4aa7e14793ba97726e0cb77850eb649fe3e22720ca5caa4b4a2c23509825739"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.9027,
+    "source_record": "P6_dyglib_DyRep_wikipedia_shuffle/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "e0526babae7aaeb5a49c937c4aa495c5a233e54622f89d59cdaf29f24008fa20"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9299,
+    "source_record": "P6_dyglib_DyRep_wikipedia_shuffle/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "f908cb129726723b7754bf9f4bf4ddef121e3adb102f134e22edb903594fa115"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9763,
+    "source_record": "P6_dyglib_DyRep_reddit_native/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "157cc9d4ca74f2c614f0e1dd0082c5a11a078bf9a771d6e78411716e04ec579c"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.979,
+    "source_record": "P6_dyglib_DyRep_reddit_native/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "937fa3b4c385122e88a1cb4276474a25652a61fe699062fcbabe0669aba92724"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.968,
+    "source_record": "P6_dyglib_DyRep_reddit_native/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "fd4cd77dc358b6f19940b1d9a7cb45d72be1252ac66881e4a26356fc7065dbe6"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9794,
+    "source_record": "P6_dyglib_DyRep_reddit_native/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "faa7357566a294d3084eca15eb5d95c666ca7ca892555a459607b359321e6f80"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9784,
+    "source_record": "P6_dyglib_DyRep_reddit_native/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "210d1c025ad6e3134ac2c1803f3ecd880cca5e0a9f98c9c10e0b6f33858b5f67"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9787,
+    "source_record": "P6_dyglib_DyRep_reddit_native/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "b3c82c4dfa305cb2c1ca2d53f452ead1b1c19518005689d097fad5353972e6b9"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9755,
+    "source_record": "P6_dyglib_DyRep_reddit_native/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "3238d211c4a4424033f551dff8cea370b57584b54179a7a87da745304ed8b10c"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9784,
+    "source_record": "P6_dyglib_DyRep_reddit_native/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "1a64cb7ed49d6ad2bad4458aaf2eba245162c1ad3701d18c42cb6845a22868de"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.9765,
+    "source_record": "P6_dyglib_DyRep_reddit_native/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "83722a128c848adeed1b4196f6cf295c365c0b2e169e0fd0cc2de1d1881b0e40"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9736,
+    "source_record": "P6_dyglib_DyRep_reddit_native/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "104ec0e564d437e9632bd12ff937806216ae5ed6e7594e09f57739c967f11c20"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9795,
+    "source_record": "P6_dyglib_DyRep_reddit_shuffle/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "209b763bda59e8e83eb1073155ee70f742c9b3005994758e48242e0bdc962b20"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9767,
+    "source_record": "P6_dyglib_DyRep_reddit_shuffle/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "2d6967dbb025a07a6dad9e8357465f5c57d619626d4c2b2665be0dc297c8c275"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9778,
+    "source_record": "P6_dyglib_DyRep_reddit_shuffle/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "bd8dae76e0e1a6fc4e47f258e1ac1c36ab52c87c607b8710be4d07c2b5699929"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9794,
+    "source_record": "P6_dyglib_DyRep_reddit_shuffle/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "d0e7f1c12faaf0a7a71b2a5810e3347e7c42a769a28392eee849f1b72466ebf5"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9746,
+    "source_record": "P6_dyglib_DyRep_reddit_shuffle/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "6d6700f43cb127c4d7465e19bf84b2adba86f0314292feaa3b192e97643c28ca"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9785,
+    "source_record": "P6_dyglib_DyRep_reddit_shuffle/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "9c16cc6441c6312e76058d38c78629b70bfb6be0c797c7aafc98eaf1d6b8d061"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9758,
+    "source_record": "P6_dyglib_DyRep_reddit_shuffle/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "37e6f7371b095ed0e3459adb873cb6ba4e8cb7b0792435235bd2aebf6b86a5b1"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9605,
+    "source_record": "P6_dyglib_DyRep_reddit_shuffle/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "820b1ed319cf3a99077413db784b06b075dafd07243002bc89ed6ad17cc56f6a"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.9735,
+    "source_record": "P6_dyglib_DyRep_reddit_shuffle/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "580948b006b268855545e5276011e2c18d7dc65e5833def57f659b9e7bb744f6"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9786,
+    "source_record": "P6_dyglib_DyRep_reddit_shuffle/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "3073aeb13ded524c72459b6ac8a98b4b80e06c2f631b4078e5e3bfe165339eec"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.713,
+    "source_record": "P6_dyglib_DyRep_mooc_native/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "b8d7e6c9a7a4ffcf08746f3ed937055c587e05f9b763a5ce4cb234f6884ef5f3"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.672,
+    "source_record": "P6_dyglib_DyRep_mooc_native/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "f00e23a67e636dc88674da017e895187c67b3daa4b24699f06ade306a11384f9"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.7881,
+    "source_record": "P6_dyglib_DyRep_mooc_native/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "f006169e9e106b7ede9d5888414ac11d44b35eec8eda52ab9982e7415fd30705"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.6842,
+    "source_record": "P6_dyglib_DyRep_mooc_native/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "18923e349db43f8dbe3260c939adf6e727fc664a06eec22edee0ec1ac841a308"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.5904,
+    "source_record": "P6_dyglib_DyRep_mooc_native/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "3148c1ae066f56f2a8bed8a248bb9c805cd07050228cef52f8eb310a96c5c945"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.623,
+    "source_record": "P6_dyglib_DyRep_mooc_native/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "98e8238f4ec5a048b6acebec036da3d4dd2fd5158bdc26fbf98bb007b8ad65f1"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.6255,
+    "source_record": "P6_dyglib_DyRep_mooc_native/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "558a5f82058c5a02d5d7b6f3f46a9ee25fd0833048425973713f53b55094079f"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.748,
+    "source_record": "P6_dyglib_DyRep_mooc_native/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "b5f44d0256adfff061f5c334eace4ed897ef720b3bf78b0d3eed9270280f95d9"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.6157,
+    "source_record": "P6_dyglib_DyRep_mooc_native/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "79cd193eb70e08f3d70edaf79b78b67a1ecc03bc7fc9dfaaee40282ae3e68a33"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.702,
+    "source_record": "P6_dyglib_DyRep_mooc_native/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "b7c8608caf06fec1696ff963acc61c239945d867517521736ebba4d94fe74421"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.6371,
+    "source_record": "P6_dyglib_DyRep_mooc_shuffle/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "bcf6899ef8dca160cf88e1b7c1402ae694b34dd96060c76453f0a92e00ae90f1"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.6715,
+    "source_record": "P6_dyglib_DyRep_mooc_shuffle/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "c95484a4ed15a5e78e827617f184228eea0745f8c03f92153489cea3e01f8735"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.7857,
+    "source_record": "P6_dyglib_DyRep_mooc_shuffle/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "af22537b7ff955cfc01fbbc9711d5538a63ff74718290ad73ceb74ee4d919f7e"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.6188,
+    "source_record": "P6_dyglib_DyRep_mooc_shuffle/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "6f4ad89ddc4f7725b33d41813286af9116a13f0c956322c3ac0537b59eca1d26"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.5904,
+    "source_record": "P6_dyglib_DyRep_mooc_shuffle/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "4a42599d40bb573be685386d52b5a35bfe3445ea411530c7b8dee7aa86b1180f"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.6614,
+    "source_record": "P6_dyglib_DyRep_mooc_shuffle/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "1874ead4d51e1e85ed97a3021ece2cec0df109a6898087d6b317aefaa8d10487"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.7125,
+    "source_record": "P6_dyglib_DyRep_mooc_shuffle/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "878a0c7daffae1a10d282b33ca8d01579838e44f71dc137f41b31e990913861b"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.6373,
+    "source_record": "P6_dyglib_DyRep_mooc_shuffle/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "c74589278d153336ec47d442ae90cbbbf7e06ee38e45092ea89266cf2433e1b2"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.6483,
+    "source_record": "P6_dyglib_DyRep_mooc_shuffle/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "940f2e82e9aa88c6d78ec4b674427ca73e2bc1aa3d06217ce96fe60f50640fee"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.6257,
+    "source_record": "P6_dyglib_DyRep_mooc_shuffle/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "1cf95e8a1b6a11c862741db812996178d8e2201e8730a7035e3a7b935c13b350"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.711,
+    "source_record": "P6_dyglib_DyRep_lastfm_native/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "6da3e29b8f7c9d48a90442ee4393a28b0308dc9a684f8599600d9348340d462f"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.5325,
+    "source_record": "P6_dyglib_DyRep_lastfm_native/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "5eb616882eb7a53003311b77e4207e4c1e615b48561419b6f26fad67cc78e022"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.6727,
+    "source_record": "P6_dyglib_DyRep_lastfm_native/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "9f6e893d6c6348fbb15d04d544bd01e6e618209a2e9b5fabe606ccef24369fc6"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.6596,
+    "source_record": "P6_dyglib_DyRep_lastfm_native/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "f89bb0bff922d3fee6f226da02a5a1aeba8ac32571b85f92dc29b68e4edca0e3"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.6746,
+    "source_record": "P6_dyglib_DyRep_lastfm_native/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "c7029d3274862aebe685d15b5ab463944f39c3221d7cc569d774781d514eabd9"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.6661,
+    "source_record": "P6_dyglib_DyRep_lastfm_native/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "133560b7df641b490a6d75e2234588288a9a6737eacb0cca636587c4a9a7213e"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.6804,
+    "source_record": "P6_dyglib_DyRep_lastfm_native/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "d5df05e2331ba8b26043f7183527c78d5b4c05f8bd4d0489ede0b333cc8668e1"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.6296,
+    "source_record": "P6_dyglib_DyRep_lastfm_native/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "fceb685315d32db2ad103a282459fcdc21e9818eafba436b09b515e7ebef3a47"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.5857,
+    "source_record": "P6_dyglib_DyRep_lastfm_native/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "77aa6bb750942cda02d7573112fc4f16486201e8e6aba16462360bf1066b5ca5"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.5489,
+    "source_record": "P6_dyglib_DyRep_lastfm_native/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "e41cf74aadc3bade5c0ab09df6030fb8c0d42ee25f36ecd2bd1f1c81a695f687"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.711,
+    "source_record": "P6_dyglib_DyRep_lastfm_shuffle/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "8c252ffebba0d58d9f9c5ffa8f49794cf194462bbccf23d906927003ce3d4db0"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.6831,
+    "source_record": "P6_dyglib_DyRep_lastfm_shuffle/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "28db3c97d45bd523057761fb27f50115cd45e3925678e0b041de81a16135a95c"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.6296,
+    "source_record": "P6_dyglib_DyRep_lastfm_shuffle/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "b0589054a76c4cc9c919650b16f9d9bba2c1a5670e09bee24c0a1d909ac58a02"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.6441,
+    "source_record": "P6_dyglib_DyRep_lastfm_shuffle/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "356624a66b973e6c1e0800321b9dd34523d6f72488fd11fbf39a980b6fd8b81c"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.6367,
+    "source_record": "P6_dyglib_DyRep_lastfm_shuffle/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "fa54c792c3d2540327e9ddfca6ba3e65a897521d5a742893b6dd3818414ec61d"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.6847,
+    "source_record": "P6_dyglib_DyRep_lastfm_shuffle/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "2a5127c1ecaae8f0bc8f9fc88235566cfd15237ba41ec239e55956d2a9efb1c0"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.5564,
+    "source_record": "P6_dyglib_DyRep_lastfm_shuffle/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "4e4277301587e15a8628d10a4abd15c8d40c74eceec2f3827ab46091dc597a20"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.6486,
+    "source_record": "P6_dyglib_DyRep_lastfm_shuffle/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "70a8ba7454e34a3ca56332ce2380f1921046c9a749699339ef9b7d7ed36fe20e"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.5668,
+    "source_record": "P6_dyglib_DyRep_lastfm_shuffle/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "139336a6e895f65bbaf984cac98e4b6aa2980dd670d538bb82f1254b0d52c9c0"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.6018,
+    "source_record": "P6_dyglib_DyRep_lastfm_shuffle/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "5686a208de083558b2ae128846fa195ba65d750087c4f06c317ee456a259b70d"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9588,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_native/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "2fc50181e995903824a431d1a07d269c471e30f955a2ff771c1ef18e2c9f3978"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9598,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_native/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "45263fe32154a9c58e7a1d799c039c4a3ea0d9ba7094cc6641a3be7f05047a64"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9611,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_native/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "564a40cb55920eb8caaf74725f607a9bc847c6af4bd3af39d8597d4d46702131"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9634,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_native/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "af62651c1d1b659ff578daf97feee78054d985529f8921dd838c0459e01490b7"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9608,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_native/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "87ae0b9339bb2b02a2ff52e7b56a67ae3c4b7a6a52d5b1ba882c050d8f942901"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9585,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_native/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "28429797c3e1b7c84baaaa97ef548a31ebbbb2baf5445fb036d1e1d3d03421b2"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9618,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_native/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "d0b1f9f387143712242d55f79626522194c5e2f81a89ac9e67079967944e010e"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9612,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_native/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "e3ed51d78fbcace06859a247f09c1492e4da6854a7a24a8ca8f2384cb264f314"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.9612,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_native/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "0ca732140ee4e183015c483d70c21e20d6b1d9e9f5a1efc4f086bce5f56a8a9b"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9609,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_native/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "337baf4ea58b45bdad793c82a660bbd0b6ead5fcde7f65eaa048f9ba392f9325"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9505,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_shuffle/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "17a93f78723e482325b529e82660e35bfedd9fb4de48526ec904ab22ec359d57"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9519,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_shuffle/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "4fb8ad41010080b052a5a29ae4aedf9b0f53372f7b68d80ee915adaab17df319"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9154,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_shuffle/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "543cfac3e11e818109de0505f1d2e0f7137eb88ed703ac97d3d6e29adb499227"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9619,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_shuffle/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "95d053bc8e0f6ae8a338f162285eb443829a7b9f598a4489802c90ea64a9c79b"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9608,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_shuffle/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "712fd1d5b25d6b0320b714a7ab28bc9ccaba6747fa4e00672a34c3f8d09bd483"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9518,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_shuffle/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "0919365f2052c0bb9d2661d9f6aa040c4c2a7871b4b05a034724815bd49f3d5b"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9528,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_shuffle/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "ccd6284f1ebe9b999c40e708b6d60b2e26216b9694655460d5c8063710e35206"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9113,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_shuffle/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "d30ed9b5ac86f68796484997cd669d8a58851748ca0a3bab20074486e7a70a76"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.915,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_shuffle/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "c8aff1279e47e8a46953c7b81ea151f1d3de33c6502940a7cc0804593ee9fbdc"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9487,
+    "source_record": "P6_dyglib_GraphMixer_wikipedia_shuffle/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "0d5d9d44e4c78b8fadc002779a9229e86f99fa5255a1a5581e82280475be204c"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9651,
+    "source_record": "P6_dyglib_GraphMixer_reddit_native/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "26211d65f9479206a777dc6ab4f5dd3f65440197e57a220367a09e4123eddbc2"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9655,
+    "source_record": "P6_dyglib_GraphMixer_reddit_native/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "7bfc5ae147058287e2bb43bcbfe35fc730c00fc97e1cc382298c622f1b6842c9"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9652,
+    "source_record": "P6_dyglib_GraphMixer_reddit_native/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "6fead460a4e576f25da0d879940d49c79b09601e937bac796343d3b628a2b374"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.9646,
+    "source_record": "P6_dyglib_GraphMixer_reddit_native/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "3ae691935692d1aa594269e29a82df0050d9945a96db913a26e0798e2c296688"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9655,
+    "source_record": "P6_dyglib_GraphMixer_reddit_native/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "9dedac2febcaa8787dd21e6b2acacd18912c1d9ca54af5d91ae10b494932347a"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9656,
+    "source_record": "P6_dyglib_GraphMixer_reddit_native/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "14fe5c205725858e11a5f14432913d3accb31544b2196efea10f6ceca47967e1"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9653,
+    "source_record": "P6_dyglib_GraphMixer_reddit_native/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "52beb8f3cace111ef12c3312fcd5de61a71d97291ce9df9ef3cfbeae4b168487"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.9652,
+    "source_record": "P6_dyglib_GraphMixer_reddit_native/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "bddf35a4221736030a9eddb053b964b04c07b584f3a483bb90257ab38c8d0e44"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.9646,
+    "source_record": "P6_dyglib_GraphMixer_reddit_native/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "eebba7943181d2b96bd119d4ff4e9901305047a1589f607c182569b8790db141"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9632,
+    "source_record": "P6_dyglib_GraphMixer_reddit_native/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "17d189b43c1960bce5142cda074b0af0502dcd8f12dda417dd6a9bc51a498803"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.9632,
+    "source_record": "P6_dyglib_GraphMixer_reddit_shuffle/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "8ef8c0b3a3b73e8fa78aa6e3296a2eec0d8206b90dae02150929e022c6b1bc3c"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.9642,
+    "source_record": "P6_dyglib_GraphMixer_reddit_shuffle/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "b022e5f74b3802263c88320c67c58ea52c84267477bfe13db54285a4369e6195"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.9639,
+    "source_record": "P6_dyglib_GraphMixer_reddit_shuffle/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "f408a2ea4a8f01144e5141e553579ed41853d5543ab7e7714124f503a8794a11"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.964,
+    "source_record": "P6_dyglib_GraphMixer_reddit_shuffle/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "09949614584976f2725448e4526d05ba631b89ff2e4428f91b77b1bc9ef9ab7d"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.9639,
+    "source_record": "P6_dyglib_GraphMixer_reddit_shuffle/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "cabdb1c51ab726f589501d367b47c19af4f6c77f705b1c7ecc171034a2d88f8e"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.9641,
+    "source_record": "P6_dyglib_GraphMixer_reddit_shuffle/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "31a4015b61d0085f8c6b13b3ee02e74476923b0416073678b22df30f65b17495"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.9639,
+    "source_record": "P6_dyglib_GraphMixer_reddit_shuffle/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "42a84826680a41aa9afdb5e96cd4247ef20b21665aaf2a4717a6104413795bbf"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.964,
+    "source_record": "P6_dyglib_GraphMixer_reddit_shuffle/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "f4a0a2fe514661af6319b60eefdf15be82e4322cf82d8a6bb930778b39ff678b"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.9637,
+    "source_record": "P6_dyglib_GraphMixer_reddit_shuffle/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "47ef0cd6acb3076ca64a1e8b7f385ce39ce4c5b333e4c392510411ec22705638"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.9631,
+    "source_record": "P6_dyglib_GraphMixer_reddit_shuffle/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "cfb57c97cf0dbbfa6afd52e39e75da4c6de01be0ca0e6398d3434219eca9ef6e"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.8117,
+    "source_record": "P6_dyglib_GraphMixer_mooc_native/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "ac0b35c41e0c6025802f19b8ce8b5da2c0d263bc0be8e6e58f9716d9022c6acf"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.8124,
+    "source_record": "P6_dyglib_GraphMixer_mooc_native/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "d2bf260dec7e7b12506180a9ec28140bd6eb3c8cf3ee54d6b80a3ff02de0e45d"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.8115,
+    "source_record": "P6_dyglib_GraphMixer_mooc_native/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "ef8cb8421a2068e611d11365868d5d22743f41efd3e22a7f42ad5585b3452c16"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.8094,
+    "source_record": "P6_dyglib_GraphMixer_mooc_native/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "e1423d9644b4a5fa800c18ba519c9dfe19b188a016636a3fa8b87fc7b59a4650"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.8113,
+    "source_record": "P6_dyglib_GraphMixer_mooc_native/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "d666548344d62c84ce898dd83f46e81bf479d79515c1779f23fcade02171ebce"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.8101,
+    "source_record": "P6_dyglib_GraphMixer_mooc_native/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "0c1184e62d509bd0932685ed86a389aad3b6a6a6e16e50afd177ead2da3e25db"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.8081,
+    "source_record": "P6_dyglib_GraphMixer_mooc_native/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "1b2988675fbf415d8e4f0ef5642d065756c9e5802c40cef86b7e6580f8c440e9"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.8061,
+    "source_record": "P6_dyglib_GraphMixer_mooc_native/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "0097c01e549a5fa37db9919deca8a7daff196f7f08d281aa4ccce99165680145"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.81,
+    "source_record": "P6_dyglib_GraphMixer_mooc_native/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "970fead788a97adad9a87b3df3d18d6ba5f6ec9e3515fff803c0a714d811ed5d"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.8087,
+    "source_record": "P6_dyglib_GraphMixer_mooc_native/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "94ecae7e8a8e3db96fad9c19b51295bf69f272226ec6b908f1d074f3108acc26"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.78,
+    "source_record": "P6_dyglib_GraphMixer_mooc_shuffle/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "21e6e75ea5192f8fabfc2898645485e33309ef992a4f9baec6e5ac40b1f1de7b"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.8114,
+    "source_record": "P6_dyglib_GraphMixer_mooc_shuffle/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "edb263724a9867aaadd181d93b52f1ede4e95786f17591d917dfb04234592a1f"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.6979,
+    "source_record": "P6_dyglib_GraphMixer_mooc_shuffle/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "00998216180051fef6403cfdc4ce9d1f1d49e88e017edfc74dd47570196f7c66"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.8094,
+    "source_record": "P6_dyglib_GraphMixer_mooc_shuffle/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "73b6da1708c038c31b2f1d5fb4dfa1ec29aef258c303e43b62826dd4e12bc456"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.8112,
+    "source_record": "P6_dyglib_GraphMixer_mooc_shuffle/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "5b24fed13bcbbd820ecd2b20e4c88b6b8b8c0bb7f1bccabf8d323ef4fd27b9fc"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.81,
+    "source_record": "P6_dyglib_GraphMixer_mooc_shuffle/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "fa63077729aee126d0edee1816869f75f74c61cd95e7bdeab18004895d4195ad"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.8082,
+    "source_record": "P6_dyglib_GraphMixer_mooc_shuffle/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "696d3feb6547e6e1b78e94396cb62b5f0d43ecc5db3faad09dd99d1b00028f44"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.8061,
+    "source_record": "P6_dyglib_GraphMixer_mooc_shuffle/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "f00a5a163f4238f0905d611120c1144ec2c125899d16177bb203960049c2a148"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.8102,
+    "source_record": "P6_dyglib_GraphMixer_mooc_shuffle/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "24b5887a5a04925e862e856ec81e14869713f7a39a2bd07c67c437c7a1e88721"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.8087,
+    "source_record": "P6_dyglib_GraphMixer_mooc_shuffle/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "32724f82a31dafedc2569dd1b63fba622eee9eba9c9e51d2bc1c40b6e5c687b5"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.7553,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_native/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "c79268874b73ffe2ff92fb5a4015d044751f9ae553572e0e92b2ba27a52194ef"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.7535,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_native/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "106e4427482d746d77e8bccdd2ea00e35f996f6b3947b6dc19e563a3ca8ef0b7"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.7575,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_native/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "3d8d7c658cc0f1b51f4c59e7cb01d34a2300a91c488758c2e093ecc476717d0a"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.7557,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_native/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "3aeec0a32d91a5ff559e4bcf9b482bcd0869b33b0f4b9622b1bcc8e2a0534558"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.6903,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_native/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "6c7e1093f70d839d16ba501f86531f53b60c38926b5293a196aa1948aa13936d"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.7538,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_native/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "621e13750a9ac88f9befa433b020315e8720ff42ad5ece48651f25dc496500dd"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.7569,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_native/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "855d60da2a86295e8aaa32ab68c9394abf8b633a7b150c2e6fa879a3a72a0dcc"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.6885,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_native/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "29cc3a770e9a78ad364ae90cd655791116b5c7f598b6c193a1ad17920684c852"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.6799,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_native/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "80defd2b22c0c15e34f3709ac8c8feb51d2fbabb0bce35eab02d2a04dcb53ab2"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.7536,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_native/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "573e89dbc2b1317949a20f92a12485c90f516dae7be1352b8bf25a091e5ac9f0"
+  },
+  {
+    "seed": 0,
+    "status": "ok",
+    "test_ap": 0.7553,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_shuffle/runs/0.json",
+    "archive": "expanded",
+    "original_sha256": "f35823fb75c919fe311c8f2e8f0dbb15c49e249fab243053d27dc505d0d88936"
+  },
+  {
+    "seed": 1,
+    "status": "ok",
+    "test_ap": 0.7535,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_shuffle/runs/1.json",
+    "archive": "expanded",
+    "original_sha256": "be01c46e90212a7298cc40fc3fc9a4f6ef2feebad229954741ba20f5de39c4bc"
+  },
+  {
+    "seed": 2,
+    "status": "ok",
+    "test_ap": 0.757,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_shuffle/runs/2.json",
+    "archive": "expanded",
+    "original_sha256": "705f6808f14aa5bab2cf1269599d76eb4abe50c46ce1e9a508e4d7e02a229b3e"
+  },
+  {
+    "seed": 3,
+    "status": "ok",
+    "test_ap": 0.7557,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_shuffle/runs/3.json",
+    "archive": "expanded",
+    "original_sha256": "103ce8c26c15531d53ab678b97523385bdad07b5c3be1968db91a15156c758b0"
+  },
+  {
+    "seed": 4,
+    "status": "ok",
+    "test_ap": 0.7548,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_shuffle/runs/4.json",
+    "archive": "expanded",
+    "original_sha256": "b8ac8c813f9b0907cdc1d8905a01e69c5a6ee63346db739c95821113eb31b70b"
+  },
+  {
+    "seed": 5,
+    "status": "ok",
+    "test_ap": 0.7513,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_shuffle/runs/5.json",
+    "archive": "expanded",
+    "original_sha256": "38998d1563241916117b472307ce7ea418b552f0a697a70edf24c167da12fa19"
+  },
+  {
+    "seed": 6,
+    "status": "ok",
+    "test_ap": 0.7562,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_shuffle/runs/6.json",
+    "archive": "expanded",
+    "original_sha256": "2def07c8d18987b81b77b8a4eb273e580d3b47152d875a4bc46e0811018f402a"
+  },
+  {
+    "seed": 7,
+    "status": "ok",
+    "test_ap": 0.7548,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_shuffle/runs/7.json",
+    "archive": "expanded",
+    "original_sha256": "8a7688c50de360d21873fc736d9f798b280a347f4a7a50a618bb832f665ceb65"
+  },
+  {
+    "seed": 8,
+    "status": "ok",
+    "test_ap": 0.7536,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_shuffle/runs/8.json",
+    "archive": "expanded",
+    "original_sha256": "804e63b1ce0b0fca95f5b76c799be50d86607f33f835338eca484b0ee67fe8b5"
+  },
+  {
+    "seed": 9,
+    "status": "ok",
+    "test_ap": 0.7567,
+    "source_record": "P6_dyglib_GraphMixer_lastfm_shuffle/runs/9.json",
+    "archive": "expanded",
+    "original_sha256": "86f81be2e262bf349096f718f67f4dcb270545ef26549b231765b0bfe61805aa"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "seeds": [
+    1004,
+    1005
+  ],
+  "permutations": [
+    42,
+    10001,
+    10002,
+    10003,
+    10004
+  ],
+  "models": 12,
+  "unique_test_panels": 32,
+  "selection": "Both complete Tesla seed blocks requested by owner before computing this report; hardware/availability-defined, not effect-selected. Other scheduled seeds not part of this manuscript comparison.",
+  "reporting": "Report both seed means and range, not 10 permutation pairs as independent repeats; exploratory transfer."
+}
