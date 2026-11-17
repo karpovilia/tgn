@@ -1,0 +1,2230 @@
+{
+  "README.txt": {
+    "bytes": 1979,
+    "sha256": "0612bac56cf345460cfe93989c7866fda630a0fc4d3cd24d107819abd0e2456a"
+  },
+  "RESULT.json": {
+    "bytes": 17942,
+    "sha256": "8f845a84fa3e0b815be0b4ac5ed8c1b732d8542fcf4f2e52ec1ac5c496a5b47f"
+  },
+  "composition.json": {
+    "bytes": 6561,
+    "sha256": "aadc8a26746ded503958a5d1c7ae477807701a6b0537c96544f8f95bdc9156c3"
+  },
+  "data/mooc_185500.npz": {
+    "bytes": 5721302,
+    "sha256": "44c4ba37247dee382d10d89b85c005614372d9a012673b87ba82b232b1d657c6"
+  },
+  "data/mooc_185501.npz": {
+    "bytes": 5723444,
+    "sha256": "76c096a59c66c6776736d38fa4ac1ede93a52fa73ad0b7500aac63b2ffc398d5"
+  },
+  "data/mooc_185502.npz": {
+    "bytes": 5731539,
+    "sha256": "0bab250b7a3b65d7b2c0e24a9f682955f6d69b997afd0d483ec89b0f01e30c0b"
+  },
+  "data/mooc_185503.npz": {
+    "bytes": 5723954,
+    "sha256": "537ddb3e64928a5d416bead857bd35268448222c839aaa33c3186a110eb98404"
+  },
+  "data/mooc_185504.npz": {
+    "bytes": 5725835,
+    "sha256": "057ddd93b6a78004edff53f4153b58ca2f14106340b0e8d9fb33c1f3c92d96f8"
+  },
+  "data/mooc_185505.npz": {
+    "bytes": 5726870,
+    "sha256": "ee79b857ca5c23e2d7519a6ca19f149572dc348980a5336a9ef3f1cb9070ac82"
+  },
+  "data/mooc_185506.npz": {
+    "bytes": 5731359,
+    "sha256": "5f7e6539c5e37210c20f56c22e124dc262736518b593401f9119a74cb82b2556"
+  },
+  "data/mooc_185507.npz": {
+    "bytes": 5730742,
+    "sha256": "f66547f851ff3e54145901c83162c6bb117bb42e152117600b1d175ef65606f3"
+  },
+  "data/mooc_185508.npz": {
+    "bytes": 5729830,
+    "sha256": "640687bb9e1022dc8ee23f6e57ce53a18f65221604d7884a7242f2083f5e1553"
+  },
+  "data/mooc_185509.npz": {
+    "bytes": 5726376,
+    "sha256": "ded4a1e485f86e6c0d784cee77656bfe86acc40842723775ed9391c44944ce35"
+  },
+  "data/wikipedia_195500.npz": {
+    "bytes": 1392587,
+    "sha256": "00fbeae5af07a2f46ba3f4934d6172416b8826582e626e8f18e75708de147bab"
+  },
+  "data/wikipedia_195501.npz": {
+    "bytes": 1391936,
+    "sha256": "73143d161203911696d746db523502b00bb0dc4bbe85eb032769700dcefd1d33"
+  },
+  "data/wikipedia_195502.npz": {
+    "bytes": 1398637,
+    "sha256": "215fcf38107d246f9598457a67d262cfc18094ea94e7227d9fb3aacdb8a84c53"
+  },
+  "data/wikipedia_195503.npz": {
+    "bytes": 1395952,
+    "sha256": "1bcc2254503ec933388712aae61c56076da0959614483e7cbce068e524cbbc99"
+  },
+  "data/wikipedia_195504.npz": {
+    "bytes": 1397368,
+    "sha256": "5e5eeae7ab4fd418e05d613245dbecc2aae76a5bfc9db3b9d5ad05ae2c73ee4e"
+  },
+  "data/wikipedia_195505.npz": {
+    "bytes": 1392333,
+    "sha256": "17e463fd5f489e4bb4a1d49bf0dc2a33ec81cb160e428d01c636cc3f8573e9aa"
+  },
+  "data/wikipedia_195506.npz": {
+    "bytes": 1398653,
+    "sha256": "8dce6593c55a3531edc06dc7217b6687390bfeb158cb3236c6fde159b1174013"
+  },
+  "data/wikipedia_195507.npz": {
+    "bytes": 1398864,
+    "sha256": "14df392f67e09b76533287f510d2347174fe121881887a1da3ca0ad7daca7a8a"
+  },
+  "data/wikipedia_195508.npz": {
+    "bytes": 1395905,
+    "sha256": "eb25bf3bc640125ef0c1199f3b723ff3f369c8c659a27dc84e2d9144a1e5598f"
+  },
+  "data/wikipedia_195509.npz": {
+    "bytes": 1400548,
+    "sha256": "41b3aee08d9794104734ce5bf8f4770ce67fb1e40344cc761ffb8c04c10530f7"
+  },
+  "features.py": {
+    "bytes": 3842,
+    "sha256": "ecea5c79b5515667ce2b2a82cde8be0eb1634a4f9a33f1010e0b04672ea6f757"
+  },
+  "fits/mooc_185500_global_ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "a26c357d5e6cfa357fcbcc765db6ab9b03c00ce3a0cb86a513322e2fd582a1c2"
+  },
+  "fits/mooc_185500_global_ages/predictions.npz": {
+    "bytes": 1025334,
+    "sha256": "332ccbcdb9e07c8dedf04de413aa0e86487aee65f18f41a13bacc6e3c7b27778"
+  },
+  "fits/mooc_185500_global_ages/result.json": {
+    "bytes": 983,
+    "sha256": "b046dacc42779727806f8a97e286e9b6f8842a4037ad4a132046686072425392"
+  },
+  "fits/mooc_185500_global_counts/model.npz": {
+    "bytes": 1301,
+    "sha256": "862254f2d3c10541bf1848ac61400902c836426fed93f907027173ed698958d8"
+  },
+  "fits/mooc_185500_global_counts/predictions.npz": {
+    "bytes": 1020477,
+    "sha256": "7623eb9180d26cde254a9484aa0dfc594ae13e4e7b5cae60cd1738b01a263d13"
+  },
+  "fits/mooc_185500_global_counts/result.json": {
+    "bytes": 987,
+    "sha256": "f865f60d742dbac27a8f9f3cfcb5802d695c212bb3510bdeb205c908e0e5fcd3"
+  },
+  "fits/mooc_185500_native_ages/model.npz": {
+    "bytes": 1387,
+    "sha256": "bb2fe5391c6f367d7c9403c0c753e0dc6c59f2f14ef4ebf6b1de83e63d90599a"
+  },
+  "fits/mooc_185500_native_ages/predictions.npz": {
+    "bytes": 1024599,
+    "sha256": "0e33c2baec5f995e35fbcc64c408c18daffe5cb157f2d26cd2978a1dcddf525a"
+  },
+  "fits/mooc_185500_native_ages/result.json": {
+    "bytes": 981,
+    "sha256": "af906edc106fc34fdaa49bca59627cde9d936696e0087c7772a8bf6daab7ced0"
+  },
+  "fits/mooc_185500_native_counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "d506d5cf9062b48ae59ece80a02cd0072cf02c4b9d7430757ccdffc1d0300beb"
+  },
+  "fits/mooc_185500_native_counts/predictions.npz": {
+    "bytes": 1011890,
+    "sha256": "194ed87c34a859070b9803eec9a72ffae9150d960210cc184b113175f32d247a"
+  },
+  "fits/mooc_185500_native_counts/result.json": {
+    "bytes": 984,
+    "sha256": "e2bf09a62a458d39680cef5524490db3fe2545417e5a28f480329367738c16c1"
+  },
+  "fits/mooc_185501_global_ages/model.npz": {
+    "bytes": 1387,
+    "sha256": "f61ffa11a12633e20c4092ca0214d620bc5757f2f35df2e4384f4eac2554919c"
+  },
+  "fits/mooc_185501_global_ages/predictions.npz": {
+    "bytes": 1025275,
+    "sha256": "f50608adc12b07338ba5afb25fb5d7261d2f14e13cc815eab5fc28551d063d06"
+  },
+  "fits/mooc_185501_global_ages/result.json": {
+    "bytes": 983,
+    "sha256": "36cb581908b8b6cd2aa23baaf63558ddb5f6b863300856676565d897bddb4cf3"
+  },
+  "fits/mooc_185501_global_counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "75575c59eeff921090360d55b3d2d54003525ff8bdf5c2212c658acafd285389"
+  },
+  "fits/mooc_185501_global_counts/predictions.npz": {
+    "bytes": 1020522,
+    "sha256": "601c1bbe8af3ec0eeb423fee2d1eda7a8f152b63376243716114ab1ac2a588b5"
+  },
+  "fits/mooc_185501_global_counts/result.json": {
+    "bytes": 983,
+    "sha256": "5058fe328a4118cd26dd5a43d86c2340179370da9c6146cf7b7646b00bb3a483"
+  },
+  "fits/mooc_185501_native_ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "f507507dd50189d8b0613b1eb1fcedf6a491b3dfbb6ab18e5c5e38405514d051"
+  },
+  "fits/mooc_185501_native_ages/predictions.npz": {
+    "bytes": 1024341,
+    "sha256": "0bd285514bd5b244bcb0eb2d87d50e2cbfaaf0ceca5aad5dc660d43ba44b57a9"
+  },
+  "fits/mooc_185501_native_ages/result.json": {
+    "bytes": 982,
+    "sha256": "62233f19466a02f3d23fe3b1f890d8b30eceb6fa76a4133c280da954b882b718"
+  },
+  "fits/mooc_185501_native_counts/model.npz": {
+    "bytes": 1303,
+    "sha256": "a173117a6947db260fab6bab13810a1948bedebe2a63364e2182b517fb945a7c"
+  },
+  "fits/mooc_185501_native_counts/predictions.npz": {
+    "bytes": 1011592,
+    "sha256": "c6230f88d66d75ccd4cb70c2af1dfc675a8c856d6298ab2b3f10334a45b4e360"
+  },
+  "fits/mooc_185501_native_counts/result.json": {
+    "bytes": 986,
+    "sha256": "a83053e5a0d86a77a0c943ed81577de262da0a0b9f81ffc6bcd7e03a9f592a75"
+  },
+  "fits/mooc_185502_global_ages/model.npz": {
+    "bytes": 1385,
+    "sha256": "005eced10a1e7eeb5ac052a2a2cb578fc68c55512651498f79f5524a625b04a4"
+  },
+  "fits/mooc_185502_global_ages/predictions.npz": {
+    "bytes": 1025376,
+    "sha256": "62495440f75a4e3a1773a5fdfeec9321a836823f84dd7df8bf35422a1c09393b"
+  },
+  "fits/mooc_185502_global_ages/result.json": {
+    "bytes": 982,
+    "sha256": "93a310aa9785dd9e277de343aee9c50d32ab6db56b26861bb0629cfd378affa7"
+  },
+  "fits/mooc_185502_global_counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "c50d261379417d28b871c99414c5185c70b9f6b538211cc3d9d6f3ad09a9d73e"
+  },
+  "fits/mooc_185502_global_counts/predictions.npz": {
+    "bytes": 1020358,
+    "sha256": "c9ac4c4e9f2fdb0e4a605511d6662b302110261e260bda885eae28f0009a1772"
+  },
+  "fits/mooc_185502_global_counts/result.json": {
+    "bytes": 986,
+    "sha256": "d85b00d8c3c695520f9f0e8c5b388b24b3170908071dd63b0cad916a03a7c2c0"
+  },
+  "fits/mooc_185502_native_ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "45dd3f01f4bda0c8772fa8bc4aea7317c6c3ac7c917255b686c324874610981e"
+  },
+  "fits/mooc_185502_native_ages/predictions.npz": {
+    "bytes": 1025107,
+    "sha256": "be0558cd3366ff34f96a90d80ded1c11b42b98552adceb050b268497c18219dc"
+  },
+  "fits/mooc_185502_native_ages/result.json": {
+    "bytes": 981,
+    "sha256": "f58952ff17a52e32706bdaa0eca7612fc36e3895390ad851b26a6b1c055d82e1"
+  },
+  "fits/mooc_185502_native_counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "b265aecadef85b8a002f12c72b837b051f0644036e5b31cee67753101aa36a5b"
+  },
+  "fits/mooc_185502_native_counts/predictions.npz": {
+    "bytes": 1011566,
+    "sha256": "cacbbe5a2d20be7ba761444490c20e4acd1dfb18da38d3b0e0cab023de7b5ae1"
+  },
+  "fits/mooc_185502_native_counts/result.json": {
+    "bytes": 968,
+    "sha256": "f1171c235b37f4d4d9e6d09dc13a193bc805bc44f1844822d4097a7c2bf93155"
+  },
+  "fits/mooc_185503_global_ages/model.npz": {
+    "bytes": 1387,
+    "sha256": "b0a9165cf71f9132b5f8378863d9782a7be55f4440f00f6e6ff4e5ab23d20232"
+  },
+  "fits/mooc_185503_global_ages/predictions.npz": {
+    "bytes": 1025518,
+    "sha256": "ecb4d83796bd5b1486012fb23c7f6c953131afcbc88e8e8584fc70214f2f4577"
+  },
+  "fits/mooc_185503_global_ages/result.json": {
+    "bytes": 982,
+    "sha256": "21f0147fd2742de08c2283d0a99e5018abd1f1dde83235650705811e17027509"
+  },
+  "fits/mooc_185503_global_counts/model.npz": {
+    "bytes": 1303,
+    "sha256": "8b77c4b4212eeba5d151db81d7b46f629a1e36a6f79aa405f0f7074661d4cb3c"
+  },
+  "fits/mooc_185503_global_counts/predictions.npz": {
+    "bytes": 1020451,
+    "sha256": "df092d867893b32122d38fd81c00f440623e832c52c3d2982acd75b7e1539a8e"
+  },
+  "fits/mooc_185503_global_counts/result.json": {
+    "bytes": 984,
+    "sha256": "d6d3be2ebfecfbc461063a6705e8593c9abefc09b5e9ebd8237bea06c2edcba5"
+  },
+  "fits/mooc_185503_native_ages/model.npz": {
+    "bytes": 1385,
+    "sha256": "3e1d4ba3402b006da9ef19d5a7c138e7a9318c004be5020938b73942bb959e4c"
+  },
+  "fits/mooc_185503_native_ages/predictions.npz": {
+    "bytes": 1024729,
+    "sha256": "31e88fce18bf11a32118d1f409daeae4fef53f1e2a88e4d86c30c804dd339531"
+  },
+  "fits/mooc_185503_native_ages/result.json": {
+    "bytes": 978,
+    "sha256": "95f0ed147dcf7cfb12ea54be4a16dfc9b5721b54bf296749a5a59f923debcb4c"
+  },
+  "fits/mooc_185503_native_counts/model.npz": {
+    "bytes": 1300,
+    "sha256": "ef29b6ca9130fabc9cfd6ec3cd7c7a0bb08b57b3ca516f7d20f76062342446e3"
+  },
+  "fits/mooc_185503_native_counts/predictions.npz": {
+    "bytes": 1010005,
+    "sha256": "1a5af9acbd2f65693a9557d516255d7db200d0f92d670c64a0d606e01de76670"
+  },
+  "fits/mooc_185503_native_counts/result.json": {
+    "bytes": 985,
+    "sha256": "3d62f6100560b0c547a2c97cb25ff872dcb7cbedf4637664944a3f53b4227028"
+  },
+  "fits/mooc_185504_global_ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "9f67a82e74a2a1d540027c42116851177bd26975dc19fe065e4475a41507803d"
+  },
+  "fits/mooc_185504_global_ages/predictions.npz": {
+    "bytes": 1025431,
+    "sha256": "3fb14451b2d1833d04257da9665038aa7bed80ca2dca69b7fb05d2dfb3615283"
+  },
+  "fits/mooc_185504_global_ages/result.json": {
+    "bytes": 980,
+    "sha256": "e3c0e9e29b4ebc065f7a6d470c3c887f1f6b5b02f84c317f8d98687ab3787dc3"
+  },
+  "fits/mooc_185504_global_counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "0c13c220fcb5ee48cbf68cad0f7e4ae8abf824da466fd67908d8614e4cdb0eba"
+  },
+  "fits/mooc_185504_global_counts/predictions.npz": {
+    "bytes": 1020148,
+    "sha256": "4f47de2785aa551db91c22f487f09fa4fe78cbb6a5a66690eca6843f9ddfcef7"
+  },
+  "fits/mooc_185504_global_counts/result.json": {
+    "bytes": 984,
+    "sha256": "d41517a7f8fac93a082003b9c66448b200a637619faca4828a7d78e896e359df"
+  },
+  "fits/mooc_185504_native_ages/model.npz": {
+    "bytes": 1385,
+    "sha256": "ad61e6863cd4715f2bbd9e3827e7c447ea7808435f274ef2ae71b6f5a1498ae3"
+  },
+  "fits/mooc_185504_native_ages/predictions.npz": {
+    "bytes": 1024400,
+    "sha256": "e3073eaef3b2e430d9c0e44e3d2286be368ef089462cc15ee4d1af3f860cc301"
+  },
+  "fits/mooc_185504_native_ages/result.json": {
+    "bytes": 981,
+    "sha256": "43a16e55c3ff5e8e36ed9cd8b648421a4a07a29881084427ecaa9740524e9f58"
+  },
+  "fits/mooc_185504_native_counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "15d5baf64b649187a5b2667235f12a56759cb0ff3dfdf939d6549e1f772135a4"
+  },
+  "fits/mooc_185504_native_counts/predictions.npz": {
+    "bytes": 1009551,
+    "sha256": "a831a5073b6f0f0d067d3441e22ba14ffa5d6428fec37c45826d329de4729d4c"
+  },
+  "fits/mooc_185504_native_counts/result.json": {
+    "bytes": 986,
+    "sha256": "66158660ad3496057e960dcb08a74195813734029225c6d9592bfd9e0b2aa1e4"
+  },
+  "fits/mooc_185505_global_ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "cc8adb3dbe1477e4e006e3543b6e5c591eae6c7bc2ac667a8f979fb0ad8f43a1"
+  },
+  "fits/mooc_185505_global_ages/predictions.npz": {
+    "bytes": 1025519,
+    "sha256": "7cad7e3f505ef98f0d9af8ce55f0810e121ab95ec502a8d112ab230da9750d95"
+  },
+  "fits/mooc_185505_global_ages/result.json": {
+    "bytes": 982,
+    "sha256": "3c23f24197477b80673f0555e3e19a8e7719683977c6db09926571e7ed809cc0"
+  },
+  "fits/mooc_185505_global_counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "31c576f966045c5248f26152a875b0bea96893d35ca7e7519c6d07a0dbe1132f"
+  },
+  "fits/mooc_185505_global_counts/predictions.npz": {
+    "bytes": 1020381,
+    "sha256": "f61b5782f0ac309860243a2a2c3a42a396519cafd353fcc2ed2240a1f9ae4c65"
+  },
+  "fits/mooc_185505_global_counts/result.json": {
+    "bytes": 985,
+    "sha256": "6a6a32383ec6f79c4ab780cd92c245e416f746f73c988956405ea566923d5020"
+  },
+  "fits/mooc_185505_native_ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "0a833f8e6d1113e58fa62b083b497410682ce5eb43cf283d783b2b520a4f8ba2"
+  },
+  "fits/mooc_185505_native_ages/predictions.npz": {
+    "bytes": 1025090,
+    "sha256": "18d6f0eb8c8d8ed4bab59c22a41b4a4eb15458a7f66868501a6f8f1b5f790922"
+  },
+  "fits/mooc_185505_native_ages/result.json": {
+    "bytes": 979,
+    "sha256": "95c79d1e4134aa47e941a25028ac05169dadf83f700cec86cb3d3df981b49213"
+  },
+  "fits/mooc_185505_native_counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "9739f4b1cc849164054a435efdecc90381af966cdc1a0fd17cf7f9293d2983a5"
+  },
+  "fits/mooc_185505_native_counts/predictions.npz": {
+    "bytes": 1011737,
+    "sha256": "553ed6d6d959ca12a5f123d66cdd51677043b9029bf51ae4b8be0b6f2b694fa5"
+  },
+  "fits/mooc_185505_native_counts/result.json": {
+    "bytes": 987,
+    "sha256": "0cc3ef67691420fea4b0ac23636da3ab1429ed2ed5ecb827bf38632f0fe0fa1b"
+  },
+  "fits/mooc_185506_global_ages/model.npz": {
+    "bytes": 1385,
+    "sha256": "0ef6965182d7017a7336ed9b34447039263027584aa189054221fad2428b3a54"
+  },
+  "fits/mooc_185506_global_ages/predictions.npz": {
+    "bytes": 1025566,
+    "sha256": "6611dcb496b0f09179a20e2c90894b93b55f32c2fca6fa668f73b96b69824e3e"
+  },
+  "fits/mooc_185506_global_ages/result.json": {
+    "bytes": 983,
+    "sha256": "dcdc26fe070c392a85554c22aeaa90ae260473a4c41eac4da24847e2f672b3dd"
+  },
+  "fits/mooc_185506_global_counts/model.npz": {
+    "bytes": 1301,
+    "sha256": "fbe7651c0f4761d28cad0713f414d6b0bed376730cae33258361d9680fc7c308"
+  },
+  "fits/mooc_185506_global_counts/predictions.npz": {
+    "bytes": 1020532,
+    "sha256": "c0d1073c62981cdf14be0690261e8474a744b084f66fb93d3fcec1a745386e03"
+  },
+  "fits/mooc_185506_global_counts/result.json": {
+    "bytes": 984,
+    "sha256": "44747b01d47a9b2a4a1d701c9f2d16ac78c93f67abc7195b76ed33ea0720d50b"
+  },
+  "fits/mooc_185506_native_ages/model.npz": {
+    "bytes": 1384,
+    "sha256": "4c949a7db0b2a07e34b4670f5bbb5179243f86dc5b8b8eff23345b539080a8a2"
+  },
+  "fits/mooc_185506_native_ages/predictions.npz": {
+    "bytes": 1025264,
+    "sha256": "ec61eb7ff9ae83869844d8bf1b87afc4bc0a0035efa830a0ae80269d1c2407b6"
+  },
+  "fits/mooc_185506_native_ages/result.json": {
+    "bytes": 981,
+    "sha256": "34d952adecb09621da8195b4a616fe34cf311f3edd74e73bb973ca7b46fcf9fb"
+  },
+  "fits/mooc_185506_native_counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "9da01e6aef9cf1084dde962fe0af70d1945a1127159acc86ac156c1accbc5329"
+  },
+  "fits/mooc_185506_native_counts/predictions.npz": {
+    "bytes": 1009532,
+    "sha256": "ea0c95eb7d40c5f321341548f76fff738e8f7e8eb431e70055b42aed89f569e2"
+  },
+  "fits/mooc_185506_native_counts/result.json": {
+    "bytes": 985,
+    "sha256": "9260e876676b7f3939f71102eec30cfb2a68c30f5834b86c10d795dae785ca7e"
+  },
+  "fits/mooc_185507_global_ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "2a014d8dd40b4df0c83faea2cc89586f27e8412fb789155434660375487fa1d7"
+  },
+  "fits/mooc_185507_global_ages/predictions.npz": {
+    "bytes": 1025420,
+    "sha256": "f563e8732cd0d6bcfb98eb1741e9520bb3be47a5b3968ef9a15c3c208ecdcdfc"
+  },
+  "fits/mooc_185507_global_ages/result.json": {
+    "bytes": 983,
+    "sha256": "463a52aa65f92a20927fd984e4007abec8069ec883363cae94baab921a70e914"
+  },
+  "fits/mooc_185507_global_counts/model.npz": {
+    "bytes": 1301,
+    "sha256": "276ef40e24db8ad2536abf003db6fe940e65b9d07bcc5b3a3cf096a734e1aa76"
+  },
+  "fits/mooc_185507_global_counts/predictions.npz": {
+    "bytes": 1020029,
+    "sha256": "fa355eb070623fd75e752f0bb125e1030e70bbbab5f1fb6ee1777a06dcbe364a"
+  },
+  "fits/mooc_185507_global_counts/result.json": {
+    "bytes": 985,
+    "sha256": "e655158749d4f4a31949627ec25cf590b24cde7b3813a945153e8a2e545948d4"
+  },
+  "fits/mooc_185507_native_ages/model.npz": {
+    "bytes": 1387,
+    "sha256": "7802f36a51fd322ea9345df17cc3a9b95a53a881ec550766ac18758acbfeb69d"
+  },
+  "fits/mooc_185507_native_ages/predictions.npz": {
+    "bytes": 1025292,
+    "sha256": "8d7155d2137502e0637e71a053c08975bf019b0cf889b7019899b283937e8112"
+  },
+  "fits/mooc_185507_native_ages/result.json": {
+    "bytes": 981,
+    "sha256": "87181dda550f8dc13acc9270f3cc22023eb186a543a1658e5bedd1a517856c9c"
+  },
+  "fits/mooc_185507_native_counts/model.npz": {
+    "bytes": 1303,
+    "sha256": "f9a2ac627611781dc71f9d3bc1a4f91c5f7fbe3bc73c5d8fcac93ab50d31e544"
+  },
+  "fits/mooc_185507_native_counts/predictions.npz": {
+    "bytes": 1011417,
+    "sha256": "66a0b559a2c45119686c9717eb1678e13669da1ed1d15a0d65c71bec47323ade"
+  },
+  "fits/mooc_185507_native_counts/result.json": {
+    "bytes": 987,
+    "sha256": "8951934696bb924502b1d329771ed779c379bf7cdb64fea3b67cdf4a4866f9bd"
+  },
+  "fits/mooc_185508_global_ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "84a3191c9fe399f9d06f92305f9a0cb8e310a1bcf646be5e0eab35a9d39e0402"
+  },
+  "fits/mooc_185508_global_ages/predictions.npz": {
+    "bytes": 1025393,
+    "sha256": "43edb405fd70ae6d28c38885419431514749bd76a9174bf545f19f51979ef6eb"
+  },
+  "fits/mooc_185508_global_ages/result.json": {
+    "bytes": 980,
+    "sha256": "bd45905c3b482bfd503f6bfe0ea997df522e0d262bba9a4357ac885ec8605117"
+  },
+  "fits/mooc_185508_global_counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "eb28950ec5623438e7272a165d4721e32288c3a0bdb0026a3c4971f1a3d57cb1"
+  },
+  "fits/mooc_185508_global_counts/predictions.npz": {
+    "bytes": 1020477,
+    "sha256": "74c43112570b4d2e0ea168083adaf8139fb5802a7d59f1904d401da52c9de1bd"
+  },
+  "fits/mooc_185508_global_counts/result.json": {
+    "bytes": 984,
+    "sha256": "507d53e16ce368ada5d4c2a7e7b1fccae091e444639c1ffa33a0a19788d6cd4c"
+  },
+  "fits/mooc_185508_native_ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "49faf3e032a25b2e4a025663a14cafe080a44ddf63624a5df171f0714e63cde4"
+  },
+  "fits/mooc_185508_native_ages/predictions.npz": {
+    "bytes": 1024105,
+    "sha256": "839389187e24c271671397442beaf4a8022c3b81c9f3ecd10f99fd5c67b380be"
+  },
+  "fits/mooc_185508_native_ages/result.json": {
+    "bytes": 978,
+    "sha256": "d1dadac92d1874c582abf714892abd9e47a2dbf810c0ffce348bfb1798dfb86f"
+  },
+  "fits/mooc_185508_native_counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "bf63619a9c871ec513d8e15bf52455c30e387861915b3adfbdcc0382c73a0e86"
+  },
+  "fits/mooc_185508_native_counts/predictions.npz": {
+    "bytes": 1009238,
+    "sha256": "6908ea9002f1b0b6ad7114d0d55de4be55f524e67773a8eae7c5f1b38503f393"
+  },
+  "fits/mooc_185508_native_counts/result.json": {
+    "bytes": 986,
+    "sha256": "ba21e239c9680d7e93a98367c49b30d5f3d6e623ffe361b8f5766624f4c7cabd"
+  },
+  "fits/mooc_185509_global_ages/model.npz": {
+    "bytes": 1387,
+    "sha256": "7735cc8cc0a68dda086428308cc2fd7b716bc60ab3c81454fba88e93bfde989c"
+  },
+  "fits/mooc_185509_global_ages/predictions.npz": {
+    "bytes": 1025386,
+    "sha256": "800172ce769350fef5735aaa8e43f6849613cad010c8d344877d030a55acc7f5"
+  },
+  "fits/mooc_185509_global_ages/result.json": {
+    "bytes": 983,
+    "sha256": "e035dd8a822bd157f4810687650bd290311f6cc1ac8e01bc45f3c656fd7f8e01"
+  },
+  "fits/mooc_185509_global_counts/model.npz": {
+    "bytes": 1303,
+    "sha256": "6a9014116c39b24cf05309bdb6f838a86c521e5104b253113d5a27ebacea760a"
+  },
+  "fits/mooc_185509_global_counts/predictions.npz": {
+    "bytes": 1020506,
+    "sha256": "0e400f382210f52fab00d099b9f75f971ca8b1d6c2b1f2bc91136bd5adde5bcf"
+  },
+  "fits/mooc_185509_global_counts/result.json": {
+    "bytes": 984,
+    "sha256": "aee4a21f381b1a299f582625fda6c2527341e30827b8b2b75c370843e794385c"
+  },
+  "fits/mooc_185509_native_ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "e51c92d17b493eba456c999438b93043e4df5675c06dd0068de8c8515967e39c"
+  },
+  "fits/mooc_185509_native_ages/predictions.npz": {
+    "bytes": 1025273,
+    "sha256": "0e71afcdb40de15340baec95c48e711b9c814c03d8b3da1b129a93bf8daae13c"
+  },
+  "fits/mooc_185509_native_ages/result.json": {
+    "bytes": 980,
+    "sha256": "61a68121c0020bda4bb07443464e4b8cde0912e59049ed6d3ea8ad6b9fdae72f"
+  },
+  "fits/mooc_185509_native_counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "c15d008717ee0ba27b64aa3d09b6563a1bdb1d2abf87e6af0ec287ca9c441f4d"
+  },
+  "fits/mooc_185509_native_counts/predictions.npz": {
+    "bytes": 1009623,
+    "sha256": "c9ad9417e6a8b467c489a6e2b00d03a0f70f59a910cc908dc0226fa9ea1f7fd1"
+  },
+  "fits/mooc_185509_native_counts/result.json": {
+    "bytes": 987,
+    "sha256": "485facb308fe17293df06dd81c80deee474c20b2ab6f02b002a6ed76db186857"
+  },
+  "fits/wikipedia_195500_global_ages/model.npz": {
+    "bytes": 1384,
+    "sha256": "b50a4a602d19f61c600c376d2aa7bedaa9a3c8f1b813790fb6cbda091c3759db"
+  },
+  "fits/wikipedia_195500_global_ages/predictions.npz": {
+    "bytes": 246154,
+    "sha256": "c65ba261e71a38abd405c1ffdc5b65e4dfa91bc86f4da4fbfc7096c047e78047"
+  },
+  "fits/wikipedia_195500_global_ages/result.json": {
+    "bytes": 952,
+    "sha256": "ab281ec0876baf86714741e8689da7504b2c11ff4cee7682df175fd373721e2a"
+  },
+  "fits/wikipedia_195500_global_counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "58ae14d92b94e95e2e4cf5e779153648ba5b6fe7e7d816d1b5679596891122b8"
+  },
+  "fits/wikipedia_195500_global_counts/predictions.npz": {
+    "bytes": 241239,
+    "sha256": "e8549f18e694a53ea8d7559cdb02588efe4de4b7ff3780a743332ff11afa515f"
+  },
+  "fits/wikipedia_195500_global_counts/result.json": {
+    "bytes": 952,
+    "sha256": "6bb26e80e7b3667031af7004bb2e3b97fce79cf2309f2a8def121b8f7f3c824a"
+  },
+  "fits/wikipedia_195500_native_ages/model.npz": {
+    "bytes": 1384,
+    "sha256": "acce683814d889311d1b760833a9a90269af76b3ea4d7d1be2058d2e5abd6646"
+  },
+  "fits/wikipedia_195500_native_ages/predictions.npz": {
+    "bytes": 245785,
+    "sha256": "718786b18c6c76971823c60180ab06c30a897e805efd670720eb92ef3f819411"
+  },
+  "fits/wikipedia_195500_native_ages/result.json": {
+    "bytes": 951,
+    "sha256": "4b8333870d871a7cba5cd0364b2754ff130d365983b6394ceaa3b9ec5371c4ec"
+  },
+  "fits/wikipedia_195500_native_counts/model.npz": {
+    "bytes": 1303,
+    "sha256": "3ef6c6908a85d0f218347b4375e4e36dea4fe4664afc94df0912dbe9e13acb71"
+  },
+  "fits/wikipedia_195500_native_counts/predictions.npz": {
+    "bytes": 239230,
+    "sha256": "c2a8cb31adfd560bc746a0932fa03c2875a45f878331dbef718314ee7f519463"
+  },
+  "fits/wikipedia_195500_native_counts/result.json": {
+    "bytes": 952,
+    "sha256": "1d22f0d87623dc7ea8aa5b29d9631538c2281a9fdb7a4eaff2937a6d9db4d001"
+  },
+  "fits/wikipedia_195501_global_ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "fcd602c9b5e2dd5680932324eff4b116b4ce5c8b35bbbe65529d480fd33acb52"
+  },
+  "fits/wikipedia_195501_global_ages/predictions.npz": {
+    "bytes": 246139,
+    "sha256": "7849858b09c3918cfab2c0a65f06b90ebdd3ef0d7ae946baa3ab5f6311f66f41"
+  },
+  "fits/wikipedia_195501_global_ages/result.json": {
+    "bytes": 949,
+    "sha256": "b49607c8f73a41d6f6e1736c3d683054263c70762201dfe7b43a678357ce2eb1"
+  },
+  "fits/wikipedia_195501_global_counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "8f3322218c88d5ebbbe3ee4e8429f1d49ad866d191e5627b3899df75b647db2a"
+  },
+  "fits/wikipedia_195501_global_counts/predictions.npz": {
+    "bytes": 241081,
+    "sha256": "2d0e56fb2b1b6b73176727fd4647165a0968ffe2bf468cf744a82535f94ca145"
+  },
+  "fits/wikipedia_195501_global_counts/result.json": {
+    "bytes": 953,
+    "sha256": "c093aaa6240e8d4d35316810a02ffe61784ed2ab83506d724eb8376685875242"
+  },
+  "fits/wikipedia_195501_native_ages/model.npz": {
+    "bytes": 1387,
+    "sha256": "bd99c75f63c3389be89dfd0b5d28b50fb9d7b5110aecdfc093ea4b48fdd27e73"
+  },
+  "fits/wikipedia_195501_native_ages/predictions.npz": {
+    "bytes": 245817,
+    "sha256": "2c232d25b72c9605aa8f8c0dbb6f2a35913246851261ac5c01858b30e1c40098"
+  },
+  "fits/wikipedia_195501_native_ages/result.json": {
+    "bytes": 955,
+    "sha256": "ca5c43329391ab4d0ffb1e0a7ae169bf5fbcc3c5a5b59993003318a3282a1c62"
+  },
+  "fits/wikipedia_195501_native_counts/model.npz": {
+    "bytes": 1303,
+    "sha256": "5e2e7f70cf16937c5977623c07cdddb336c2486dafdb0c3ac8a684d936ab9bc8"
+  },
+  "fits/wikipedia_195501_native_counts/predictions.npz": {
+    "bytes": 240466,
+    "sha256": "d88943ea789c44497ba39ad984f1fd4fc3e6ca022899b54c8297798b3a4f3eb5"
+  },
+  "fits/wikipedia_195501_native_counts/result.json": {
+    "bytes": 953,
+    "sha256": "f0111aab964b4768a9928569e0d0018607f7e8996d2360cf4891d2c14439d12f"
+  },
+  "fits/wikipedia_195502_global_ages/model.npz": {
+    "bytes": 1384,
+    "sha256": "3254cc8d3475a941e4379a820333c02a7285f52d4d24933952e9d31ff80352fa"
+  },
+  "fits/wikipedia_195502_global_ages/predictions.npz": {
+    "bytes": 245953,
+    "sha256": "07a86093662c8ec5a5def131d872f314773d4b0c9a3c4e9fb271e5b51b09fe03"
+  },
+  "fits/wikipedia_195502_global_ages/result.json": {
+    "bytes": 951,
+    "sha256": "b4e20319b955199fe4cfa3a5b01b7653510304af09ad68ee731bd3cd97bbf788"
+  },
+  "fits/wikipedia_195502_global_counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "4afbe0b3691d8f7a2c6a2aeb2769eac9064cc19fa6deb96f1107fa219f53a0f4"
+  },
+  "fits/wikipedia_195502_global_counts/predictions.npz": {
+    "bytes": 241095,
+    "sha256": "f0e2fd613fdf821daa544590cdb049d5620de2ea6729a302202c19ee0441d3fa"
+  },
+  "fits/wikipedia_195502_global_counts/result.json": {
+    "bytes": 954,
+    "sha256": "95ad3d84d0edf20af213672f428493ef43f45701c20d623f53d5c5a58a163625"
+  },
+  "fits/wikipedia_195502_native_ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "1e7a1859baac0aa9431b38ed12c9619f986d49867519f5b68e921fdbb803e8ec"
+  },
+  "fits/wikipedia_195502_native_ages/predictions.npz": {
+    "bytes": 245790,
+    "sha256": "d08e0620d61c502d44620a9e46206aa971d475c2cfa598a4961440b8855b6fb6"
+  },
+  "fits/wikipedia_195502_native_ages/result.json": {
+    "bytes": 967,
+    "sha256": "b8a27ca1411eef59e0d1e280366cf77ee7fbd1c8186d4fa64ae795055e33848b"
+  },
+  "fits/wikipedia_195502_native_counts/model.npz": {
+    "bytes": 1303,
+    "sha256": "121ac23561f2eb86b1025938a095360bfdfc945e1cb330068ee8fc6fffd2159f"
+  },
+  "fits/wikipedia_195502_native_counts/predictions.npz": {
+    "bytes": 240973,
+    "sha256": "5e4f13ff6893e012ff4b230974028503cee0aa808a82167a85ffae304a1d254c"
+  },
+  "fits/wikipedia_195502_native_counts/result.json": {
+    "bytes": 940,
+    "sha256": "59250daa35badecc85cb7b2fc94d8c2ba4baa5b74c74ffd7ee7a8223209ff8ae"
+  },
+  "fits/wikipedia_195503_global_ages/model.npz": {
+    "bytes": 1385,
+    "sha256": "191047554d693b871c738fc2e000647ad104484f475650b02aa976364b81366f"
+  },
+  "fits/wikipedia_195503_global_ages/predictions.npz": {
+    "bytes": 246068,
+    "sha256": "6d53512698d9f193d728fa1fb074c60b92e04fb12796a9e564904f7960d83df6"
+  },
+  "fits/wikipedia_195503_global_ages/result.json": {
+    "bytes": 951,
+    "sha256": "4ce543cdc3201b1cbf9c5ab00f8dbbf381702e0907204138ef5450d957eaa842"
+  },
+  "fits/wikipedia_195503_global_counts/model.npz": {
+    "bytes": 1301,
+    "sha256": "c61bbc47ef85a43c79907a69544f6884a3c6c101717e9076ff29d906cfb7cc28"
+  },
+  "fits/wikipedia_195503_global_counts/predictions.npz": {
+    "bytes": 241126,
+    "sha256": "ecf8d0d0ddc15c8c1bbd37681d5a9fe280b5d61eabcae6ea877efb1ae9b1b2f6"
+  },
+  "fits/wikipedia_195503_global_counts/result.json": {
+    "bytes": 954,
+    "sha256": "9980c033f818f930c891d14197393e450e041bbfbf15c5dd7166ddd9f2639a1d"
+  },
+  "fits/wikipedia_195503_native_ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "87c132d7b8978dd03930d6b973ebdc21f4c9703b09dcac38e342e3c6d34033b8"
+  },
+  "fits/wikipedia_195503_native_ages/predictions.npz": {
+    "bytes": 245908,
+    "sha256": "ca447ed272e01c48ddce1b74e8214b6af32a0373f8601b428f72526a0b01b4ba"
+  },
+  "fits/wikipedia_195503_native_ages/result.json": {
+    "bytes": 982,
+    "sha256": "950dfaa72c40bb3aa7577f3eea81ca6c8a28597dbb9a900c03a0191c17024f88"
+  },
+  "fits/wikipedia_195503_native_counts/model.npz": {
+    "bytes": 1303,
+    "sha256": "e977ac2fcd753330c51c8e11c031aaa6a812d20bc61747f331b9e994684b5f14"
+  },
+  "fits/wikipedia_195503_native_counts/predictions.npz": {
+    "bytes": 240688,
+    "sha256": "d2fdc7f7b0bf2742864c739bb32d0a674875accd4fb6e27d1d97e8b49567b8f9"
+  },
+  "fits/wikipedia_195503_native_counts/result.json": {
+    "bytes": 953,
+    "sha256": "283d34922bb763e11686f139c5ac90dd7bdf6f7fc0c88b3b3459fd63a01e2ef9"
+  },
+  "fits/wikipedia_195504_global_ages/model.npz": {
+    "bytes": 1385,
+    "sha256": "c81aff1ed52f2a7426731cfc5df674f42a82a9de47b05a6a237e22cc1cdf47f0"
+  },
+  "fits/wikipedia_195504_global_ages/predictions.npz": {
+    "bytes": 246058,
+    "sha256": "a54014169a1f64cec2f7bc99c73f6a311ca9a900ad8c7714a1b48988bbb7d524"
+  },
+  "fits/wikipedia_195504_global_ages/result.json": {
+    "bytes": 951,
+    "sha256": "266d743c18f8844a146dcc18913742cdeca6f1f83dd615ed40c66937fcf5f6ab"
+  },
+  "fits/wikipedia_195504_global_counts/model.npz": {
+    "bytes": 1301,
+    "sha256": "caeba680911c8238b1ed3e70b640ee55e4fc17de2e344720973e5ea20c291be8"
+  },
+  "fits/wikipedia_195504_global_counts/predictions.npz": {
+    "bytes": 241203,
+    "sha256": "2c5bf369d3d2b62716b1c14a0ed55e85aaa33659d3f573ff4d401ef4389657ef"
+  },
+  "fits/wikipedia_195504_global_counts/result.json": {
+    "bytes": 954,
+    "sha256": "ef8012cbba9b7c6e369b3c2e7d0d501ac949bc491fc4397f0177a5a95b9e446a"
+  },
+  "fits/wikipedia_195504_native_ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "0d243d80da8407a1c4669356aa8eefea1f8e0a64a0846f4b8fe1fb3b8e0fe4c3"
+  },
+  "fits/wikipedia_195504_native_ages/predictions.npz": {
+    "bytes": 245623,
+    "sha256": "0cd3c835f90c9e0e7e645e7ed474d15b03aaf214754eaa8bcd6f60f8f7f56886"
+  },
+  "fits/wikipedia_195504_native_ages/result.json": {
+    "bytes": 966,
+    "sha256": "3e92a34356cda178d159a2d27d1a99c8919bb232ee6bda1e2e1334d02775b9b9"
+  },
+  "fits/wikipedia_195504_native_counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "97ec9499fafae6cc878e6f2ea081156917d07ca81284387199ad03990c961c6f"
+  },
+  "fits/wikipedia_195504_native_counts/predictions.npz": {
+    "bytes": 240822,
+    "sha256": "99b79294f63c0cdd5f36a388cf5aaabba6241f8c7e32cea6504c8bde6e6ef276"
+  },
+  "fits/wikipedia_195504_native_counts/result.json": {
+    "bytes": 952,
+    "sha256": "3a40e6190dbd42a9f1423a3e1a978e44525c4ee8499ca776607190bba376e7f2"
+  },
+  "fits/wikipedia_195505_global_ages/model.npz": {
+    "bytes": 1385,
+    "sha256": "759aeb8c328d085e401bf23635382082faf845dfb970097204d5c378f27fb2d4"
+  },
+  "fits/wikipedia_195505_global_ages/predictions.npz": {
+    "bytes": 245974,
+    "sha256": "22a02284962d1ae0b95c5a07f44dd2af4dec2fb9da496222b4ba60af9d15250a"
+  },
+  "fits/wikipedia_195505_global_ages/result.json": {
+    "bytes": 949,
+    "sha256": "dfcaca161918faaeba849e696fede486dfc68f9af801d07a5af7ab4cd1928bac"
+  },
+  "fits/wikipedia_195505_global_counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "409b1110921427d0d5432407bbd32e61a44190d4b7b04c591afeef97a88b0b5a"
+  },
+  "fits/wikipedia_195505_global_counts/predictions.npz": {
+    "bytes": 240961,
+    "sha256": "a8b1fc25b2aac915dc547e1ece7b94a1270dcc8accedea42413c7ca38e3b3d4c"
+  },
+  "fits/wikipedia_195505_global_counts/result.json": {
+    "bytes": 953,
+    "sha256": "8c14b2aeb00d6bccaafc6337629de07e33295637dc96e34c8cf1d197ab10cae5"
+  },
+  "fits/wikipedia_195505_native_ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "0fd2fbc999ad19328bd2f12e8c18a25f4617458f12511157c991e7be7bd68fc9"
+  },
+  "fits/wikipedia_195505_native_ages/predictions.npz": {
+    "bytes": 245826,
+    "sha256": "0c043ef0fbc1de9d12ae532bbcf3c45eff2cb9cc745ce0e653280ec72d8fa75e"
+  },
+  "fits/wikipedia_195505_native_ages/result.json": {
+    "bytes": 967,
+    "sha256": "f19f3f7f97afc3a947aad6538a551e9b46cceccf8f8ef66841b505be58997891"
+  },
+  "fits/wikipedia_195505_native_counts/model.npz": {
+    "bytes": 1300,
+    "sha256": "583a83817dbc76cc35a6740fac10468644dcaf70e9d6de86a8fc80f305658529"
+  },
+  "fits/wikipedia_195505_native_counts/predictions.npz": {
+    "bytes": 240948,
+    "sha256": "1868cabb52220b49eeb0b1944a8f0cce0841c9855a557bb4aa3a3d267a796ba2"
+  },
+  "fits/wikipedia_195505_native_counts/result.json": {
+    "bytes": 952,
+    "sha256": "7bd7cca0902a32b01fd1263bb4904d2cc9850bb1ce21572466616737f192bd44"
+  },
+  "fits/wikipedia_195506_global_ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "62fb63bc186a430644d4512420b1b1ebefab29f63f28c9800a13ee83d7cb2ded"
+  },
+  "fits/wikipedia_195506_global_ages/predictions.npz": {
+    "bytes": 246017,
+    "sha256": "8ce12b2e522d7b351d56f69f190142c457d5e62f9196ac82bfe612280983237a"
+  },
+  "fits/wikipedia_195506_global_ages/result.json": {
+    "bytes": 938,
+    "sha256": "e4a5c1bc35cef9ef2e3d18103d070e96a78c2b3cdfb97d24e3778ede58527ea0"
+  },
+  "fits/wikipedia_195506_global_counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "ab7177a0777156fe3c02c69ec4e0a80cc18dc48a1508ebaa336b97ffceb87374"
+  },
+  "fits/wikipedia_195506_global_counts/predictions.npz": {
+    "bytes": 241292,
+    "sha256": "2cf6f0cb609a99ba5f6789cbe76b7a37c82d8d7306b595f1cb9b2cfd91d67dc9"
+  },
+  "fits/wikipedia_195506_global_counts/result.json": {
+    "bytes": 954,
+    "sha256": "42a8cff7ba51ff3c48136eaa54cc033280cf70f975b3a992b2b62699fe291377"
+  },
+  "fits/wikipedia_195506_native_ages/model.npz": {
+    "bytes": 1387,
+    "sha256": "fb539e0041298736e5063b8d35f3217ff9cf2e66d6640139169af216d4a9d982"
+  },
+  "fits/wikipedia_195506_native_ages/predictions.npz": {
+    "bytes": 245799,
+    "sha256": "535024b8352ddc583615e6363ed2dfc7e642acbb68e499ef740d05c50924de01"
+  },
+  "fits/wikipedia_195506_native_ages/result.json": {
+    "bytes": 983,
+    "sha256": "d0d46d251a36b7fea89ba502ca7438c361d2345ceda49e5825240dc35dbc4059"
+  },
+  "fits/wikipedia_195506_native_counts/model.npz": {
+    "bytes": 1303,
+    "sha256": "e73631873738bd5a211908366f01b25c8d894ff27454ce613de66f2d2e2c9f5e"
+  },
+  "fits/wikipedia_195506_native_counts/predictions.npz": {
+    "bytes": 241100,
+    "sha256": "3232b7bd1d96b355658e3e599d059c13e63009c1ee87136824a8f49403418b04"
+  },
+  "fits/wikipedia_195506_native_counts/result.json": {
+    "bytes": 939,
+    "sha256": "82ff08fe8d21e88401804548f81f458aa2c7cf66be1112af5256f8b0727081a5"
+  },
+  "fits/wikipedia_195507_global_ages/model.npz": {
+    "bytes": 1385,
+    "sha256": "ecfb60e6afa360f0157d05a933e5faeaa424a0122d13865ddf36792984cc090b"
+  },
+  "fits/wikipedia_195507_global_ages/predictions.npz": {
+    "bytes": 246059,
+    "sha256": "3fa75a722a028b523bc6e4d120e6110a75da0efc81afdebf1faf6af10d3c22f5"
+  },
+  "fits/wikipedia_195507_global_ages/result.json": {
+    "bytes": 940,
+    "sha256": "c0197bdb0aef6336d0b3e3ae28afc44d731ca1947fd5b0b23c1c6a0c5ecff571"
+  },
+  "fits/wikipedia_195507_global_counts/model.npz": {
+    "bytes": 1301,
+    "sha256": "6ce3cc078b5b0830929e0766e6368d208fdd7847d707a280483d4ee28e0fd390"
+  },
+  "fits/wikipedia_195507_global_counts/predictions.npz": {
+    "bytes": 240973,
+    "sha256": "c07b51e79d8d9a2353d71ff2bbb767b0c7d71647c7781a63eea8ed0bbd302e06"
+  },
+  "fits/wikipedia_195507_global_counts/result.json": {
+    "bytes": 944,
+    "sha256": "088a280e18addb51611285d3c318ae0e2f14999204a5ac0a5cbfca29653a7fcd"
+  },
+  "fits/wikipedia_195507_native_ages/model.npz": {
+    "bytes": 1383,
+    "sha256": "61482e1fb7099f46f60d5581e051ed0b11c8749e79da19a00fc65058f2de6665"
+  },
+  "fits/wikipedia_195507_native_ages/predictions.npz": {
+    "bytes": 245763,
+    "sha256": "0bf0e76c1b558fe83882eb19a496a13801e83ad05f9c8a5457e0ced5686b3053"
+  },
+  "fits/wikipedia_195507_native_ages/result.json": {
+    "bytes": 959,
+    "sha256": "ac127791b1d16593d59b0699e169bcd23eb5dd0a3ae6c50273588adb6a2236fe"
+  },
+  "fits/wikipedia_195507_native_counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "deb69034bf4ad86fde156098222b62e960fe4db1531b99d9e06d22dfff70b542"
+  },
+  "fits/wikipedia_195507_native_counts/predictions.npz": {
+    "bytes": 240904,
+    "sha256": "67fa719f0fc727e065fc0af38a6600ef6d6a0e74c8ec4bdef86f5311ce9cf6b7"
+  },
+  "fits/wikipedia_195507_native_counts/result.json": {
+    "bytes": 944,
+    "sha256": "492d784162a65074b1fd9c092cda887e1eb2503df40b62ef838289ede1e0f96a"
+  },
+  "fits/wikipedia_195508_global_ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "830b321d74ca54388c5fa1d4a24f859437e6f4518bfa772be2612ca5ee49eb89"
+  },
+  "fits/wikipedia_195508_global_ages/predictions.npz": {
+    "bytes": 246078,
+    "sha256": "48f1c84831c34ee71c4488420dbde983d7534fbc1d09310a19721434ae21cf99"
+  },
+  "fits/wikipedia_195508_global_ages/result.json": {
+    "bytes": 950,
+    "sha256": "6ad75ef4ad9b6db5d3ce6623a5704e28d02f933615be204c4d05268f1f0115f0"
+  },
+  "fits/wikipedia_195508_global_counts/model.npz": {
+    "bytes": 1303,
+    "sha256": "a7dc254aa55e6cbb5abaa9bb8a01289c007ff11237878f0885e7fc11a92cd78c"
+  },
+  "fits/wikipedia_195508_global_counts/predictions.npz": {
+    "bytes": 241283,
+    "sha256": "21fc8c29ee1efcdc8350a029a306660f97c91d1b9292e607175fc5d7f857b78c"
+  },
+  "fits/wikipedia_195508_global_counts/result.json": {
+    "bytes": 951,
+    "sha256": "8054f189d5028468f83a49bfa57243b91e68320a5c3e273dd55eb30efc767017"
+  },
+  "fits/wikipedia_195508_native_ages/model.npz": {
+    "bytes": 1384,
+    "sha256": "a26d23c3d14a7d0b112ecd8d4c68c802e61b6b7f3a53c23142814c9d0f848ff6"
+  },
+  "fits/wikipedia_195508_native_ages/predictions.npz": {
+    "bytes": 245655,
+    "sha256": "61afd3210f38630a8c17affffc7be9249c3b0810537d305ae331f04a3e50963b"
+  },
+  "fits/wikipedia_195508_native_ages/result.json": {
+    "bytes": 967,
+    "sha256": "4652145ea84da75dcd61d0d361d2610b5ecb5195210d6e4d58ad4342c66fb936"
+  },
+  "fits/wikipedia_195508_native_counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "22a321c179c1f723bc99ccaf41059de14be9d1ce9d88db9b268a8cf959468b06"
+  },
+  "fits/wikipedia_195508_native_counts/predictions.npz": {
+    "bytes": 241018,
+    "sha256": "652317ad5681ba7915e5ec3a277540a449e396e25b27e4266fb0e6274b5b88a0"
+  },
+  "fits/wikipedia_195508_native_counts/result.json": {
+    "bytes": 951,
+    "sha256": "217097b67340861b6cbb95be0f165b44513a882e583bdebad30c8b5fc0c33f96"
+  },
+  "fits/wikipedia_195509_global_ages/model.npz": {
+    "bytes": 1385,
+    "sha256": "4dea919c101a72c305e1113a2096a1c3db9ca8ad7d6a17b1f9bb43a7b1a5e01b"
+  },
+  "fits/wikipedia_195509_global_ages/predictions.npz": {
+    "bytes": 246013,
+    "sha256": "9992bf0b41f2ce698620a0a3f49639181767c6bfffc960ae3460ec9bfb83e3b3"
+  },
+  "fits/wikipedia_195509_global_ages/result.json": {
+    "bytes": 951,
+    "sha256": "7540359bd09bd12d637a1acbdcc907fccb2ffd6058ae3620b723d93e7cb81e6c"
+  },
+  "fits/wikipedia_195509_global_counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "6667548d09b0c63d67977109694bb6d9d7cabd6c3819a61c834845712c02fca8"
+  },
+  "fits/wikipedia_195509_global_counts/predictions.npz": {
+    "bytes": 241185,
+    "sha256": "767016917982843704a403fa1ce82fbabd2571986344953ae7be9204f2910f00"
+  },
+  "fits/wikipedia_195509_global_counts/result.json": {
+    "bytes": 952,
+    "sha256": "6c833bbad6ffb74d660b5f210e2c3d09e5d77f17945e33d129420491bff5abd9"
+  },
+  "fits/wikipedia_195509_native_ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "c524b4661f8301eed21a6ed1c6d9e5b792d4e86063595a812cc062cce8443673"
+  },
+  "fits/wikipedia_195509_native_ages/predictions.npz": {
+    "bytes": 245534,
+    "sha256": "e1a6029388ce5f58f82f1a4847d4a9aede63a105f8d90a12309a013b6adaac1d"
+  },
+  "fits/wikipedia_195509_native_ages/result.json": {
+    "bytes": 967,
+    "sha256": "9015603741cd6bd1a483ccb5b8f99d10959e830bafe3a4292afc56c68657a90c"
+  },
+  "fits/wikipedia_195509_native_counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "33dcc130954ea65c554e3e976f71b9a861a77638f456abd7e40c5c90b39ef775"
+  },
+  "fits/wikipedia_195509_native_counts/predictions.npz": {
+    "bytes": 240710,
+    "sha256": "fffa0225195152d266dff4850f2eced90ce93d4de844ec492c0271e90059d121"
+  },
+  "fits/wikipedia_195509_native_counts/result.json": {
+    "bytes": 953,
+    "sha256": "3b02c4c259b0a2349d11be8498b0d97142624e5496a364accdda46f598264d64"
+  },
+  "historical_test/mooc_185500_global_ages.npz": {
+    "bytes": 1014182,
+    "sha256": "c8980018812f775cbba1d2bfc44469dd29cce77fbac9121453b0c807bda7a6c5"
+  },
+  "historical_test/mooc_185500_global_counts.npz": {
+    "bytes": 1016114,
+    "sha256": "941f41f76ad11ca31e5826e7ccae4d884a585147ea5006ca1d328b8a947859d6"
+  },
+  "historical_test/mooc_185500_native_ages.npz": {
+    "bytes": 1024658,
+    "sha256": "24ac9125cc17c9c16264b2785ab079822769a657a78bdbb702aac20f4b4fb088"
+  },
+  "historical_test/mooc_185500_native_counts.npz": {
+    "bytes": 1010183,
+    "sha256": "c7e0c4081adf1bc961d6732faa705b23354bbbd3494245186f98ec2c263524ca"
+  },
+  "historical_test/mooc_185501_global_ages.npz": {
+    "bytes": 1015826,
+    "sha256": "e50e5ed22332ebd94c7dae455bf8765ac18b5e1993ab687d6d398698752fc420"
+  },
+  "historical_test/mooc_185501_global_counts.npz": {
+    "bytes": 1012236,
+    "sha256": "2b9ce9eed49b971a5e34ff26cfadf5388ea9c18dfe84ce429bc740762909e41f"
+  },
+  "historical_test/mooc_185501_native_ages.npz": {
+    "bytes": 1025235,
+    "sha256": "2ea00908712bb62766cc5fcc5ea9b1afb36689444d2debd9f413b8387183b319"
+  },
+  "historical_test/mooc_185501_native_counts.npz": {
+    "bytes": 1014938,
+    "sha256": "1fb73db4d14f9bea83dbb4685c0c336b36ad428036f841c3aa518dfdfdef2e46"
+  },
+  "historical_test/mooc_185502_global_ages.npz": {
+    "bytes": 1020130,
+    "sha256": "8ade5f2529150f6a6c9b418120ee84def77641814eebcc881c723a5631dba29d"
+  },
+  "historical_test/mooc_185502_global_counts.npz": {
+    "bytes": 1017762,
+    "sha256": "5268e251ab86d93169fd93edcf59bf8cd186d994e0b3e48af988e320ea5c8193"
+  },
+  "historical_test/mooc_185502_native_ages.npz": {
+    "bytes": 1023612,
+    "sha256": "9caf36d900566bae35385b502a08b34bb74f69d731b4151d464943b35a32b234"
+  },
+  "historical_test/mooc_185502_native_counts.npz": {
+    "bytes": 1012030,
+    "sha256": "cb1c91c1c573a1172b612dead49831bec8d79f5a2d315c269d843bf469e2cfd2"
+  },
+  "historical_test/mooc_185503_global_ages.npz": {
+    "bytes": 1018118,
+    "sha256": "7f4528ac9e618ae202608d3e632df654f0fff88170ac7f1c5a1361c8d3699eac"
+  },
+  "historical_test/mooc_185503_global_counts.npz": {
+    "bytes": 1011404,
+    "sha256": "4e05153630bc8cdb8668ca1e1a0e064433e863765dc5281fd480b84988a3112d"
+  },
+  "historical_test/mooc_185503_native_ages.npz": {
+    "bytes": 1024247,
+    "sha256": "1b194d790987f3bbb0dc45133c8019e46c8ba916643b0548cd2ef2231d4ebc8c"
+  },
+  "historical_test/mooc_185503_native_counts.npz": {
+    "bytes": 1008184,
+    "sha256": "f955f378da4acb20990688631d19af38fc77fa626be54c9ab7376cabffa78b99"
+  },
+  "historical_test/mooc_185504_global_ages.npz": {
+    "bytes": 1016013,
+    "sha256": "3a25a87b163edc35f4d5f797905a91afc47c09d2f2480df17412f54225e0cd89"
+  },
+  "historical_test/mooc_185504_global_counts.npz": {
+    "bytes": 1015846,
+    "sha256": "fc33c35ea4a812a946f09a2207728d7e624fc5df66a92812e38a2f52239cc916"
+  },
+  "historical_test/mooc_185504_native_ages.npz": {
+    "bytes": 1023211,
+    "sha256": "a6491d4633351bcd23316d12bd315ea0dc81f05316a81b7c76648bb7a43d905b"
+  },
+  "historical_test/mooc_185504_native_counts.npz": {
+    "bytes": 1014844,
+    "sha256": "2705abbdf10843e764c67268a1f3016913ded43aebf6ac628af566c751a68ff1"
+  },
+  "historical_test/mooc_185505_global_ages.npz": {
+    "bytes": 1014833,
+    "sha256": "50e34c6bc777d1be7aff6d1955475c7f33d36f8242a35b2e9a13bc7bb9c74f6e"
+  },
+  "historical_test/mooc_185505_global_counts.npz": {
+    "bytes": 1016173,
+    "sha256": "8cfe6b7e44186eec345b0625ac9de0d274e1771ef0c5e3ad97ad2136d7f5cbd4"
+  },
+  "historical_test/mooc_185505_native_ages.npz": {
+    "bytes": 1023075,
+    "sha256": "94ae5a067a2dba4d52377f62dfd8d90a30f3efac18d67e50dce9e83a2732253d"
+  },
+  "historical_test/mooc_185505_native_counts.npz": {
+    "bytes": 1014710,
+    "sha256": "10bbeaf563c34a6a89bafb51f0b6481defbb2b4b894593c8e37bbe5e0f446f69"
+  },
+  "historical_test/mooc_185506_global_ages.npz": {
+    "bytes": 1016101,
+    "sha256": "81a099af22872c45e73f9df49a05a6e8b0f81cb871f7d31987f433d21b0e9473"
+  },
+  "historical_test/mooc_185506_global_counts.npz": {
+    "bytes": 1015152,
+    "sha256": "be16b642dbe77887f9406519dd898143777d18c286419dc5a4194c2eaf1802fe"
+  },
+  "historical_test/mooc_185506_native_ages.npz": {
+    "bytes": 1023655,
+    "sha256": "fd630a0b6bb575dfb6e87b7e94d871cdbb45a785cecaffc8fed9f71f4891ddec"
+  },
+  "historical_test/mooc_185506_native_counts.npz": {
+    "bytes": 1012160,
+    "sha256": "df79f795168a0ba423d35262b445ebc14796a5bb1abb6a5c783d63016621eccd"
+  },
+  "historical_test/mooc_185507_global_ages.npz": {
+    "bytes": 1019399,
+    "sha256": "2a3c497a6d9e92afb9832088b3a20fb93399cdc64379066ea5165a24114b2100"
+  },
+  "historical_test/mooc_185507_global_counts.npz": {
+    "bytes": 1017171,
+    "sha256": "03ec324a6b6140809f99a672d6e4d106679a59867283b048bb03ce667ea5596f"
+  },
+  "historical_test/mooc_185507_native_ages.npz": {
+    "bytes": 1023665,
+    "sha256": "4ca0c4b98cfb27d9bb7a61814059218dfaae5053150ebba553ca5e7f7b425900"
+  },
+  "historical_test/mooc_185507_native_counts.npz": {
+    "bytes": 1015999,
+    "sha256": "7dd6554f1f54f89cce0f2dc81bda4f51a4ed9cadd0ff626867ecd2b874893945"
+  },
+  "historical_test/mooc_185508_global_ages.npz": {
+    "bytes": 1019321,
+    "sha256": "4f57382432bf9a7a98204086fa5c7d700b4bb55932d0466ad19e0324364ad314"
+  },
+  "historical_test/mooc_185508_global_counts.npz": {
+    "bytes": 1014409,
+    "sha256": "50cbe8414daa3f9a04a509acb84915afd3705c4c5e1fef67f5ab5f0721ef6e1b"
+  },
+  "historical_test/mooc_185508_native_ages.npz": {
+    "bytes": 1023297,
+    "sha256": "4a09d1933a9acdb79ffddcbc6fc89962e6aeb973823e7f7f3498996715eb0dbb"
+  },
+  "historical_test/mooc_185508_native_counts.npz": {
+    "bytes": 1015725,
+    "sha256": "f5a23bb9997496da002fffaf9f26587fab9b293e75f42df2fecbaa15d575a065"
+  },
+  "historical_test/mooc_185509_global_ages.npz": {
+    "bytes": 1019272,
+    "sha256": "b2f8c976f9c33b94f2f2335e2e5e8f76d97c85d262a77743ad1516efa1ebe18e"
+  },
+  "historical_test/mooc_185509_global_counts.npz": {
+    "bytes": 1017005,
+    "sha256": "a24e57eaead45f184cec682de9733ebde4217533f270a0d51976bcd820b9fd5d"
+  },
+  "historical_test/mooc_185509_native_ages.npz": {
+    "bytes": 1023055,
+    "sha256": "95170ef41c1cc666b846f82fb40ae139daec35e27db3e2d38c2b1ec78504bdf9"
+  },
+  "historical_test/mooc_185509_native_counts.npz": {
+    "bytes": 1010762,
+    "sha256": "fc813e3ef4dfd713dadb415833c30c2eec2b335d6e06e49a6707e66b98eb1cb2"
+  },
+  "historical_test/wikipedia_195500_global_ages.npz": {
+    "bytes": 245918,
+    "sha256": "566698bc4e087feb2d1c7a4f07ca5d59509bc51bb32fb5b24f04d4567473437d"
+  },
+  "historical_test/wikipedia_195500_global_counts.npz": {
+    "bytes": 244820,
+    "sha256": "26f75ed6a2b7622b0096fd4af3890f34631bc62d4703ddbd04de629394ba3e94"
+  },
+  "historical_test/wikipedia_195500_native_ages.npz": {
+    "bytes": 247521,
+    "sha256": "565783f87689b6f6c37a51dd09581d3ad9884c0d53d9fd02d72ff01f4e480113"
+  },
+  "historical_test/wikipedia_195500_native_counts.npz": {
+    "bytes": 244250,
+    "sha256": "378a4d3c214b06d7285a091bce2a929e174ccf4614ec6d95cad5eb20b0fb5252"
+  },
+  "historical_test/wikipedia_195501_global_ages.npz": {
+    "bytes": 246009,
+    "sha256": "a75ad8f9a89e4e4713a963963c8fe11c2ef194d88ac1e848b398f7131aa7d1b9"
+  },
+  "historical_test/wikipedia_195501_global_counts.npz": {
+    "bytes": 244676,
+    "sha256": "52262b6119addf0680402c136c2f5d0c224cce4405d73d3943ab5f2ca5d15244"
+  },
+  "historical_test/wikipedia_195501_native_ages.npz": {
+    "bytes": 247552,
+    "sha256": "a79b623d4808ef4709921155c1eb4ffdf6d54f9b011c86b759842dfb39460cf6"
+  },
+  "historical_test/wikipedia_195501_native_counts.npz": {
+    "bytes": 244197,
+    "sha256": "64e44c50cb2ad2a6f4c7f6be81ea6a0fc0e9f81df3df7e7e1450f9d0a4c05c03"
+  },
+  "historical_test/wikipedia_195502_global_ages.npz": {
+    "bytes": 246162,
+    "sha256": "2fd5b18a21e7244463078a81131f4f51e2e265a47eb8d13816090c4dc5f2eee8"
+  },
+  "historical_test/wikipedia_195502_global_counts.npz": {
+    "bytes": 245094,
+    "sha256": "a334e0e2f64c106e837c4b226841a6935b3f66e1a1bda9e31388de667590ec9f"
+  },
+  "historical_test/wikipedia_195502_native_ages.npz": {
+    "bytes": 247533,
+    "sha256": "680f42800042cc69dd0116d8f29a6b841231d2f54a82597b55f23bd4fbdfa8ee"
+  },
+  "historical_test/wikipedia_195502_native_counts.npz": {
+    "bytes": 244396,
+    "sha256": "fd33dcc98ca23889c563069d48b667ca1e203b62f30ad2e20f27bce5a87fafb7"
+  },
+  "historical_test/wikipedia_195503_global_ages.npz": {
+    "bytes": 246023,
+    "sha256": "c48244a6a1af8bfa65d4421fde9bdd55a05a591160691c9265e3517181cbe55e"
+  },
+  "historical_test/wikipedia_195503_global_counts.npz": {
+    "bytes": 244976,
+    "sha256": "5d1fddde038c02c0854104971cad06e801942bfbb02e54f9c67fbd824453d9ab"
+  },
+  "historical_test/wikipedia_195503_native_ages.npz": {
+    "bytes": 247511,
+    "sha256": "dcfd3314f7b68622e65bfeeedf9747fba04a784b09401b1158c99fcfdf919bea"
+  },
+  "historical_test/wikipedia_195503_native_counts.npz": {
+    "bytes": 244222,
+    "sha256": "d4ac03e8ae40b619338b5f229fefd6a7657c6be26c79f146c783eb055bbe4bec"
+  },
+  "historical_test/wikipedia_195504_global_ages.npz": {
+    "bytes": 246160,
+    "sha256": "2166327873f738dfa130395eceb654c9244cbdb9fabdf07d5a0ff3fb977c5823"
+  },
+  "historical_test/wikipedia_195504_global_counts.npz": {
+    "bytes": 244975,
+    "sha256": "1f2659c3544e5c6b2d2bf83efdfdb8f227704126d5549e1f8c8ae6b16e2d2d6c"
+  },
+  "historical_test/wikipedia_195504_native_ages.npz": {
+    "bytes": 247448,
+    "sha256": "f112b178bbc0592cf2e64c28012087bebc4efb8f8da0f372dc7c06d50c3dc235"
+  },
+  "historical_test/wikipedia_195504_native_counts.npz": {
+    "bytes": 244399,
+    "sha256": "02fba56eb171b417c0213b003b2a1c96de1484e26b587b3aaeff376d47a561a7"
+  },
+  "historical_test/wikipedia_195505_global_ages.npz": {
+    "bytes": 245921,
+    "sha256": "81b7df9bef29a290aecb270407750a7b2e9f55d44fd726da26ea56b531dbe096"
+  },
+  "historical_test/wikipedia_195505_global_counts.npz": {
+    "bytes": 244738,
+    "sha256": "e24356c955dc54b8753fdedf7c51cf2bc940f3068101c0977742078bfa26a4a1"
+  },
+  "historical_test/wikipedia_195505_native_ages.npz": {
+    "bytes": 247550,
+    "sha256": "7595d57737c73795aa532ec5456de50f532b85e905b0c05b78accb98b3e9f711"
+  },
+  "historical_test/wikipedia_195505_native_counts.npz": {
+    "bytes": 244375,
+    "sha256": "0f7fd2ab3afe1f0cbdb4c7fc1045b4da4689a7b65ab611a0e0ee5c8e01b76235"
+  },
+  "historical_test/wikipedia_195506_global_ages.npz": {
+    "bytes": 246093,
+    "sha256": "60a212ac48a5855bba160c2fe236f611eb7022337cc8feb5846047f6621b89ca"
+  },
+  "historical_test/wikipedia_195506_global_counts.npz": {
+    "bytes": 245077,
+    "sha256": "e14af42e51f3f33426856ddfe37aad5701c901a03a1da6c8085fcf9bd0b2b534"
+  },
+  "historical_test/wikipedia_195506_native_ages.npz": {
+    "bytes": 247404,
+    "sha256": "02cf33daf25515657c82c78e75697bdb706040a761108f48a4e8234129889976"
+  },
+  "historical_test/wikipedia_195506_native_counts.npz": {
+    "bytes": 244436,
+    "sha256": "4dad6ab42f887777acf29705a86cf5f44a962d400e56ac9f555a51d81fd6cfaf"
+  },
+  "historical_test/wikipedia_195507_global_ages.npz": {
+    "bytes": 246209,
+    "sha256": "5e9e87508a444bc11548aef609e4a0d4c0ad5cab16e5c500e06e11b983fd3091"
+  },
+  "historical_test/wikipedia_195507_global_counts.npz": {
+    "bytes": 245113,
+    "sha256": "6d0286b4cc204028f9036d2da11466cee82f2718799be7e8a54f218f095000dc"
+  },
+  "historical_test/wikipedia_195507_native_ages.npz": {
+    "bytes": 247403,
+    "sha256": "32ff63df3a767f3bddf5d9458f3bbf9aa0635563db16fb9d02c7f4eb81874ad2"
+  },
+  "historical_test/wikipedia_195507_native_counts.npz": {
+    "bytes": 244301,
+    "sha256": "7e366b270d1ef07b94e0db109170b55682d25bdccdfb78e8df278d34c7cf6430"
+  },
+  "historical_test/wikipedia_195508_global_ages.npz": {
+    "bytes": 246054,
+    "sha256": "2d20820ce8e9aba3c12a5e0c1ce8958332c20bfc71cc21cbf4490e93d9a80256"
+  },
+  "historical_test/wikipedia_195508_global_counts.npz": {
+    "bytes": 244974,
+    "sha256": "90482ae74d814ad4edc135ddbe17be59dbba55c0e46b7dd54936da212d0f25a4"
+  },
+  "historical_test/wikipedia_195508_native_ages.npz": {
+    "bytes": 247533,
+    "sha256": "7a4c43e72d2d6f6ceb78f2ababfe200bb157d50baa4dc37dd89f9152f79b42fd"
+  },
+  "historical_test/wikipedia_195508_native_counts.npz": {
+    "bytes": 244354,
+    "sha256": "99b9689b1819d1906b8eede46b49164012089708fb9934b338086aa8f15a531d"
+  },
+  "historical_test/wikipedia_195509_global_ages.npz": {
+    "bytes": 246236,
+    "sha256": "3b382ec6e4f7ca1882f3bc45ce06662dbf3ed62dcd9a7a06f87035338dd05d42"
+  },
+  "historical_test/wikipedia_195509_global_counts.npz": {
+    "bytes": 245061,
+    "sha256": "5fec319d03f1cfcf66f23ccc89798700ccc1e7f6d6d2c4fd2105b28a8ed0c02c"
+  },
+  "historical_test/wikipedia_195509_native_ages.npz": {
+    "bytes": 247533,
+    "sha256": "95156e5557330753c75550f012f6b7eda68754c098857e25cb4be95d61961164"
+  },
+  "historical_test/wikipedia_195509_native_counts.npz": {
+    "bytes": 244356,
+    "sha256": "ef2d88c11dd2304deb91fb28ebcfb531b47985c670f376d942826a62a1572377"
+  },
+  "plan.json": {
+    "bytes": 4921,
+    "sha256": "c943ed09b550b300474d45f1ba3c8ba4f434689eac87e7b1a8455fd20dc45757"
+  },
+  "random_both_seen_summary.json": {
+    "bytes": 927,
+    "sha256": "03dd74f53ed93b7edacf9dcd5f6ddf199356f60acd18e79a906f7b43b854868d"
+  },
+  "recorded/VERIFICATION.json": {
+    "bytes": 591,
+    "sha256": "76232d9b664e202a49f3de4ba53c11d14a92e8698b35b92567e5b8c70ddbdce1"
+  },
+  "recorded/group_contrasts.csv": {
+    "bytes": 17342,
+    "sha256": "2fcdbaf618466051d5971e44a959374b3797804e6023c45ba70587c2e2f96afa"
+  },
+  "recorded/group_metrics.csv": {
+    "bytes": 57720,
+    "sha256": "c7f0559187925ae03e3961468f0b6ebbaa7c6ccc7746bd427cb3e09233476cee"
+  },
+  "recorded/per_draw_contrasts.csv": {
+    "bytes": 3456,
+    "sha256": "ffe884ab09e5d6a24399a5079d4cde1da00dafeee19361f907c0f54d98eebd52"
+  },
+  "recorded/table2.csv": {
+    "bytes": 1465,
+    "sha256": "b9d6fe0f61213d1c068bf8ac323cd21acac7b97fbfabc63ea3b2317dc79a8461"
+  },
+  "reference/logistic/mooc/data/draw_185500.npz": {
+    "bytes": 1073093,
+    "sha256": "21e262b38e9400a8bcd3741219dce56dfe91982b1e64891bc2268d54f0ab9634"
+  },
+  "reference/logistic/mooc/data/draw_185501.npz": {
+    "bytes": 1072436,
+    "sha256": "cb40732c97ff6cc737e69d092607d773b2c877afa31cb7fe603b606471dc12c2"
+  },
+  "reference/logistic/mooc/data/draw_185502.npz": {
+    "bytes": 1071819,
+    "sha256": "563e0250e73152e33a6c0d3f4bea448d5ac9c095f633d9f7632165e1afc03723"
+  },
+  "reference/logistic/mooc/data/draw_185503.npz": {
+    "bytes": 1073105,
+    "sha256": "de06ad264e84b237f07350bfbd27748265a71d3b73ff49cbca08e1b3910cc6d6"
+  },
+  "reference/logistic/mooc/data/draw_185504.npz": {
+    "bytes": 1072337,
+    "sha256": "c4f34df85b982039e36819dd3dde52a4d35b6b03064ea71b9ad65cc2de3279d2"
+  },
+  "reference/logistic/mooc/data/draw_185505.npz": {
+    "bytes": 1072415,
+    "sha256": "cab28f1bc306d22f38f421208e5ce2df746dc850f2aae31423531144d8e619e1"
+  },
+  "reference/logistic/mooc/data/draw_185506.npz": {
+    "bytes": 1071686,
+    "sha256": "e55f354fb1101dfd7f440b25d2747e8faa4ae15592b5d69a58b6bfb2d9c6ec06"
+  },
+  "reference/logistic/mooc/data/draw_185507.npz": {
+    "bytes": 1071956,
+    "sha256": "573b411620648b2743372337a8cb59b313b0c6a3b814916b53476a3e48f9b2f1"
+  },
+  "reference/logistic/mooc/data/draw_185508.npz": {
+    "bytes": 1071880,
+    "sha256": "15bb7af30acd0e005705841a5b3db58fd8cc8413c1a7a066735a425196ce4926"
+  },
+  "reference/logistic/mooc/data/draw_185509.npz": {
+    "bytes": 1072159,
+    "sha256": "8116568914c7716b956d68b666ab6ebd795e11f469e80dbf90ec5758108a848f"
+  },
+  "reference/logistic/mooc/data/eval_185500.npz": {
+    "bytes": 3538,
+    "sha256": "8e243f8aedea073d0a1dc16a5165bff00ed57238a026edcb9cf57b8339fac001"
+  },
+  "reference/logistic/mooc/data/eval_185501.npz": {
+    "bytes": 3538,
+    "sha256": "8e243f8aedea073d0a1dc16a5165bff00ed57238a026edcb9cf57b8339fac001"
+  },
+  "reference/logistic/mooc/data/eval_185502.npz": {
+    "bytes": 3538,
+    "sha256": "8e243f8aedea073d0a1dc16a5165bff00ed57238a026edcb9cf57b8339fac001"
+  },
+  "reference/logistic/mooc/data/eval_185503.npz": {
+    "bytes": 3538,
+    "sha256": "8e243f8aedea073d0a1dc16a5165bff00ed57238a026edcb9cf57b8339fac001"
+  },
+  "reference/logistic/mooc/data/eval_185504.npz": {
+    "bytes": 3538,
+    "sha256": "8e243f8aedea073d0a1dc16a5165bff00ed57238a026edcb9cf57b8339fac001"
+  },
+  "reference/logistic/mooc/data/eval_185505.npz": {
+    "bytes": 3538,
+    "sha256": "8e243f8aedea073d0a1dc16a5165bff00ed57238a026edcb9cf57b8339fac001"
+  },
+  "reference/logistic/mooc/data/eval_185506.npz": {
+    "bytes": 3538,
+    "sha256": "8e243f8aedea073d0a1dc16a5165bff00ed57238a026edcb9cf57b8339fac001"
+  },
+  "reference/logistic/mooc/data/eval_185507.npz": {
+    "bytes": 3538,
+    "sha256": "8e243f8aedea073d0a1dc16a5165bff00ed57238a026edcb9cf57b8339fac001"
+  },
+  "reference/logistic/mooc/data/eval_185508.npz": {
+    "bytes": 3538,
+    "sha256": "8e243f8aedea073d0a1dc16a5165bff00ed57238a026edcb9cf57b8339fac001"
+  },
+  "reference/logistic/mooc/data/eval_185509.npz": {
+    "bytes": 3538,
+    "sha256": "8e243f8aedea073d0a1dc16a5165bff00ed57238a026edcb9cf57b8339fac001"
+  },
+  "reference/logistic/mooc/fits/185500/global/ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "77a80c20d7813cfbd0b16c4b16d030e163216590fc1fc19b1b3c0fe03f4c2755"
+  },
+  "reference/logistic/mooc/fits/185500/global/ages/result.json": {
+    "bytes": 258,
+    "sha256": "9c2a239fbbc786854e566c3edd3e48cabba975d0224fdb722e2f462f4fe75d83"
+  },
+  "reference/logistic/mooc/fits/185500/global/counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "76e33f229ebc53c935f68c07e95c20ed4e2beb2556ec7ae5f1001f53eba3c351"
+  },
+  "reference/logistic/mooc/fits/185500/global/counts/result.json": {
+    "bytes": 258,
+    "sha256": "d610a1a70afa54d77fd1c118160d9f89a8445ee38c03e229808a6175d0e8820f"
+  },
+  "reference/logistic/mooc/fits/185500/native/ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "85f58d1ebff9ba6b03baadddf429c7ef79c2e90a806a5e6c8384f00b6c00eb13"
+  },
+  "reference/logistic/mooc/fits/185500/native/ages/result.json": {
+    "bytes": 258,
+    "sha256": "41a0f25123c47192a315239bcf0cd7ed44bd40971e71889241d08c1bdb369dcd"
+  },
+  "reference/logistic/mooc/fits/185500/native/counts/model.npz": {
+    "bytes": 1303,
+    "sha256": "f08f2b707bde9033a266c420d56445e8f272236d57f94146938bea3439344ed1"
+  },
+  "reference/logistic/mooc/fits/185500/native/counts/result.json": {
+    "bytes": 258,
+    "sha256": "5f23b505ee6126404248e87bfe1de83fbcf46dcc866b970c6421f346d0e9cd2d"
+  },
+  "reference/logistic/mooc/fits/185501/global/ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "047eb89edc57e8c7848a80ed1229cb0646a9405483d1cdc14f4dc7f955c6c3dd"
+  },
+  "reference/logistic/mooc/fits/185501/global/ages/result.json": {
+    "bytes": 258,
+    "sha256": "0c2d1023066a886dda3599ae2b006b98ab1c54ee2606fe189dc3fafc19eef888"
+  },
+  "reference/logistic/mooc/fits/185501/global/counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "391dc724900b1b87cf10d550cbb3629fe544f9a9b7fffc948d8cae1dc498dc3a"
+  },
+  "reference/logistic/mooc/fits/185501/global/counts/result.json": {
+    "bytes": 258,
+    "sha256": "11c94fa6aa256cd393d2009bdbdb5e5e8bb2cf5f21a1ce0ad26a1377a64d0ac8"
+  },
+  "reference/logistic/mooc/fits/185501/native/ages/model.npz": {
+    "bytes": 1385,
+    "sha256": "b12565f40f103614dbb27d967d98a239759481489a75a583f820c7f8b2aa8ea5"
+  },
+  "reference/logistic/mooc/fits/185501/native/ages/result.json": {
+    "bytes": 258,
+    "sha256": "ed05fe386deabd97de2cc9fb0b34b6d89b4bdd25c304189c4ecf1e6761dd99d6"
+  },
+  "reference/logistic/mooc/fits/185501/native/counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "e9064ba78831ba1cd07b1826779d127b5dcf71cbc7833c7c29eb17c4d31683b4"
+  },
+  "reference/logistic/mooc/fits/185501/native/counts/result.json": {
+    "bytes": 256,
+    "sha256": "8ec8e3433fae13c80f812cb8992c25e63936ac0217c10c73ca5b204206e31000"
+  },
+  "reference/logistic/mooc/fits/185502/global/ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "06ed4d02af28ff3dbfc78f9e2651c978b5b419b369955f7cc459762cebceeeca"
+  },
+  "reference/logistic/mooc/fits/185502/global/ages/result.json": {
+    "bytes": 258,
+    "sha256": "1ecc7e5a2a1863b9e13df85e8b26a47b1ddcadb6a61808145b0db9e4a4e4a3e8"
+  },
+  "reference/logistic/mooc/fits/185502/global/counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "6cdcd3c8a6b0e871162be41ab6596085f49f6cfe755cb49b29940ed6acbba7f1"
+  },
+  "reference/logistic/mooc/fits/185502/global/counts/result.json": {
+    "bytes": 258,
+    "sha256": "aa869b12ce2bafcae55c7c06c8d43182f33cbf114a0cb31764af90feace7bd2a"
+  },
+  "reference/logistic/mooc/fits/185502/native/ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "3e240cb20beeaf91b5ad2b4b08c8e8629dc68daee8fd3eb6ec432151f944d8cb"
+  },
+  "reference/logistic/mooc/fits/185502/native/ages/result.json": {
+    "bytes": 257,
+    "sha256": "0ebf21d9431520a145a5e8c9738aefa6e3d8a29508b164c39e0968b93a53e0b4"
+  },
+  "reference/logistic/mooc/fits/185502/native/counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "bd59e267a067d6dcd71c94108380f91dc4a4cc6f5565ec3ec258fed0bfc6725f"
+  },
+  "reference/logistic/mooc/fits/185502/native/counts/result.json": {
+    "bytes": 257,
+    "sha256": "260a8b42a00b84b26797b4b80249da0e02a63aa6be3aa99b8cd663303b5e1905"
+  },
+  "reference/logistic/mooc/fits/185503/global/ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "cddd3a5502bff7bcbdcc2f561a8c2997896bf2ffeacd3b60bfa6bf175f83e7e8"
+  },
+  "reference/logistic/mooc/fits/185503/global/ages/result.json": {
+    "bytes": 258,
+    "sha256": "f30aec5b740c181f010cdba35c50219dc1bbe2c4c53ac77642037f5e13795d4d"
+  },
+  "reference/logistic/mooc/fits/185503/global/counts/model.npz": {
+    "bytes": 1303,
+    "sha256": "0606369eae883962729b7163da51cc59c213e01f26fe346b9f17c9ef1625826f"
+  },
+  "reference/logistic/mooc/fits/185503/global/counts/result.json": {
+    "bytes": 258,
+    "sha256": "d5961e3532f4c759afd5f11bed617caddea21f3bb1110d3f61e1653d7f142f18"
+  },
+  "reference/logistic/mooc/fits/185503/native/ages/model.npz": {
+    "bytes": 1387,
+    "sha256": "9e6385895b6e29b756c4189d0fd8d2b001ad2fd765cef541fae642e1954e663f"
+  },
+  "reference/logistic/mooc/fits/185503/native/ages/result.json": {
+    "bytes": 258,
+    "sha256": "7b814d299e2b7ef2a3cf0e16036142c2cd24a7a74ac43ac8c63efc9f114b16cc"
+  },
+  "reference/logistic/mooc/fits/185503/native/counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "d7ef7e234704007798164682c1db4b71396a79372b6fc62b7b28666b2a8f1309"
+  },
+  "reference/logistic/mooc/fits/185503/native/counts/result.json": {
+    "bytes": 258,
+    "sha256": "518d1b564b402a7364cfb65f568d4f40955fa1b8cb1befad228fdc74ef12bf1f"
+  },
+  "reference/logistic/mooc/fits/185504/global/ages/model.npz": {
+    "bytes": 1387,
+    "sha256": "16827dc4431f51ffbf61709a615aebba6853c15bb77c8247e7392436f785781b"
+  },
+  "reference/logistic/mooc/fits/185504/global/ages/result.json": {
+    "bytes": 258,
+    "sha256": "4f75b9e3552ba4b630df7673f148f540e3a8ca719daae5aa37c90cf8f499077b"
+  },
+  "reference/logistic/mooc/fits/185504/global/counts/model.npz": {
+    "bytes": 1303,
+    "sha256": "28e2c28c6bdbf8624d265d79865396b7b7f8768834202548e767c763a33ce4c1"
+  },
+  "reference/logistic/mooc/fits/185504/global/counts/result.json": {
+    "bytes": 258,
+    "sha256": "d5c66ef235dde3f4cea66c26b6321548dbeaa3e9904905081999f499d6a6ca9c"
+  },
+  "reference/logistic/mooc/fits/185504/native/ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "7e58f2fa279eca4e16bd5ad6ac28e7e510062a6a3280c49e2815cef6549ec334"
+  },
+  "reference/logistic/mooc/fits/185504/native/ages/result.json": {
+    "bytes": 258,
+    "sha256": "b9254c80849f4d3879634a5b86b11c73fb81fa7d5488d770dae03a6724b6c692"
+  },
+  "reference/logistic/mooc/fits/185504/native/counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "31f47507b19d460ab82700bb2fdfef16c1e3d800e33534118aea68f09ea81cf6"
+  },
+  "reference/logistic/mooc/fits/185504/native/counts/result.json": {
+    "bytes": 258,
+    "sha256": "0ca339a9be690eb0b4be50c7f7ddfd5cae57015fe378f8c0e487667e04306a00"
+  },
+  "reference/logistic/mooc/fits/185505/global/ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "b2a38c87251e5609a2d4ae01714911828df98a6952012a0c10bf28633fa422f5"
+  },
+  "reference/logistic/mooc/fits/185505/global/ages/result.json": {
+    "bytes": 257,
+    "sha256": "bf9cb2dd991c6b24686fd6698174013e255fff6df405c86ddced26f2f7f6fa6b"
+  },
+  "reference/logistic/mooc/fits/185505/global/counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "d132c4af69296b517619285e83d1856ee61bf035b53e2bd64d9a6df357ad96ad"
+  },
+  "reference/logistic/mooc/fits/185505/global/counts/result.json": {
+    "bytes": 257,
+    "sha256": "94312d1011ec06ea7113d786cd6357a8065221340448d38dce1ca9b353b551c1"
+  },
+  "reference/logistic/mooc/fits/185505/native/ages/model.npz": {
+    "bytes": 1387,
+    "sha256": "34369e0efaddc35a8e12fd32422b3c1df5ff4fab8fbae33aa9eee3992b282c60"
+  },
+  "reference/logistic/mooc/fits/185505/native/ages/result.json": {
+    "bytes": 258,
+    "sha256": "6199912f45b727c90a161c73bc283212e0da959a65601f662e959b6f146d0bce"
+  },
+  "reference/logistic/mooc/fits/185505/native/counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "0986936a7551d70be9927f98c2ee245e6f2ce732402bca3199fbe046aac28e77"
+  },
+  "reference/logistic/mooc/fits/185505/native/counts/result.json": {
+    "bytes": 258,
+    "sha256": "0fe7c89896ec4507d13beea3142ee4b3f33487ffcff9ed8ee23056854dba0626"
+  },
+  "reference/logistic/mooc/fits/185506/global/ages/model.npz": {
+    "bytes": 1387,
+    "sha256": "3a5a6f212e8fe761164617d00b20e26836de3c8cdc31ddd5f5df3a9086e72bb3"
+  },
+  "reference/logistic/mooc/fits/185506/global/ages/result.json": {
+    "bytes": 258,
+    "sha256": "bc3458967af5f9856c63e654a758ebfd072dae74f79955e36a918117975915a1"
+  },
+  "reference/logistic/mooc/fits/185506/global/counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "3e7aefeae67d6690d5365002a85635d0864f4f6af710064aea5a976d8d1e740a"
+  },
+  "reference/logistic/mooc/fits/185506/global/counts/result.json": {
+    "bytes": 258,
+    "sha256": "17d844ccf912e3b3bc05ab5d169338cdfc7f506b304110b561ecfcf54218bb2b"
+  },
+  "reference/logistic/mooc/fits/185506/native/ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "7539301d6e0802a19845de9e3ce2af0829432422a47f28744b95ad3ab7fa56ec"
+  },
+  "reference/logistic/mooc/fits/185506/native/ages/result.json": {
+    "bytes": 257,
+    "sha256": "103a72908e30f21ed5005d81af6ec5ee3037a6181eaba148cd22eec08d4b6002"
+  },
+  "reference/logistic/mooc/fits/185506/native/counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "10fbc76ef4bd36e31136cf7fcbf3472a5483936a44d02c9ac15931b277506ab9"
+  },
+  "reference/logistic/mooc/fits/185506/native/counts/result.json": {
+    "bytes": 258,
+    "sha256": "87d6396d0d3bcd8aa90ffec720beec8a5ff364c816ba866ffece451e2b512a3c"
+  },
+  "reference/logistic/mooc/fits/185507/global/ages/model.npz": {
+    "bytes": 1385,
+    "sha256": "47803000cb9841fff240d31e275c5bd3ac9af34d508597422f52c1b15a8507d6"
+  },
+  "reference/logistic/mooc/fits/185507/global/ages/result.json": {
+    "bytes": 258,
+    "sha256": "a945d86ce9f14959b9d4a5eb8e717715f4fa453b317416a37896faf33917b09a"
+  },
+  "reference/logistic/mooc/fits/185507/global/counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "22415b6c9ff3babbcc97e5a64d70869691368affafeb5c1608525b1abe1a6312"
+  },
+  "reference/logistic/mooc/fits/185507/global/counts/result.json": {
+    "bytes": 258,
+    "sha256": "36f370a3a82c83c39c5938b7c1a8ed4de92982e27ab40a5246ad45b11aa7689e"
+  },
+  "reference/logistic/mooc/fits/185507/native/ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "91b1862e678de18e0ed9a54d4fd43834bf3bea6fd86fa695db7d724eed855a98"
+  },
+  "reference/logistic/mooc/fits/185507/native/ages/result.json": {
+    "bytes": 258,
+    "sha256": "a5dea1eb1cfc40777e5296b29c0bf9a293b90d310a637ade6aded7c80a84bc30"
+  },
+  "reference/logistic/mooc/fits/185507/native/counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "a421cada123ac653ea07f360b6310f02db44641e80bc9ea2a56619e6bd1a829f"
+  },
+  "reference/logistic/mooc/fits/185507/native/counts/result.json": {
+    "bytes": 258,
+    "sha256": "07d99921a4c972252a8724b3cf123f93d27a2618649ab188de13fb8f6d421900"
+  },
+  "reference/logistic/mooc/fits/185508/global/ages/model.npz": {
+    "bytes": 1384,
+    "sha256": "6fffbce6f40415152c0403ad39cc550267cdee6892c01b796f8b7d42facc77e6"
+  },
+  "reference/logistic/mooc/fits/185508/global/ages/result.json": {
+    "bytes": 257,
+    "sha256": "ec18a54f3f914b4f7b4b38088ed7cebca0478255d3c4e00fb4452ac97153da20"
+  },
+  "reference/logistic/mooc/fits/185508/global/counts/model.npz": {
+    "bytes": 1301,
+    "sha256": "44a1416ff739e42d4df14d16a2fea75ef9f2407e8fc94e9a943cfa26c6becbe0"
+  },
+  "reference/logistic/mooc/fits/185508/global/counts/result.json": {
+    "bytes": 258,
+    "sha256": "1b9162d7d13997a4067f913b9770b1a4a57bf608ac90393c1c1c69e6b875e7a1"
+  },
+  "reference/logistic/mooc/fits/185508/native/ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "516a636e0c754de54ef216b6a20e5c23466a9c390c4fb6f9ee8e4491d50f4238"
+  },
+  "reference/logistic/mooc/fits/185508/native/ages/result.json": {
+    "bytes": 257,
+    "sha256": "3c34aac6b3b7046162e08ba292f7fbd36e672e731bda2f966a26a7361de2bacc"
+  },
+  "reference/logistic/mooc/fits/185508/native/counts/model.npz": {
+    "bytes": 1303,
+    "sha256": "1b715dfca6c1d87e01068bdda27a78de2a709f5a3980cc26f0bfddc524b9e044"
+  },
+  "reference/logistic/mooc/fits/185508/native/counts/result.json": {
+    "bytes": 258,
+    "sha256": "fdfac674464b9e1807fa76ee9d1fbbd66f96c10295072070dd4b7ac3b9f0efea"
+  },
+  "reference/logistic/mooc/fits/185509/global/ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "21d8a723873ab521bd692ee1d7d4b73ff1355ca41844ec53924b795f18c41c23"
+  },
+  "reference/logistic/mooc/fits/185509/global/ages/result.json": {
+    "bytes": 258,
+    "sha256": "f543127c96b3819b4a9f66ade1ee455b1fa3bdac67ab34cf704cf31ae99796c0"
+  },
+  "reference/logistic/mooc/fits/185509/global/counts/model.npz": {
+    "bytes": 1301,
+    "sha256": "356a27927fa9e042b5737c90c3b9cd04ffc825fc54f805e617d49c67095ab989"
+  },
+  "reference/logistic/mooc/fits/185509/global/counts/result.json": {
+    "bytes": 258,
+    "sha256": "6c200b762a329a8fe1f3aa385f399a0b4f8eca4f12523df8c026310146703a4b"
+  },
+  "reference/logistic/mooc/fits/185509/native/ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "ca57f44ed554cfb4629553b5ef01435b6697abf2c5243f67bce0b65d4baeca72"
+  },
+  "reference/logistic/mooc/fits/185509/native/ages/result.json": {
+    "bytes": 258,
+    "sha256": "7aa989094c822a4d570a264b51ad2b1d2108dfe7107e2b5099669643ce4fd811"
+  },
+  "reference/logistic/mooc/fits/185509/native/counts/model.npz": {
+    "bytes": 1303,
+    "sha256": "6065afb567d9f93918e374bb7728c157d697938ef9d78c0bca3f2b0f669f7314"
+  },
+  "reference/logistic/mooc/fits/185509/native/counts/result.json": {
+    "bytes": 258,
+    "sha256": "56e6299d52733e68afcba665b19f1b3dfd39366eaf08cf8a07d459654786dbc8"
+  },
+  "reference/logistic/mooc/inputs/contract.json": {
+    "bytes": 9410,
+    "sha256": "d31a4c7c9dcee4b6140ed1cd3a8ae0f1faf364421ef51a7b5de12f94a21c1fe6"
+  },
+  "reference/logistic/mooc/inputs/events.npz": {
+    "bytes": 16471184,
+    "sha256": "cf04da0da81e191741fa2f6f9183ecb24aa8dbab212232a1732ceffe1d2863e8"
+  },
+  "reference/logistic/wikipedia/data/draw_195500.npz": {
+    "bytes": 362096,
+    "sha256": "bbf02413e09628ce5688ee2af072d139dc6cebf997817e9a3b196c9c6975fa23"
+  },
+  "reference/logistic/wikipedia/data/draw_195501.npz": {
+    "bytes": 362177,
+    "sha256": "57c3c930c790ebb84dfb4e45c4443bad86b45fd91ebff99448c376770025510f"
+  },
+  "reference/logistic/wikipedia/data/draw_195502.npz": {
+    "bytes": 362106,
+    "sha256": "1f65e893566bd7b04dd773791d7a0156526018a30e6f875d53a77a0562132645"
+  },
+  "reference/logistic/wikipedia/data/draw_195503.npz": {
+    "bytes": 362128,
+    "sha256": "60fca3f3c4ce72bc891893dfdd75d0a2d3b5cc2e464675188e85fb41d894c914"
+  },
+  "reference/logistic/wikipedia/data/draw_195504.npz": {
+    "bytes": 362144,
+    "sha256": "3f94711dfe447423a24a6db73ee2dd5493dae3401bd05cdf6d3e846cafaa570c"
+  },
+  "reference/logistic/wikipedia/data/draw_195505.npz": {
+    "bytes": 362126,
+    "sha256": "585db753a61679659575739803bf83916914fed8f8d8b77ab1a098da3a1b815d"
+  },
+  "reference/logistic/wikipedia/data/draw_195506.npz": {
+    "bytes": 362223,
+    "sha256": "d1b00488eb3b2272661dace2d93c3c6f7098016a3c3e55eb6eaa5de71778f922"
+  },
+  "reference/logistic/wikipedia/data/draw_195507.npz": {
+    "bytes": 362210,
+    "sha256": "888c9712a3a4ce77d9db1d129214ec8854070e375c7f6d800079db2883c2ee4c"
+  },
+  "reference/logistic/wikipedia/data/draw_195508.npz": {
+    "bytes": 362056,
+    "sha256": "dbfd1130f575f2b8f9941e0a89dddc8e239705a0f15d8aea1bef0d379d02d265"
+  },
+  "reference/logistic/wikipedia/data/draw_195509.npz": {
+    "bytes": 362258,
+    "sha256": "bd1fe0154a61fa10f83ed1770c25c8597cec2ec933ab4d85e8db2eca8b34938a"
+  },
+  "reference/logistic/wikipedia/data/eval_195500.npz": {
+    "bytes": 8082,
+    "sha256": "f3ece07e0897745014241f594110ef6b6e95dc712484e54873d4366178f12d3d"
+  },
+  "reference/logistic/wikipedia/data/eval_195501.npz": {
+    "bytes": 8082,
+    "sha256": "f3ece07e0897745014241f594110ef6b6e95dc712484e54873d4366178f12d3d"
+  },
+  "reference/logistic/wikipedia/data/eval_195502.npz": {
+    "bytes": 8082,
+    "sha256": "f3ece07e0897745014241f594110ef6b6e95dc712484e54873d4366178f12d3d"
+  },
+  "reference/logistic/wikipedia/data/eval_195503.npz": {
+    "bytes": 8082,
+    "sha256": "f3ece07e0897745014241f594110ef6b6e95dc712484e54873d4366178f12d3d"
+  },
+  "reference/logistic/wikipedia/data/eval_195504.npz": {
+    "bytes": 8082,
+    "sha256": "f3ece07e0897745014241f594110ef6b6e95dc712484e54873d4366178f12d3d"
+  },
+  "reference/logistic/wikipedia/data/eval_195505.npz": {
+    "bytes": 8082,
+    "sha256": "f3ece07e0897745014241f594110ef6b6e95dc712484e54873d4366178f12d3d"
+  },
+  "reference/logistic/wikipedia/data/eval_195506.npz": {
+    "bytes": 8082,
+    "sha256": "f3ece07e0897745014241f594110ef6b6e95dc712484e54873d4366178f12d3d"
+  },
+  "reference/logistic/wikipedia/data/eval_195507.npz": {
+    "bytes": 8082,
+    "sha256": "f3ece07e0897745014241f594110ef6b6e95dc712484e54873d4366178f12d3d"
+  },
+  "reference/logistic/wikipedia/data/eval_195508.npz": {
+    "bytes": 8082,
+    "sha256": "f3ece07e0897745014241f594110ef6b6e95dc712484e54873d4366178f12d3d"
+  },
+  "reference/logistic/wikipedia/data/eval_195509.npz": {
+    "bytes": 8082,
+    "sha256": "f3ece07e0897745014241f594110ef6b6e95dc712484e54873d4366178f12d3d"
+  },
+  "reference/logistic/wikipedia/fits/195500/global/ages/model.npz": {
+    "bytes": 1384,
+    "sha256": "0946ab96dcad9a013ab4bdbedcc3209b77730864b4ab41f8e0d5655e23997927"
+  },
+  "reference/logistic/wikipedia/fits/195500/global/ages/result.json": {
+    "bytes": 258,
+    "sha256": "c140deee673f195c8c826fc7e782e8777e9aaff044fa840b3b84a0d71ce2d2fa"
+  },
+  "reference/logistic/wikipedia/fits/195500/global/counts/model.npz": {
+    "bytes": 1300,
+    "sha256": "e9f8193e03ca86c71f74f5daa320e7b311dc29afc525bd3b7cbd79c97a631cd7"
+  },
+  "reference/logistic/wikipedia/fits/195500/global/counts/result.json": {
+    "bytes": 256,
+    "sha256": "7c0efe0222a8196c4fe19551c804085ab5e0a9e9dbb928a0a6fc0c31c09e6c43"
+  },
+  "reference/logistic/wikipedia/fits/195500/native/ages/model.npz": {
+    "bytes": 1385,
+    "sha256": "8f936171913042d74c6678edcdfef69e63cf769a085c3f22bfc85e4bf497dce1"
+  },
+  "reference/logistic/wikipedia/fits/195500/native/ages/result.json": {
+    "bytes": 258,
+    "sha256": "9c99427fff409ecf0d6787b097f90f11cb435bc3a419754fec8804d87d6ac04c"
+  },
+  "reference/logistic/wikipedia/fits/195500/native/counts/model.npz": {
+    "bytes": 1300,
+    "sha256": "101aa289c346b90bb26f8312686154de532df2559532c0c44e860a5b9020a09c"
+  },
+  "reference/logistic/wikipedia/fits/195500/native/counts/result.json": {
+    "bytes": 258,
+    "sha256": "e2c94fd81ce89ece269e7e6b7ab18e8c1d88fe6cab6795ac7ff6a082622ea8a5"
+  },
+  "reference/logistic/wikipedia/fits/195501/global/ages/model.npz": {
+    "bytes": 1387,
+    "sha256": "557f43469eeef2db17d0222ac7495694361422d74fbb099766e0877b031e4eeb"
+  },
+  "reference/logistic/wikipedia/fits/195501/global/ages/result.json": {
+    "bytes": 258,
+    "sha256": "2573bc5287bf5562ea36b8013f52986ef268166054fcd42f4f3083915e9d65fb"
+  },
+  "reference/logistic/wikipedia/fits/195501/global/counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "a7cd738f8f44bf4ea79281aba7b6efb33ac600ef4b6e98ce8a3fef44a0fe219b"
+  },
+  "reference/logistic/wikipedia/fits/195501/global/counts/result.json": {
+    "bytes": 257,
+    "sha256": "ef95f7680ba20c989bdde5c4c208b2ecbf62818273297542163760592e268683"
+  },
+  "reference/logistic/wikipedia/fits/195501/native/ages/model.npz": {
+    "bytes": 1385,
+    "sha256": "22c9eff1e6c3595f7e7ff9a6f4de4da61b104096dcca49aa7836856cb6bc7f60"
+  },
+  "reference/logistic/wikipedia/fits/195501/native/ages/result.json": {
+    "bytes": 258,
+    "sha256": "49d09a6f6812a4c28a60e1d146a156c075d206f0079218dc2e78f4f30c142e26"
+  },
+  "reference/logistic/wikipedia/fits/195501/native/counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "a281d8112366bb6eb06800014f33f738e089678f2a1b8531edc4520553679545"
+  },
+  "reference/logistic/wikipedia/fits/195501/native/counts/result.json": {
+    "bytes": 258,
+    "sha256": "be202e46b4962405ea95aa099f673756466910889e49438dacfc8f8ea6275549"
+  },
+  "reference/logistic/wikipedia/fits/195502/global/ages/model.npz": {
+    "bytes": 1385,
+    "sha256": "57af8be153e6a3fe4e753e22e598456644064b14a79276bb726601ce746300b2"
+  },
+  "reference/logistic/wikipedia/fits/195502/global/ages/result.json": {
+    "bytes": 257,
+    "sha256": "7d4d1a0e16a0e6a973bbb29bc2f7e2aeacb9b925edf3338e611097fa1f0af28b"
+  },
+  "reference/logistic/wikipedia/fits/195502/global/counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "b547f953b5ddd3974d17eaa5345ab90f191c99b43109ffbfee20c523165d1cd6"
+  },
+  "reference/logistic/wikipedia/fits/195502/global/counts/result.json": {
+    "bytes": 257,
+    "sha256": "f6fded2aeb7ec5757beef14238bbae509fbfd55a6928da481a3f03388b15eb0c"
+  },
+  "reference/logistic/wikipedia/fits/195502/native/ages/model.npz": {
+    "bytes": 1385,
+    "sha256": "09031846680c3ba0affbe51a2ed19e24aada910c111222aac8f3fe3742dafa2e"
+  },
+  "reference/logistic/wikipedia/fits/195502/native/ages/result.json": {
+    "bytes": 258,
+    "sha256": "ecfaf035b354677439d053b443a8df94eb090cd7c082f8dddd382ab67c2a1fa9"
+  },
+  "reference/logistic/wikipedia/fits/195502/native/counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "876a05a99fbbe14b7a2e83eac6a5d3638d2cf4d66be76c295cc3cfd91cd8f71d"
+  },
+  "reference/logistic/wikipedia/fits/195502/native/counts/result.json": {
+    "bytes": 257,
+    "sha256": "3f22b2596695bb9e44bb6b1c30db3f535588f46dd00691374a4ddcf2f267eb80"
+  },
+  "reference/logistic/wikipedia/fits/195503/global/ages/model.npz": {
+    "bytes": 1385,
+    "sha256": "899634687035052e3adf9c2e84892fe102932c5ca7a30a8c19f39a847cd3b55e"
+  },
+  "reference/logistic/wikipedia/fits/195503/global/ages/result.json": {
+    "bytes": 258,
+    "sha256": "e02aca3b697a11c07313b11231937131dc496aee1e1846e60604d8a05facf0d8"
+  },
+  "reference/logistic/wikipedia/fits/195503/global/counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "7eff74caa87155de4c21fddd41a0f5fa08a9579eed30b9cf39ddef0f0da98151"
+  },
+  "reference/logistic/wikipedia/fits/195503/global/counts/result.json": {
+    "bytes": 258,
+    "sha256": "ec78695ea4b4f9db495c2c913c315682afa28b69de2db523bbceb3930605be88"
+  },
+  "reference/logistic/wikipedia/fits/195503/native/ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "013a7d35c1ee981f931d17a18b1a9cade6bae10a41d48da5ec03647591795008"
+  },
+  "reference/logistic/wikipedia/fits/195503/native/ages/result.json": {
+    "bytes": 258,
+    "sha256": "27fc392366537152f0c092775458cc3afc0b9475a3abaf3ae0ccc6a3cc15e17e"
+  },
+  "reference/logistic/wikipedia/fits/195503/native/counts/model.npz": {
+    "bytes": 1301,
+    "sha256": "9e2be4774d9225edf280d952a65ade5e30eb247167770aa1588433972e44c50b"
+  },
+  "reference/logistic/wikipedia/fits/195503/native/counts/result.json": {
+    "bytes": 258,
+    "sha256": "8b910e15b0fe8421f4eed473a5d654df5de4a6c50e440c1348f8079d2de008a8"
+  },
+  "reference/logistic/wikipedia/fits/195504/global/ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "d59a1526c96d199dfb78f1aea43c911c66961cbf12e60e5535cd89abab73e256"
+  },
+  "reference/logistic/wikipedia/fits/195504/global/ages/result.json": {
+    "bytes": 257,
+    "sha256": "01eb3e3db4a689817297afc8cf2c16fcd490fd39c23c3c8efe4d25c21666f9b1"
+  },
+  "reference/logistic/wikipedia/fits/195504/global/counts/model.npz": {
+    "bytes": 1301,
+    "sha256": "106bb8288ca356bd68782b3503d595946955187b23d36ee6c133aa1499ea94f2"
+  },
+  "reference/logistic/wikipedia/fits/195504/global/counts/result.json": {
+    "bytes": 258,
+    "sha256": "3117f94a03984ddcceb454942bdd82d77e1ffeb3c05316b2dd6e3117612f2661"
+  },
+  "reference/logistic/wikipedia/fits/195504/native/ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "d52b20a67a3619082829a099febef9ab79d9e422c49eed3c5506e5f40f345566"
+  },
+  "reference/logistic/wikipedia/fits/195504/native/ages/result.json": {
+    "bytes": 258,
+    "sha256": "b35b1da5debaa43b3a8f2357baad274bc5704632030bf0adc9cd349f84288f60"
+  },
+  "reference/logistic/wikipedia/fits/195504/native/counts/model.npz": {
+    "bytes": 1304,
+    "sha256": "982e0fadf467170a3c669d2b4586c294d46c9f5960cb6ee902fe825b24231cd3"
+  },
+  "reference/logistic/wikipedia/fits/195504/native/counts/result.json": {
+    "bytes": 257,
+    "sha256": "4e9092bd1d598c00a27bffb1d29e29142faa2e65dd1a4aab040e87f5c7341516"
+  },
+  "reference/logistic/wikipedia/fits/195505/global/ages/model.npz": {
+    "bytes": 1384,
+    "sha256": "0a63ba904b6fd0da635d710a107ff5bd006515de20603342a866a9c504853aa6"
+  },
+  "reference/logistic/wikipedia/fits/195505/global/ages/result.json": {
+    "bytes": 258,
+    "sha256": "4ca9a6ffbaaf0710603b3e2724fdf83410474e42aa07ad21b2d6a29edda73996"
+  },
+  "reference/logistic/wikipedia/fits/195505/global/counts/model.npz": {
+    "bytes": 1301,
+    "sha256": "1b18e8856b2772ebc72f8ed5255f9dc3bb5df5583b430d6efe613487112bcd19"
+  },
+  "reference/logistic/wikipedia/fits/195505/global/counts/result.json": {
+    "bytes": 258,
+    "sha256": "392da487fc06b7e57a3e78f9b263388870667a1ab1e38c275e89c5cb64973ae2"
+  },
+  "reference/logistic/wikipedia/fits/195505/native/ages/model.npz": {
+    "bytes": 1384,
+    "sha256": "dee150d7ce4c7d7deb7daf0a69603494315877d3dfc54814656d5e01a3036660"
+  },
+  "reference/logistic/wikipedia/fits/195505/native/ages/result.json": {
+    "bytes": 258,
+    "sha256": "ad2ead6c211ae525bc3f8c5a8aa6057adf81abe305d635fc3f03ad6f73c19ad4"
+  },
+  "reference/logistic/wikipedia/fits/195505/native/counts/model.npz": {
+    "bytes": 1300,
+    "sha256": "e8f9dabe4366b5d6fc0142e0b26f9b84b743052cc39c688eb79b2cc6d9cad736"
+  },
+  "reference/logistic/wikipedia/fits/195505/native/counts/result.json": {
+    "bytes": 258,
+    "sha256": "987e3129e0517a4a7072675f43b4de74b81dbbaab66cbac51028954848c4d86d"
+  },
+  "reference/logistic/wikipedia/fits/195506/global/ages/model.npz": {
+    "bytes": 1387,
+    "sha256": "3d0874324492aacef58aaf9555de231c3b15625700baa3e48c32b6fe9d4144f0"
+  },
+  "reference/logistic/wikipedia/fits/195506/global/ages/result.json": {
+    "bytes": 258,
+    "sha256": "834c2fc62e716e13c95c0a1c3e5e12af0a0025ba13f9e65969c8985095043d0d"
+  },
+  "reference/logistic/wikipedia/fits/195506/global/counts/model.npz": {
+    "bytes": 1301,
+    "sha256": "ae6aab605ce7026d1f31452137a92d3e9e0576e7223acca0fd5c74b1ab30f30d"
+  },
+  "reference/logistic/wikipedia/fits/195506/global/counts/result.json": {
+    "bytes": 258,
+    "sha256": "e9f781f0758fcecfe8133603343dd127ec62294444a38762b251e01d18400b4f"
+  },
+  "reference/logistic/wikipedia/fits/195506/native/ages/model.npz": {
+    "bytes": 1387,
+    "sha256": "8699968eb8c4d906ae013564f09f14631e37799f4a7fc1124a17815f29da2074"
+  },
+  "reference/logistic/wikipedia/fits/195506/native/ages/result.json": {
+    "bytes": 257,
+    "sha256": "671bdf896edfa0a6a726d6a1ce559cbdfb0cb3a8ced7abc83d321e3ebdf85b1d"
+  },
+  "reference/logistic/wikipedia/fits/195506/native/counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "76fab20fb8de5ac057557f0f4f007b602917bdc5e153efd5b69fa9b20354f0d2"
+  },
+  "reference/logistic/wikipedia/fits/195506/native/counts/result.json": {
+    "bytes": 258,
+    "sha256": "a692fcfba219895b5abcb8d4ca05c298e32ce2ab8e81a5cd75d798c5055eafca"
+  },
+  "reference/logistic/wikipedia/fits/195507/global/ages/model.npz": {
+    "bytes": 1385,
+    "sha256": "5a398b17ef5aee99a89bf5afe9652d7440ec3357c7aa3db93d9c5d0a3412e0d5"
+  },
+  "reference/logistic/wikipedia/fits/195507/global/ages/result.json": {
+    "bytes": 258,
+    "sha256": "f9b7f38fef8d9b0ddbf44c50a5e77b0b04e44f60e4d7be92c9809668782fd0ad"
+  },
+  "reference/logistic/wikipedia/fits/195507/global/counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "79b56dcc78ab174fff4d2d45d20da5ad8cea23b7bea4f5096cba57c348cc9290"
+  },
+  "reference/logistic/wikipedia/fits/195507/global/counts/result.json": {
+    "bytes": 258,
+    "sha256": "ccde5f2b176ed3f13289cc90200ffab116a18c3b3258e364b1a8f40791268671"
+  },
+  "reference/logistic/wikipedia/fits/195507/native/ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "61e6657942777147656f380f046386278cefbd03979bd1843a0d859e9cb93c7e"
+  },
+  "reference/logistic/wikipedia/fits/195507/native/ages/result.json": {
+    "bytes": 258,
+    "sha256": "3bfe034d003953353c39f68cef727ede7f1c358cf5c1ff67f03e652c33342d3f"
+  },
+  "reference/logistic/wikipedia/fits/195507/native/counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "de6fb9258183e84870579dd54a29bd2553184ddd69fa349d8b3442a1f31eda4f"
+  },
+  "reference/logistic/wikipedia/fits/195507/native/counts/result.json": {
+    "bytes": 258,
+    "sha256": "5c8b305559a40235bafdeaba7841b9fad5eca53e70c108488c4f62f76684423c"
+  },
+  "reference/logistic/wikipedia/fits/195508/global/ages/model.npz": {
+    "bytes": 1385,
+    "sha256": "c277b5347d59c7592db7ec5a0e7a3d252e9274c1bf61bfeefb3689ac99291702"
+  },
+  "reference/logistic/wikipedia/fits/195508/global/ages/result.json": {
+    "bytes": 258,
+    "sha256": "fb9c27adcff944e55d835eafc26afe831a17a096d89576b26a513b9f8fb4812b"
+  },
+  "reference/logistic/wikipedia/fits/195508/global/counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "19ad9bfef8e9823f6fa34b8f0c6b9f3b51fe32eade3bade2707e7674fbd18e2b"
+  },
+  "reference/logistic/wikipedia/fits/195508/global/counts/result.json": {
+    "bytes": 258,
+    "sha256": "e53a31776104be6406664cbed0bcd796ed7e19c468d41537dbd0e15e69f0b238"
+  },
+  "reference/logistic/wikipedia/fits/195508/native/ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "ccaf3d250f89931325b9dac8d299968a61eb6b3c48f6f6fb5f7ac665b109760e"
+  },
+  "reference/logistic/wikipedia/fits/195508/native/ages/result.json": {
+    "bytes": 258,
+    "sha256": "2a90a4c057b562134730f9f66f9f1b28ca2338e659440de29bcefdde3e2cbd75"
+  },
+  "reference/logistic/wikipedia/fits/195508/native/counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "07f533012e1ce1c24d45ed3578922c84a6787119a196c128aea52f2880aba1bc"
+  },
+  "reference/logistic/wikipedia/fits/195508/native/counts/result.json": {
+    "bytes": 258,
+    "sha256": "ec38af05858464d11576e6b78425dbe63bbea8b03bb3e59929903224e157c81b"
+  },
+  "reference/logistic/wikipedia/fits/195509/global/ages/model.npz": {
+    "bytes": 1385,
+    "sha256": "85292bd388634a863038a7d31b408843014b0081d201a6fc0f71fd9f0124ef4b"
+  },
+  "reference/logistic/wikipedia/fits/195509/global/ages/result.json": {
+    "bytes": 258,
+    "sha256": "3f01ebcc1690dbb77d84cde52469822fae0c94ab025c49a4f2e088f4e5b27e9e"
+  },
+  "reference/logistic/wikipedia/fits/195509/global/counts/model.npz": {
+    "bytes": 1302,
+    "sha256": "93058826808e096dcc9f8ded67f3c58ef62a9b026487c32f3ddb3a5aceb70ec3"
+  },
+  "reference/logistic/wikipedia/fits/195509/global/counts/result.json": {
+    "bytes": 257,
+    "sha256": "5780e79db03afc599e07d956ae8658af1a3f8e2386fad38b3aea4b900f93bd70"
+  },
+  "reference/logistic/wikipedia/fits/195509/native/ages/model.npz": {
+    "bytes": 1386,
+    "sha256": "9e3fce29403f73be176a0968bed2341225405a114362c4e873b38e8d1985fdef"
+  },
+  "reference/logistic/wikipedia/fits/195509/native/ages/result.json": {
+    "bytes": 256,
+    "sha256": "15ab52abce75ce94ad16ff0b000fd4651ff2ef3123b9f99825c7f258c74c6b85"
+  },
+  "reference/logistic/wikipedia/fits/195509/native/counts/model.npz": {
+    "bytes": 1303,
+    "sha256": "924dfe477ab522dec9105bebe1dc3dd10bbaeff973c944c7b9d8f2db37a500eb"
+  },
+  "reference/logistic/wikipedia/fits/195509/native/counts/result.json": {
+    "bytes": 258,
+    "sha256": "ad4051fdad5cf06854689615f531f93181ef2193bf6b24aa5eb81c3d7b99d0ab"
+  },
+  "reference/logistic/wikipedia/inputs/contract.json": {
+    "bytes": 12103,
+    "sha256": "ab7a60347784c0d37340c12865e652319ced304bb28c1fe3a4653214b845e5d1"
+  },
+  "reference/logistic/wikipedia/inputs/events.npz": {
+    "bytes": 6300184,
+    "sha256": "1b201be29f7f2c72f479080828a3eafdb78001ac1f3815c31ee3e1169f3f1907"
+  },
+  "reproduce_extension.py": {
+    "bytes": 10100,
+    "sha256": "339ccc1483e1655b4764bdddf3de0e71345038d718ba9b48242279fcc43f1be8"
+  },
+  "requirements.txt": {
+    "bytes": 27,
+    "sha256": "8a1ff7c87e0b624415213e3652b974cfe92ac989b17c6cbec17a08d62afe5f72"
+  }
+}

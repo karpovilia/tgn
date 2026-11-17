@@ -1,0 +1,222 @@
+[
+  {
+    "dataset": "mooc",
+    "draw": 185500,
+    "train_queries": 183614,
+    "test_queries": 60630,
+    "all_test_queries": 61763,
+    "excluded_test_queries": 1133,
+    "random_negative_unseen_fraction": 0.5200725713343229,
+    "random_both_seen_queries": 18161,
+    "pair_seen_heuristic_accuracy": 0.5569932376711199
+  },
+  {
+    "dataset": "mooc",
+    "draw": 185501,
+    "train_queries": 185421,
+    "test_queries": 60630,
+    "all_test_queries": 61763,
+    "excluded_test_queries": 1133,
+    "random_negative_unseen_fraction": 0.5178459508494144,
+    "random_both_seen_queries": 18133,
+    "pair_seen_heuristic_accuracy": 0.5558799274286657
+  },
+  {
+    "dataset": "mooc",
+    "draw": 185502,
+    "train_queries": 186676,
+    "test_queries": 60630,
+    "all_test_queries": 61763,
+    "excluded_test_queries": 1133,
+    "random_negative_unseen_fraction": 0.5162790697674419,
+    "random_both_seen_queries": 18195,
+    "pair_seen_heuristic_accuracy": 0.5550964868876793
+  },
+  {
+    "dataset": "mooc",
+    "draw": 185503,
+    "train_queries": 184311,
+    "test_queries": 60630,
+    "all_test_queries": 61763,
+    "excluded_test_queries": 1133,
+    "random_negative_unseen_fraction": 0.5200725713343229,
+    "random_both_seen_queries": 18027,
+    "pair_seen_heuristic_accuracy": 0.5569932376711199
+  },
+  {
+    "dataset": "mooc",
+    "draw": 185504,
+    "train_queries": 185565,
+    "test_queries": 60630,
+    "all_test_queries": 61763,
+    "excluded_test_queries": 1133,
+    "random_negative_unseen_fraction": 0.5183407554016164,
+    "random_both_seen_queries": 18195,
+    "pair_seen_heuristic_accuracy": 0.5561273297047666
+  },
+  {
+    "dataset": "mooc",
+    "draw": 185505,
+    "train_queries": 185244,
+    "test_queries": 60630,
+    "all_test_queries": 61763,
+    "excluded_test_queries": 1133,
+    "random_negative_unseen_fraction": 0.5178129638792677,
+    "random_both_seen_queries": 18212,
+    "pair_seen_heuristic_accuracy": 0.5558634339435923
+  },
+  {
+    "dataset": "mooc",
+    "draw": 185506,
+    "train_queries": 187770,
+    "test_queries": 60630,
+    "all_test_queries": 61763,
+    "excluded_test_queries": 1133,
+    "random_negative_unseen_fraction": 0.5195447798119742,
+    "random_both_seen_queries": 18008,
+    "pair_seen_heuristic_accuracy": 0.5567293419099456
+  },
+  {
+    "dataset": "mooc",
+    "draw": 185507,
+    "train_queries": 186180,
+    "test_queries": 60630,
+    "all_test_queries": 61763,
+    "excluded_test_queries": 1133,
+    "random_negative_unseen_fraction": 0.5178789378195613,
+    "random_both_seen_queries": 18144,
+    "pair_seen_heuristic_accuracy": 0.555896420913739
+  },
+  {
+    "dataset": "mooc",
+    "draw": 185508,
+    "train_queries": 186685,
+    "test_queries": 60630,
+    "all_test_queries": 61763,
+    "excluded_test_queries": 1133,
+    "random_negative_unseen_fraction": 0.5205014019462313,
+    "random_both_seen_queries": 17998,
+    "pair_seen_heuristic_accuracy": 0.5572076529770741
+  },
+  {
+    "dataset": "mooc",
+    "draw": 185509,
+    "train_queries": 185573,
+    "test_queries": 60630,
+    "all_test_queries": 61763,
+    "excluded_test_queries": 1133,
+    "random_negative_unseen_fraction": 0.5158502391555335,
+    "random_both_seen_queries": 18135,
+    "pair_seen_heuristic_accuracy": 0.5548820715817252
+  },
+  {
+    "dataset": "wikipedia",
+    "draw": 195500,
+    "train_queries": 27165,
+    "test_queries": 14515,
+    "all_test_queries": 23621,
+    "excluded_test_queries": 9106,
+    "random_negative_unseen_fraction": 0.9876679297278678,
+    "random_both_seen_queries": 126,
+    "pair_seen_heuristic_accuracy": 0.9352049603858078
+  },
+  {
+    "dataset": "wikipedia",
+    "draw": 195501,
+    "train_queries": 26829,
+    "test_queries": 14515,
+    "all_test_queries": 23621,
+    "excluded_test_queries": 9106,
+    "random_negative_unseen_fraction": 0.9865656217705822,
+    "random_both_seen_queries": 131,
+    "pair_seen_heuristic_accuracy": 0.934653806407165
+  },
+  {
+    "dataset": "wikipedia",
+    "draw": 195502,
+    "train_queries": 28856,
+    "test_queries": 14515,
+    "all_test_queries": 23621,
+    "excluded_test_queries": 9106,
+    "random_negative_unseen_fraction": 0.9884257664485016,
+    "random_both_seen_queries": 112,
+    "pair_seen_heuristic_accuracy": 0.9355838787461247
+  },
+  {
+    "dataset": "wikipedia",
+    "draw": 195503,
+    "train_queries": 27917,
+    "test_queries": 14515,
+    "all_test_queries": 23621,
+    "excluded_test_queries": 9106,
+    "random_negative_unseen_fraction": 0.9864278332759214,
+    "random_both_seen_queries": 132,
+    "pair_seen_heuristic_accuracy": 0.9345849121598346
+  },
+  {
+    "dataset": "wikipedia",
+    "draw": 195504,
+    "train_queries": 28354,
+    "test_queries": 14515,
+    "all_test_queries": 23621,
+    "excluded_test_queries": 9106,
+    "random_negative_unseen_fraction": 0.9858077850499484,
+    "random_both_seen_queries": 145,
+    "pair_seen_heuristic_accuracy": 0.9342748880468481
+  },
+  {
+    "dataset": "wikipedia",
+    "draw": 195505,
+    "train_queries": 26953,
+    "test_queries": 14515,
+    "all_test_queries": 23621,
+    "excluded_test_queries": 9106,
+    "random_negative_unseen_fraction": 0.9869100930072339,
+    "random_both_seen_queries": 133,
+    "pair_seen_heuristic_accuracy": 0.9348260420254909
+  },
+  {
+    "dataset": "wikipedia",
+    "draw": 195506,
+    "train_queries": 28600,
+    "test_queries": 14515,
+    "all_test_queries": 23621,
+    "excluded_test_queries": 9106,
+    "random_negative_unseen_fraction": 0.9873923527385463,
+    "random_both_seen_queries": 120,
+    "pair_seen_heuristic_accuracy": 0.9350671718911471
+  },
+  {
+    "dataset": "wikipedia",
+    "draw": 195507,
+    "train_queries": 28926,
+    "test_queries": 14515,
+    "all_test_queries": 23621,
+    "excluded_test_queries": 9106,
+    "random_negative_unseen_fraction": 0.9880124009645195,
+    "random_both_seen_queries": 128,
+    "pair_seen_heuristic_accuracy": 0.9353771960041336
+  },
+  {
+    "dataset": "wikipedia",
+    "draw": 195508,
+    "train_queries": 27916,
+    "test_queries": 14515,
+    "all_test_queries": 23621,
+    "excluded_test_queries": 9106,
+    "random_negative_unseen_fraction": 0.9885635549431623,
+    "random_both_seen_queries": 121,
+    "pair_seen_heuristic_accuracy": 0.9356527729934551
+  },
+  {
+    "dataset": "wikipedia",
+    "draw": 195509,
+    "train_queries": 29402,
+    "test_queries": 14515,
+    "all_test_queries": 23621,
+    "excluded_test_queries": 9106,
+    "random_negative_unseen_fraction": 0.9864278332759214,
+    "random_both_seen_queries": 134,
+    "pair_seen_heuristic_accuracy": 0.9345849121598346
+  }
+]

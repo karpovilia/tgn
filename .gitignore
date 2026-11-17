@@ -14,5 +14,11 @@ __pycache__/
 *.pyc
 .venv/
 
+# Generated extension archive (rebuilt with code/build_extension_zip.py)
+E1_E2_extension.zip
+
+# Logistic replay outputs
+logistic/reproduced/
+
 # OS
 .DS_Store

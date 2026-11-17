@@ -1,0 +1,38 @@
+{
+  "dataset": "wikipedia",
+  "draw": 195506,
+  "condition": "native",
+  "variant": "counts",
+  "strategy": "random",
+  "plan_sha256": "965d46cec97051aec8a633fa5f7a2ecb3a8b4c6d07fb3a599afd969b8dfde5a9",
+  "converged": true,
+  "new_fit": true,
+  "poc_reused": false,
+  "fit_seconds": 0.30517101287841797,
+  "metrics": {
+    "all": {
+      "queries": 14515,
+      "accuracy": 0.9284877712710988
+    },
+    "both_seen": {
+      "queries": 120,
+      "accuracy": 0.65
+    },
+    "positive_seen_negative_unseen": {
+      "queries": 12693,
+      "accuracy": 1.0
+    },
+    "positive_unseen_negative_seen": {
+      "queries": 63,
+      "accuracy": 0.0
+    },
+    "both_unseen": {
+      "queries": 1639,
+      "accuracy": 0.4307504575960952
+    }
+  },
+  "hashes": {
+    "model.npz": "e73631873738bd5a211908366f01b25c8d894ff27454ce613de66f2d2e2c9f5e",
+    "predictions.npz": "3232b7bd1d96b355658e3e599d059c13e63009c1ee87136824a8f49403418b04"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "created_at_utc": "2026-11-16T20:42:16.429123+00:00",
+  "datasets": [
+    "mooc",
+    "wikipedia"
+  ],
+  "draws_per_dataset": 10,
+  "chronologies": [
+    "native",
+    "global"
+  ],
+  "variants": [
+    "counts",
+    "ages"
+  ],
+  "new_strategy": "random TRAIN/random TEST",
+  "draws": {
+    "mooc": [
+      {
+        "historical_draw": 185500,
+        "random_train_seed": 285500,
+        "random_test_seed": 385700
+      },
+      {
+        "historical_draw": 185501,
+        "random_train_seed": 285501,
+        "random_test_seed": 385701
+      },
+      {
+        "historical_draw": 185502,
+        "random_train_seed": 285502,
+        "random_test_seed": 385702
+      },
+      {
+        "historical_draw": 185503,
+        "random_train_seed": 285503,
+        "random_test_seed": 385703
+      },
+      {
+        "historical_draw": 185504,
+        "random_train_seed": 285504,
+        "random_test_seed": 385704
+      },
+      {
+        "historical_draw": 185505,
+        "random_train_seed": 285505,
+        "random_test_seed": 385705
+      },
+      {
+        "historical_draw": 185506,
+        "random_train_seed": 285506,
+        "random_test_seed": 385706
+      },
+      {
+        "historical_draw": 185507,
+        "random_train_seed": 285507,
+        "random_test_seed": 385707
+      },
+      {
+        "historical_draw": 185508,
+        "random_train_seed": 285508,
+        "random_test_seed": 385708
+      },
+      {
+        "historical_draw": 185509,
+        "random_train_seed": 285509,
+        "random_test_seed": 385709
+      }
+    ],
+    "wikipedia": [
+      {
+        "historical_draw": 195500,
+        "random_train_seed": 295500,
+        "random_test_seed": 395700
+      },
+      {
+        "historical_draw": 195501,
+        "random_train_seed": 295501,
+        "random_test_seed": 395701
+      },
+      {
+        "historical_draw": 195502,
+        "random_train_seed": 295502,
+        "random_test_seed": 395702
+      },
+      {
+        "historical_draw": 195503,
+        "random_train_seed": 295503,
+        "random_test_seed": 395703
+      },
+      {
+        "historical_draw": 195504,
+        "random_train_seed": 295504,
+        "random_test_seed": 395704
+      },
+      {
+        "historical_draw": 195505,
+        "random_train_seed": 295505,
+        "random_test_seed": 395705
+      },
+      {
+        "historical_draw": 195506,
+        "random_train_seed": 295506,
+        "random_test_seed": 395706
+      },
+      {
+        "historical_draw": 195507,
+        "random_train_seed": 295507,
+        "random_test_seed": 395707
+      },
+      {
+        "historical_draw": 195508,
+        "random_train_seed": 295508,
+        "random_test_seed": 395708
+      },
+      {
+        "historical_draw": 195509,
+        "random_train_seed": 295509,
+        "random_test_seed": 395709
+      }
+    ]
+  },
+  "population": "Preserve baseline four-history common-support TRAIN IDs and row order per draw. All eligible TRAIN events remain in causal history. TEST main panel uses each archived historical eval common mask (historical eligible and no original archival random-negative collision) for both strategies, allowing exact paired historical baseline reuse. Report selection count.",
+  "random_candidate_domain": "Fixed unique TRAIN destination set, excluding query positive; identical random candidates across native/global and counts/ages within draw.",
+  "evaluation_history": "Original causal history only, strictly earlier events; validation/test original timestamps unchanged.",
+  "primary_effect": "delta_recency=(Acc_native_ages-Acc_global_ages)-(Acc_native_counts-Acc_global_counts), random sampling separately on each dataset",
+  "other_effects": [
+    "delta_ages",
+    "delta_counts",
+    "difference between random/historical delta_recency, descriptive paired"
+  ],
+  "uncertainty": "Aggregate one contrast per joint draw; paired t9 95% interval over10 draws; report all10 values and seen/unseen groups. Fixed data, not independent datasets.",
+  "POC_inclusion": "Reuse the12 MOOC random fits because training parameters were frozen before validation POC. Full uses TEST scores not used in POC, but MOOC TEST was previously studied by broader research, so no fully independent-confirmation claim.",
+  "acceptance": {
+    "mean_delta_recency_gt": 0.01,
+    "lower_t9_95CI_gt": 0,
+    "all_fits_converged": true,
+    "nondegeneracy_every_draw": {
+      "random_negative_unseen_fraction_lt": 0.95,
+      "both_seen_queries_gte": 1000,
+      "pair_seen_heuristic_accuracy_lt": 0.95
+    },
+    "all_signs_reported": true,
+    "same_thresholds_both_datasets": true
+  },
+  "scientific_plan_sha256": "965d46cec97051aec8a633fa5f7a2ecb3a8b4c6d07fb3a599afd969b8dfde5a9",
+  "packaging_note": "Operational absolute paths removed. Scientific parameter values retained; original frozen plan hash recorded. This package reconstructs numerical results and raw causal features, not original model fitting."
+}

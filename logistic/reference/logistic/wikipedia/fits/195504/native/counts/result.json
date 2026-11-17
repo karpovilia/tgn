@@ -1,0 +1,7 @@
+{
+  "matched_historical": {
+    "pairwise_accuracy": 0.744746813641061
+  },
+  "source_result_sha256": "9157bf1965aa760ea519d9a9b3694a4fd7d23fcc592765ac7f7bfeba0cf4287b",
+  "model_sha256": "982e0fadf467170a3c669d2b4586c294d46c9f5960cb6ee902fe825b24231cd3"
+}

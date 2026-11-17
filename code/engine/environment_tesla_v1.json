@@ -1,0 +1,49 @@
+{
+  "python": "3.12.13",
+  "executable": "/home/user/ctdg20/full_fallback_preparation_20261105/environment_v1/venv/bin/python",
+  "user_site_enabled": false,
+  "PYTHONNOUSERSITE": "1",
+  "sys_path": [
+    "${PACKAGE_ROOT}/source",
+    "${PACKAGE_ROOT}/bin",
+    "/home/user/ctdg20/full_fallback_preparation_20261105/environment_v1/python/cpython-3.12.13-linux-x86_64-gnu/lib/python312.zip",
+    "/home/user/ctdg20/full_fallback_preparation_20261105/environment_v1/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12",
+    "/home/user/ctdg20/full_fallback_preparation_20261105/environment_v1/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/lib-dynload",
+    "/home/user/ctdg20/full_fallback_preparation_20261105/environment_v1/venv/lib/python3.12/site-packages"
+  ],
+  "environment": {
+    "PYTHONPATH": "",
+    "LD_LIBRARY_PATH": "/home/user/ctdg20/full_fallback_preparation_20261105/compatibility_v1/extracted/usr/local/cuda-13.0/compat",
+    "PATH": "/home/user/ctdg20/full_fallback_preparation_20261105/environment_v1/venv/bin:/usr/local/bin:/usr/bin:/bin",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8"
+  },
+  "packages": {
+    "numpy": {
+      "version": "2.2.6",
+      "path": "/home/user/ctdg20/full_fallback_preparation_20261105/environment_v1/venv/lib/python3.12/site-packages/numpy/__init__.py"
+    },
+    "pandas": {
+      "version": "2.3.3",
+      "path": "/home/user/ctdg20/full_fallback_preparation_20261105/environment_v1/venv/lib/python3.12/site-packages/pandas/__init__.py"
+    },
+    "torch": {
+      "version": "2.13.0+cu130",
+      "path": "/home/user/ctdg20/full_fallback_preparation_20261105/environment_v1/venv/lib/python3.12/site-packages/torch/__init__.py"
+    },
+    "sklearn": {
+      "version": "1.8.0",
+      "path": "/home/user/ctdg20/full_fallback_preparation_20261105/environment_v1/venv/lib/python3.12/site-packages/sklearn/__init__.py"
+    },
+    "scipy": {
+      "version": "1.17.1",
+      "path": "/home/user/ctdg20/full_fallback_preparation_20261105/environment_v1/venv/lib/python3.12/site-packages/scipy/__init__.py"
+    },
+    "tqdm": {
+      "version": "4.70.0",
+      "path": "/home/user/ctdg20/full_fallback_preparation_20261105/environment_v1/venv/lib/python3.12/site-packages/tqdm/__init__.py"
+    }
+  }
+}

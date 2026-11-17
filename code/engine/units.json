@@ -1,0 +1,326 @@
+[
+  {
+    "id": "DyGFormer_mooc_seed1004_native",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1004,
+    "permutation_seed": null,
+    "reuse_POC": true,
+    "within_seed_hardware_group": "A6000"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1004_perm42",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1004,
+    "permutation_seed": 42,
+    "reuse_POC": true,
+    "within_seed_hardware_group": "A6000"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1004_perm10001",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1004,
+    "permutation_seed": 10001,
+    "reuse_POC": true,
+    "within_seed_hardware_group": "A6000"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1004_perm10002",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1004,
+    "permutation_seed": 10002,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "A6000"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1004_perm10003",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1004,
+    "permutation_seed": 10003,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "A6000"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1004_perm10004",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1004,
+    "permutation_seed": 10004,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "A6000"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1005_native",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1005,
+    "permutation_seed": null,
+    "reuse_POC": true,
+    "within_seed_hardware_group": "A6000"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1005_perm42",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1005,
+    "permutation_seed": 42,
+    "reuse_POC": true,
+    "within_seed_hardware_group": "A6000"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1005_perm10001",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1005,
+    "permutation_seed": 10001,
+    "reuse_POC": true,
+    "within_seed_hardware_group": "A6000"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1005_perm10002",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1005,
+    "permutation_seed": 10002,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "A6000"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1005_perm10003",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1005,
+    "permutation_seed": 10003,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "A6000"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1005_perm10004",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1005,
+    "permutation_seed": 10004,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "A6000"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1006_native",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1006,
+    "permutation_seed": null,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "H200"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1006_perm42",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1006,
+    "permutation_seed": 42,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "H200"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1006_perm10001",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1006,
+    "permutation_seed": 10001,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "H200"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1006_perm10002",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1006,
+    "permutation_seed": 10002,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "H200"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1006_perm10003",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1006,
+    "permutation_seed": 10003,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "H200"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1006_perm10004",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1006,
+    "permutation_seed": 10004,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "H200"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1007_native",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1007,
+    "permutation_seed": null,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "H200"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1007_perm42",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1007,
+    "permutation_seed": 42,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "H200"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1007_perm10001",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1007,
+    "permutation_seed": 10001,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "H200"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1007_perm10002",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1007,
+    "permutation_seed": 10002,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "H200"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1007_perm10003",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1007,
+    "permutation_seed": 10003,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "H200"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1007_perm10004",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1007,
+    "permutation_seed": 10004,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "H200"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1008_native",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1008,
+    "permutation_seed": null,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "H200"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1008_perm42",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1008,
+    "permutation_seed": 42,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "H200"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1008_perm10001",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1008,
+    "permutation_seed": 10001,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "H200"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1008_perm10002",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1008,
+    "permutation_seed": 10002,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "H200"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1008_perm10003",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1008,
+    "permutation_seed": 10003,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "H200"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1008_perm10004",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1008,
+    "permutation_seed": 10004,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "H200"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1009_native",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1009,
+    "permutation_seed": null,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "H200"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1009_perm42",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1009,
+    "permutation_seed": 42,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "H200"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1009_perm10001",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1009,
+    "permutation_seed": 10001,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "H200"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1009_perm10002",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1009,
+    "permutation_seed": 10002,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "H200"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1009_perm10003",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1009,
+    "permutation_seed": 10003,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "H200"
+  },
+  {
+    "id": "DyGFormer_mooc_seed1009_perm10004",
+    "model": "DyGFormer",
+    "dataset": "mooc",
+    "training_seed": 1009,
+    "permutation_seed": 10004,
+    "reuse_POC": false,
+    "within_seed_hardware_group": "H200"
+  }
+]

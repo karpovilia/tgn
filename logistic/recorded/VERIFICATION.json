@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "random_models": 80,
+  "new_fits": 68,
+  "poc_models_reused": 12,
+  "historical_models": 80,
+  "max_margin_reconstruction_error": 7.105427357601002e-15,
+  "max_train_scaler_reconstruction_error": 0.0,
+  "ranking_mismatches": 0,
+  "all_prediction_ids_are_TEST": true,
+  "all_candidates_noncolliding": true,
+  "raw_event_causal_feature_spot_checks": "64 TRAIN and64 TEST queries per draw/chronology, equal-time exclusion",
+  "all_primary_contrasts_and_CIs_exact": true,
+  "all_historical_accuracy_values_match_frozen_baseline": true,
+  "input_hashes_unchanged": true
+}

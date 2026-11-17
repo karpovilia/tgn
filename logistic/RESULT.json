@@ -1,0 +1,641 @@
+{
+  "status": "complete",
+  "new_fits": 68,
+  "random_models": 80,
+  "poc_models_reused": 12,
+  "historical_models_reused": 80,
+  "plan_sha256": "965d46cec97051aec8a633fa5f7a2ecb3a8b4c6d07fb3a599afd969b8dfde5a9",
+  "contrasts": [
+    {
+      "dataset": "mooc",
+      "strategy": "historical",
+      "draw": 185500,
+      "delta_ages": 0.3404585188850404,
+      "delta_counts": -0.01799439221507504,
+      "delta_recency": 0.35845291110011546
+    },
+    {
+      "dataset": "mooc",
+      "strategy": "historical",
+      "draw": 185501,
+      "delta_ages": 0.3251360712518555,
+      "delta_counts": -0.00857661223816586,
+      "delta_recency": 0.33371268349002137
+    },
+    {
+      "dataset": "mooc",
+      "strategy": "historical",
+      "draw": 185502,
+      "delta_ages": 0.3244433448787728,
+      "delta_counts": -0.013673099125845245,
+      "delta_recency": 0.33811644400461804
+    },
+    {
+      "dataset": "mooc",
+      "strategy": "historical",
+      "draw": 185503,
+      "delta_ages": 0.3252020451921491,
+      "delta_counts": -0.00999505195447803,
+      "delta_recency": 0.33519709714662715
+    },
+    {
+      "dataset": "mooc",
+      "strategy": "historical",
+      "draw": 185504,
+      "delta_ages": 0.335526966848095,
+      "delta_counts": -0.014992577931717044,
+      "delta_recency": 0.35051954477981206
+    },
+    {
+      "dataset": "mooc",
+      "strategy": "historical",
+      "draw": 185505,
+      "delta_ages": 0.324822695035461,
+      "delta_counts": -0.010456869536533131,
+      "delta_recency": 0.33527956457199415
+    },
+    {
+      "dataset": "mooc",
+      "strategy": "historical",
+      "draw": 185506,
+      "delta_ages": 0.31340920336467093,
+      "delta_counts": -0.008543625268019106,
+      "delta_recency": 0.32195282863269004
+    },
+    {
+      "dataset": "mooc",
+      "strategy": "historical",
+      "draw": 185507,
+      "delta_ages": 0.3236681510803232,
+      "delta_counts": -0.015388421573478417,
+      "delta_recency": 0.3390565726538016
+    },
+    {
+      "dataset": "mooc",
+      "strategy": "historical",
+      "draw": 185508,
+      "delta_ages": 0.32348672274451595,
+      "delta_counts": -0.011199076364835858,
+      "delta_recency": 0.3346857991093518
+    },
+    {
+      "dataset": "mooc",
+      "strategy": "historical",
+      "draw": 185509,
+      "delta_ages": 0.330529440870856,
+      "delta_counts": -0.012139205014019439,
+      "delta_recency": 0.34266864588487544
+    },
+    {
+      "dataset": "mooc",
+      "strategy": "random",
+      "draw": 185500,
+      "delta_ages": 0.17497938314365824,
+      "delta_counts": 0.03137060860959917,
+      "delta_recency": 0.14360877453405907
+    },
+    {
+      "dataset": "mooc",
+      "strategy": "random",
+      "draw": 185501,
+      "delta_ages": 0.17351146297212594,
+      "delta_counts": 0.03090879102754418,
+      "delta_recency": 0.14260267194458176
+    },
+    {
+      "dataset": "mooc",
+      "strategy": "random",
+      "draw": 185502,
+      "delta_ages": 0.17418769586013527,
+      "delta_counts": 0.029935675408213736,
+      "delta_recency": 0.14425202045192154
+    },
+    {
+      "dataset": "mooc",
+      "strategy": "random",
+      "draw": 185503,
+      "delta_ages": 0.1717796470394194,
+      "delta_counts": 0.030562427841002826,
+      "delta_recency": 0.14121721919841657
+    },
+    {
+      "dataset": "mooc",
+      "strategy": "random",
+      "draw": 185504,
+      "delta_ages": 0.17055912914398808,
+      "delta_counts": 0.030364506020122084,
+      "delta_recency": 0.140194623123866
+    },
+    {
+      "dataset": "mooc",
+      "strategy": "random",
+      "draw": 185505,
+      "delta_ages": 0.16887679366650177,
+      "delta_counts": 0.031073725878278058,
+      "delta_recency": 0.1378030677882237
+    },
+    {
+      "dataset": "mooc",
+      "strategy": "random",
+      "draw": 185506,
+      "delta_ages": 0.16899224806201552,
+      "delta_counts": 0.03163450437077353,
+      "delta_recency": 0.13735774369124198
+    },
+    {
+      "dataset": "mooc",
+      "strategy": "random",
+      "draw": 185507,
+      "delta_ages": 0.17318159327065807,
+      "delta_counts": 0.02886359887844303,
+      "delta_recency": 0.14431799439221504
+    },
+    {
+      "dataset": "mooc",
+      "strategy": "random",
+      "draw": 185508,
+      "delta_ages": 0.17311561933036457,
+      "delta_counts": 0.029985155863433977,
+      "delta_recency": 0.1431304634669306
+    },
+    {
+      "dataset": "mooc",
+      "strategy": "random",
+      "draw": 185509,
+      "delta_ages": 0.17191159492000663,
+      "delta_counts": 0.02970476661718624,
+      "delta_recency": 0.1422068283028204
+    },
+    {
+      "dataset": "wikipedia",
+      "strategy": "historical",
+      "draw": 195500,
+      "delta_ages": 0.1851188425766449,
+      "delta_counts": 0.011574233551498447,
+      "delta_recency": 0.17354460902514646
+    },
+    {
+      "dataset": "wikipedia",
+      "strategy": "historical",
+      "draw": 195501,
+      "delta_ages": 0.170099896658629,
+      "delta_counts": 0.00757836720633831,
+      "delta_recency": 0.1625215294522907
+    },
+    {
+      "dataset": "wikipedia",
+      "strategy": "historical",
+      "draw": 195502,
+      "delta_ages": 0.16637960730279022,
+      "delta_counts": 0.00950740613158807,
+      "delta_recency": 0.15687220117120215
+    },
+    {
+      "dataset": "wikipedia",
+      "strategy": "historical",
+      "draw": 195503,
+      "delta_ages": 0.16445056837754057,
+      "delta_counts": 0.01047192559421295,
+      "delta_recency": 0.15397864278332762
+    },
+    {
+      "dataset": "wikipedia",
+      "strategy": "historical",
+      "draw": 195504,
+      "delta_ages": 0.18711677574922492,
+      "delta_counts": 0.00950740613158807,
+      "delta_recency": 0.17760936961763685
+    },
+    {
+      "dataset": "wikipedia",
+      "strategy": "historical",
+      "draw": 195505,
+      "delta_ages": 0.15949018256975545,
+      "delta_counts": 0.007302790217016852,
+      "delta_recency": 0.1521873923527386
+    },
+    {
+      "dataset": "wikipedia",
+      "strategy": "historical",
+      "draw": 195506,
+      "delta_ages": 0.17402686875645879,
+      "delta_counts": 0.008611780916293443,
+      "delta_recency": 0.16541508784016534
+    },
+    {
+      "dataset": "wikipedia",
+      "strategy": "historical",
+      "draw": 195507,
+      "delta_ages": 0.16555287633482596,
+      "delta_counts": 0.00902514640027563,
+      "delta_recency": 0.15652772993455033
+    },
+    {
+      "dataset": "wikipedia",
+      "strategy": "historical",
+      "draw": 195508,
+      "delta_ages": 0.18064071650017222,
+      "delta_counts": 0.009369617636927341,
+      "delta_recency": 0.17127109886324487
+    },
+    {
+      "dataset": "wikipedia",
+      "strategy": "historical",
+      "draw": 195509,
+      "delta_ages": 0.15184292111608688,
+      "delta_counts": 0.0063382707543920835,
+      "delta_recency": 0.1455046503616948
+    },
+    {
+      "dataset": "wikipedia",
+      "strategy": "random",
+      "draw": 195500,
+      "delta_ages": 0.037340682053048524,
+      "delta_counts": 0.019910437478470544,
+      "delta_recency": 0.01743024457457798
+    },
+    {
+      "dataset": "wikipedia",
+      "strategy": "random",
+      "draw": 195501,
+      "delta_ages": 0.0325869789872546,
+      "delta_counts": -6.889424733036442e-05,
+      "delta_recency": 0.032655873234584964
+    },
+    {
+      "dataset": "wikipedia",
+      "strategy": "random",
+      "draw": 195502,
+      "delta_ages": 0.021426110919738117,
+      "delta_counts": 0.01853255253186359,
+      "delta_recency": 0.0028935583878745286
+    },
+    {
+      "dataset": "wikipedia",
+      "strategy": "random",
+      "draw": 195503,
+      "delta_ages": 0.029486737857388978,
+      "delta_counts": 0.017774715811229802,
+      "delta_recency": 0.011712022046159176
+    },
+    {
+      "dataset": "wikipedia",
+      "strategy": "random",
+      "draw": 195504,
+      "delta_ages": 0.028177747158112276,
+      "delta_counts": 0.015845676885980042,
+      "delta_recency": 0.012332070272132234
+    },
+    {
+      "dataset": "wikipedia",
+      "strategy": "random",
+      "draw": 195505,
+      "delta_ages": 0.02693765070616605,
+      "delta_counts": -6.889424733036442e-05,
+      "delta_recency": 0.027006544953496414
+    },
+    {
+      "dataset": "wikipedia",
+      "strategy": "random",
+      "draw": 195506,
+      "delta_ages": 0.018256975542542242,
+      "delta_counts": 0.0,
+      "delta_recency": 0.018256975542542242
+    },
+    {
+      "dataset": "wikipedia",
+      "strategy": "random",
+      "draw": 195507,
+      "delta_ages": 0.031071305545986916,
+      "delta_counts": 0.014123320702721265,
+      "delta_recency": 0.01694798484326565
+    },
+    {
+      "dataset": "wikipedia",
+      "strategy": "random",
+      "draw": 195508,
+      "delta_ages": 0.02046159145711335,
+      "delta_counts": 0.015087840165346145,
+      "delta_recency": 0.005373751291767204
+    },
+    {
+      "dataset": "wikipedia",
+      "strategy": "random",
+      "draw": 195509,
+      "delta_ages": 0.018601446779193953,
+      "delta_counts": -6.88942473302534e-05,
+      "delta_recency": 0.018670341026524206
+    }
+  ],
+  "summary": {
+    "mooc": {
+      "historical": {
+        "delta_ages": {
+          "mean": 0.326668316015174,
+          "CI95": [
+            0.32138275942905437,
+            0.3319538726012936
+          ],
+          "draw_values": [
+            0.3404585188850404,
+            0.3251360712518555,
+            0.3244433448787728,
+            0.3252020451921491,
+            0.335526966848095,
+            0.324822695035461,
+            0.31340920336467093,
+            0.3236681510803232,
+            0.32348672274451595,
+            0.330529440870856
+          ],
+          "positive_draws": 10
+        },
+        "delta_counts": {
+          "mean": -0.012295893122216716,
+          "CI95": [
+            -0.01454571845253226,
+            -0.010046067791901172
+          ],
+          "draw_values": [
+            -0.01799439221507504,
+            -0.00857661223816586,
+            -0.013673099125845245,
+            -0.00999505195447803,
+            -0.014992577931717044,
+            -0.010456869536533131,
+            -0.008543625268019106,
+            -0.015388421573478417,
+            -0.011199076364835858,
+            -0.012139205014019439
+          ],
+          "positive_draws": 0
+        },
+        "delta_recency": {
+          "mean": 0.3389642091373907,
+          "CI95": [
+            0.33184720283494007,
+            0.3460812154398414
+          ],
+          "draw_values": [
+            0.35845291110011546,
+            0.33371268349002137,
+            0.33811644400461804,
+            0.33519709714662715,
+            0.35051954477981206,
+            0.33527956457199415,
+            0.32195282863269004,
+            0.3390565726538016,
+            0.3346857991093518,
+            0.34266864588487544
+          ],
+          "positive_draws": 10
+        }
+      },
+      "random": {
+        "delta_ages": {
+          "mean": 0.17210951674088734,
+          "CI95": [
+            0.17061273592140566,
+            0.17360629756036902
+          ],
+          "draw_values": [
+            0.17497938314365824,
+            0.17351146297212594,
+            0.17418769586013527,
+            0.1717796470394194,
+            0.17055912914398808,
+            0.16887679366650177,
+            0.16899224806201552,
+            0.17318159327065807,
+            0.17311561933036457,
+            0.17191159492000663
+          ],
+          "positive_draws": 10
+        },
+        "delta_counts": {
+          "mean": 0.030440376051459682,
+          "CI95": [
+            0.029836109114487648,
+            0.031044642988431716
+          ],
+          "draw_values": [
+            0.03137060860959917,
+            0.03090879102754418,
+            0.029935675408213736,
+            0.030562427841002826,
+            0.030364506020122084,
+            0.031073725878278058,
+            0.03163450437077353,
+            0.02886359887844303,
+            0.029985155863433977,
+            0.02970476661718624
+          ],
+          "positive_draws": 10
+        },
+        "delta_recency": {
+          "mean": 0.14166914068942765,
+          "CI95": [
+            0.13987425800624356,
+            0.14346402337261174
+          ],
+          "draw_values": [
+            0.14360877453405907,
+            0.14260267194458176,
+            0.14425202045192154,
+            0.14121721919841657,
+            0.140194623123866,
+            0.1378030677882237,
+            0.13735774369124198,
+            0.14431799439221504,
+            0.1431304634669306,
+            0.1422068283028204
+          ],
+          "positive_draws": 10
+        }
+      },
+      "random_minus_historical_delta_recency": {
+        "mean": -0.19729506844796307,
+        "CI95": [
+          -0.2038235797285231,
+          -0.19076655716740304
+        ],
+        "draw_values": [
+          -0.2148441365660564,
+          -0.1911100115454396,
+          -0.1938644235526965,
+          -0.1939798779482106,
+          -0.21032492165594607,
+          -0.19747649678377044,
+          -0.18459508494144805,
+          -0.19473857826158658,
+          -0.19155533564242122,
+          -0.20046181758205506
+        ],
+        "positive_draws": 0
+      },
+      "acceptance_gate": {
+        "mean_gt_1pp": true,
+        "lower_t9_95CI_gt_zero": true,
+        "all_fits_converged": true,
+        "nondegenerate": true
+      },
+      "accepted": true
+    },
+    "wikipedia": {
+      "historical": {
+        "delta_ages": {
+          "mean": 0.17047192559421293,
+          "CI95": [
+            0.16237646855895702,
+            0.17856738262946883
+          ],
+          "draw_values": [
+            0.1851188425766449,
+            0.170099896658629,
+            0.16637960730279022,
+            0.16445056837754057,
+            0.18711677574922492,
+            0.15949018256975545,
+            0.17402686875645879,
+            0.16555287633482596,
+            0.18064071650017222,
+            0.15184292111608688
+          ],
+          "positive_draws": 10
+        },
+        "delta_counts": {
+          "mean": 0.00892869445401312,
+          "CI95": [
+            0.007822223162696009,
+            0.01003516574533023
+          ],
+          "draw_values": [
+            0.011574233551498447,
+            0.00757836720633831,
+            0.00950740613158807,
+            0.01047192559421295,
+            0.00950740613158807,
+            0.007302790217016852,
+            0.008611780916293443,
+            0.00902514640027563,
+            0.009369617636927341,
+            0.0063382707543920835
+          ],
+          "positive_draws": 10
+        },
+        "delta_recency": {
+          "mean": 0.16154323114019978,
+          "CI95": [
+            0.1541485250155554,
+            0.16893793726484416
+          ],
+          "draw_values": [
+            0.17354460902514646,
+            0.1625215294522907,
+            0.15687220117120215,
+            0.15397864278332762,
+            0.17760936961763685,
+            0.1521873923527386,
+            0.16541508784016534,
+            0.15652772993455033,
+            0.17127109886324487,
+            0.1455046503616948
+          ],
+          "positive_draws": 10
+        }
+      },
+      "random": {
+        "delta_ages": {
+          "mean": 0.0264347227006545,
+          "CI95": [
+            0.02178707859458489,
+            0.03108236680672411
+          ],
+          "draw_values": [
+            0.037340682053048524,
+            0.0325869789872546,
+            0.021426110919738117,
+            0.029486737857388978,
+            0.028177747158112276,
+            0.02693765070616605,
+            0.018256975542542242,
+            0.031071305545986916,
+            0.02046159145711335,
+            0.018601446779193953
+          ],
+          "positive_draws": 10
+        },
+        "delta_counts": {
+          "mean": 0.01010678608336204,
+          "CI95": [
+            0.003741578367774487,
+            0.016471993798949595
+          ],
+          "draw_values": [
+            0.019910437478470544,
+            -6.889424733036442e-05,
+            0.01853255253186359,
+            0.017774715811229802,
+            0.015845676885980042,
+            -6.889424733036442e-05,
+            0.0,
+            0.014123320702721265,
+            0.015087840165346145,
+            -6.88942473302534e-05
+          ],
+          "positive_draws": 6
+        },
+        "delta_recency": {
+          "mean": 0.01632793661729246,
+          "CI95": [
+            0.009888876282165004,
+            0.02276699695241992
+          ],
+          "draw_values": [
+            0.01743024457457798,
+            0.032655873234584964,
+            0.0028935583878745286,
+            0.011712022046159176,
+            0.012332070272132234,
+            0.027006544953496414,
+            0.018256975542542242,
+            0.01694798484326565,
+            0.005373751291767204,
+            0.018670341026524206
+          ],
+          "positive_draws": 10
+        }
+      },
+      "random_minus_historical_delta_recency": {
+        "mean": -0.14521529452290732,
+        "CI95": [
+          -0.15599823594931894,
+          -0.1344323530964957
+        ],
+        "draw_values": [
+          -0.15611436445056848,
+          -0.12986565621770574,
+          -0.15397864278332762,
+          -0.14226662073716845,
+          -0.1652772993455046,
+          -0.12518084739924218,
+          -0.1471581122976231,
+          -0.13957974509128468,
+          -0.16589734757147767,
+          -0.1268343093351706
+        ],
+        "positive_draws": 0
+      },
+      "acceptance_gate": {
+        "mean_gt_1pp": true,
+        "lower_t9_95CI_gt_zero": true,
+        "all_fits_converged": true,
+        "nondegenerate": false
+      },
+      "accepted": false
+    }
+  },
+  "independent_new_data_confirmation": false,
+  "POC_selection_on_validation": true,
+  "limitations": "Fixed previously examined datasets; same restricted TRAIN common support; main TEST population excludes historical-unavailable and archival random collisions. All signs and nondegeneracy failures reported."
+}

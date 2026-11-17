@@ -1,0 +1,38 @@
+{
+  "dataset": "wikipedia",
+  "draw": 195501,
+  "condition": "native",
+  "variant": "ages",
+  "strategy": "random",
+  "plan_sha256": "965d46cec97051aec8a633fa5f7a2ecb3a8b4c6d07fb3a599afd969b8dfde5a9",
+  "converged": true,
+  "new_fit": true,
+  "poc_reused": false,
+  "fit_seconds": 0.2648351192474365,
+  "metrics": {
+    "all": {
+      "queries": 14515,
+      "accuracy": 0.9713399931105753
+    },
+    "both_seen": {
+      "queries": 131,
+      "accuracy": 0.8549618320610687
+    },
+    "positive_seen_negative_unseen": {
+      "queries": 12682,
+      "accuracy": 1.0
+    },
+    "positive_unseen_negative_seen": {
+      "queries": 64,
+      "accuracy": 0.046875
+    },
+    "both_unseen": {
+      "queries": 1638,
+      "accuracy": 0.7948717948717948
+    }
+  },
+  "hashes": {
+    "model.npz": "bd99c75f63c3389be89dfd0b5d28b50fb9d7b5110aecdfc093ea4b48fdd27e73",
+    "predictions.npz": "2c232d25b72c9605aa8f8c0dbb6f2a35913246851261ac5c01858b30e1c40098"
+  }
+}

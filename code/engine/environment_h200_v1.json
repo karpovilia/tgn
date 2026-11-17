@@ -1,0 +1,50 @@
+{
+  "python": "3.12.13",
+  "executable": "/opt/conda/bin/python",
+  "user_site_enabled": false,
+  "PYTHONNOUSERSITE": "1",
+  "sys_path": [
+    "${PACKAGE_ROOT}/source",
+    "${PACKAGE_ROOT}/bin",
+    "/opt/conda/lib/python3.12/site-packages/nvidia_cutlass_dsl/dsl_packages",
+    "/opt/conda/lib/python312.zip",
+    "/opt/conda/lib/python3.12",
+    "/opt/conda/lib/python3.12/lib-dynload",
+    "/opt/conda/lib/python3.12/site-packages"
+  ],
+  "environment": {
+    "PYTHONPATH": "",
+    "LD_LIBRARY_PATH": "",
+    "PATH": "/opt/conda/bin:/usr/local/bin:/usr/bin:/bin",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8"
+  },
+  "packages": {
+    "numpy": {
+      "version": "2.2.6",
+      "path": "/opt/conda/lib/python3.12/site-packages/numpy/__init__.py"
+    },
+    "pandas": {
+      "version": "2.3.3",
+      "path": "/opt/conda/lib/python3.12/site-packages/pandas/__init__.py"
+    },
+    "torch": {
+      "version": "2.13.0+cu130",
+      "path": "/opt/conda/lib/python3.12/site-packages/torch/__init__.py"
+    },
+    "sklearn": {
+      "version": "1.8.0",
+      "path": "/opt/conda/lib/python3.12/site-packages/sklearn/__init__.py"
+    },
+    "scipy": {
+      "version": "1.17.1",
+      "path": "/opt/conda/lib/python3.12/site-packages/scipy/__init__.py"
+    },
+    "tqdm": {
+      "version": "4.70.0",
+      "path": "/opt/conda/lib/python3.12/site-packages/tqdm/__init__.py"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+# Reproduction of the manuscript numbers (CPU-only, no training)
+numpy>=2.0
+scipy>=1.13
+
+# Training / inference engine (E1/E2 crossed diagnostic; requires a CUDA GPU)
+# Versions are those recorded in code/engine/environment_tesla_v1.json and
+# environment_h200_v1.json (python 3.12, torch 2.13.0+cu130, sklearn 1.8.0).
+torch>=2.0
+scikit-learn>=1.3
+pandas>=2.0
+tqdm>=4.60

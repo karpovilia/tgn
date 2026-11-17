@@ -1,0 +1,38 @@
+{
+  "dataset": "mooc",
+  "draw": 185508,
+  "condition": "native",
+  "variant": "ages",
+  "strategy": "random",
+  "plan_sha256": "965d46cec97051aec8a633fa5f7a2ecb3a8b4c6d07fb3a599afd969b8dfde5a9",
+  "converged": true,
+  "new_fit": true,
+  "poc_reused": false,
+  "fit_seconds": 2.512103796005249,
+  "metrics": {
+    "all": {
+      "queries": 60630,
+      "accuracy": 0.752102919346858
+    },
+    "both_seen": {
+      "queries": 17998,
+      "accuracy": 0.870374486054006
+    },
+    "positive_seen_negative_unseen": {
+      "queries": 18011,
+      "accuracy": 0.7873521736716451
+    },
+    "positive_unseen_negative_seen": {
+      "queries": 11074,
+      "accuracy": 0.7439949431099874
+    },
+    "both_unseen": {
+      "queries": 13547,
+      "accuracy": 0.5547353657636377
+    }
+  },
+  "hashes": {
+    "model.npz": "49faf3e032a25b2e4a025663a14cafe080a44ddf63624a5df171f0714e63cde4",
+    "predictions.npz": "839389187e24c271671397442beaf4a8022c3b81c9f3ecd10f99fd5c67b380be"
+  }
+}
